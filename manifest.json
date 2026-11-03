@@ -1,0 +1,43 @@
+{
+  "contentVersion": 25,
+  "minAppVersion": "1.0",
+  "updatedAt": "2026-11-03",
+  "files": {
+    "emergency": {
+      "version": 1,
+      "sha256": "383ca9d1d7957fe72bfc56c3739ae373f8aa318faa1c7d736981342dc347f807"
+    },
+    "etiquette": {
+      "version": 1,
+      "sha256": "47f649e33fa84532490d02f119d05405f9210e5db39e152ea634a1a34d3099af"
+    },
+    "events": {
+      "version": 1,
+      "sha256": "b2ddcacada542faeecb7c5d45239919e27c5c1042e7b7adc3f34623091a46bfd"
+    },
+    "moderation": {
+      "version": 1,
+      "sha256": "bb4d9113b68372ffe84f41acf63ca3abeadc0283905513b589975f04b1bb7865"
+    },
+    "phrases": {
+      "version": 1,
+      "sha256": "56f09121f40a5693b51e2762f0dbec95f8701525c6fd402afe0d1984ab54a8b7"
+    },
+    "places": {
+      "version": 1,
+      "sha256": "9c92b9173145266bf2a13c82c98cd47867bb1ae851c813d83dedae037089da80"
+    },
+    "restaurants": {
+      "version": 1,
+      "sha256": "dd24e995823983a4514576f1c602f27ddf6fd8288f7c5e9324777973fe805179"
+    },
+    "specialties": {
+      "version": 1,
+      "sha256": "3ecee903ddf48c2b38913691cbe7320cf11c0d1ed043a179fa3eb637596978f1"
+    },
+    "transport": {
+      "version": 1,
+      "sha256": "67f12d8c235585750cdb981255f7726973b3502342aa03a3d257017afced3354"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+# 원격 콘텐츠 저장소(ksafetrip-content)의 .github/workflows/tourapi.yml 로 복사해서 써요.
+# (scripts/export_content.sh 가 자동으로 복사해 줘요)
+#
+# 1시간마다 한국관광공사 TourAPI 에서 맛집·카페·축제를 받아 places.json / events.json 을 갱신하고,
+# 바뀐 것이 있을 때만 커밋해요 → GitHub Pages 가 자동으로 다시 게시 → 앱이 1시간마다 확인해서 받아 가요.
+#
+# 필요한 설정: 저장소 Settings › Secrets and variables › Actions › New repository secret
+#   이름 TOURAPI_KEY, 값 = 공공데이터포털 일반 인증키(Decoding)
+#   (시크릿을 넣기 전에는 실패 대신 "건너뜀" 으로 끝나요)
+#
+# 호출 수: 한 번에 서비스(언어)마다 최대 40회 × 24번 = 하루 960회 이하 (개발계정 한도 1,000회).
+name: TourAPI update (hourly)
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # 매시 17분 (정각은 GitHub 이 붐벼서 늦어지기 쉬워요)
+  workflow_dispatch:        # Actions 탭에서 손으로 실행하기
+
+permissions:
+  contents: write
+
+# 앞 실행이 아직 안 끝났으면 겹쳐 돌지 않게 기다려요.
+concurrency:
+  group: tourapi
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TOURAPI_KEY: ${{ secrets.TOURAPI_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check key
+        run: |
+          if [ -z "$TOURAPI_KEY" ]; then
+            echo "::notice::TOURAPI_KEY 시크릿이 아직 없어서 건너뛰어요."
+            echo "SKIP=1" >> "$GITHUB_ENV"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: env.SKIP != '1'
+        with:
+          python-version: "3.12"
+
+      - name: Fetch TourAPI
+        if: env.SKIP != '1'
+        # 한 종류가 실패해도 다른 종류는 저장되도록, 실패 여부는 마지막 단계에서 알려 줘요.
+        run: python3 tools/fetch_tourapi.py --out . || echo "FETCH_FAILED=1" >> "$GITHUB_ENV"
+
+      - name: Update manifest
+        if: env.SKIP != '1'
+        run: python3 tools/update_manifest.py .
+
+      - name: Commit and push
+        if: env.SKIP != '1'
+        run: |
+          if git diff --quiet; then
+            echo "바뀐 내용 없음"
+          else
+            git config user.name "ksafetrip-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add places.json events.json manifest.json
+            git commit -m "TourAPI 자동 업데이트 $(TZ=Asia/Seoul date '+%F %H:%M')"
+            # 그사이 사람이 올린 커밋이 있으면 그 위에 얹어요.
+            git pull --rebase
+            git push
+          fi
+
+      - name: Report fetch failure
+        if: env.FETCH_FAILED == '1'
+        run: |
+          echo "::warning::TourAPI 일부를 받지 못해 이전 파일을 유지했어요. 로그를 확인하세요."
+          exit 1
