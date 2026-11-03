@@ -1,14 +1,16 @@
 # 원격 콘텐츠 저장소(ksafetrip-content)의 .github/workflows/tourapi.yml 로 복사해서 써요.
 # (scripts/export_content.sh 가 자동으로 복사해 줘요)
 #
-# 1시간마다 한국관광공사 TourAPI 에서 맛집·카페·축제를 받아 places.json / events.json 을 갱신하고,
+# 1시간마다 한국관광공사 TourAPI 에서 축제를, 6시간마다(한국 0·6·12·18시) 맛집·카페를 받아
+# events.json / places.json 을 갱신하고,
 # 바뀐 것이 있을 때만 커밋해요 → GitHub Pages 가 자동으로 다시 게시 → 앱이 1시간마다 확인해서 받아 가요.
 #
 # 필요한 설정: 저장소 Settings › Secrets and variables › Actions › New repository secret
 #   이름 TOURAPI_KEY, 값 = 공공데이터포털 일반 인증키(Decoding)
 #   (시크릿을 넣기 전에는 실패 대신 "건너뜀" 으로 끝나요)
 #
-# 호출 수: 한 번에 서비스(언어)마다 최대 40회 × 24번 = 하루 960회 이하 (개발계정 한도 1,000회).
+# 호출 수: 국문 기준 하루 약 350~600회 (개발계정 한도는 서비스마다 하루 1,000회).
+#   한 번 실행에 서비스마다 최대 60회, 새 행사 소개글은 한 번에 20개까지만 불러요.
 name: TourAPI update (hourly)
 
 on:

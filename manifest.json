@@ -1,5 +1,5 @@
 {
-  "contentVersion": 25,
+  "contentVersion": 29,
   "minAppVersion": "1.0",
   "updatedAt": "2026-11-03",
   "files": {
@@ -12,8 +12,8 @@
       "sha256": "47f649e33fa84532490d02f119d05405f9210e5db39e152ea634a1a34d3099af"
     },
     "events": {
-      "version": 1,
-      "sha256": "b2ddcacada542faeecb7c5d45239919e27c5c1042e7b7adc3f34623091a46bfd"
+      "version": 2,
+      "sha256": "38966735bdacb3582817438ad379fa7d4aff8068df4c919bcc722eb5093a4338"
     },
     "moderation": {
       "version": 1,
@@ -24,8 +24,8 @@
       "sha256": "56f09121f40a5693b51e2762f0dbec95f8701525c6fd402afe0d1984ab54a8b7"
     },
     "places": {
-      "version": 1,
-      "sha256": "9c92b9173145266bf2a13c82c98cd47867bb1ae851c813d83dedae037089da80"
+      "version": 2,
+      "sha256": "2e94d7550994aff791d90f0285ad0efb8ed979dd0dff30e680b45be04b659465"
     },
     "restaurants": {
       "version": 1,

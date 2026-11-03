@@ -2,5 +2,1254 @@
   "schemaVersion": 1,
   "updatedAt": "2026-11-03",
   "source": "한국관광공사 TourAPI",
-  "events": []
+  "events": [
+    {
+      "id": "tour-2786391",
+      "city": "busan",
+      "nameKorean": "광안리 M(Marvelous) 드론 라이트쇼",
+      "addressKorean": "부산광역시 수영구 광안해변로 219 (광안동)",
+      "tel": "051-610-6518",
+      "latitude": 35.1537727886,
+      "longitude": 129.1185199367,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/12/3518612_image2_1.jpeg",
+      "localized": {
+        "ko": {
+          "name": "광안리 M(Marvelous) 드론 라이트쇼",
+          "address": "부산광역시 수영구 광안해변로 219 (광안동)",
+          "overview": "2022년부터 개최된 광안리 M(Marvelous) 드론 라이트쇼는 \"M\"은 '놀라운, 경이로운'이라는 뜻의 'Marvelous'를 의미하는 것으로 드론이 뿜어내는 불빛이 부산의 랜드마크인 광안대교의 야경과 어우러져 광안리를 찾는 방문객들에게 경이로움과 신비로움을 선사함을 나타낸다. 매주 토요일 저녁 2회 (동절기 10월~2월, 19시·21시 / 하절기 3월~9월 20시·22시) 12분 내외로 상연되며 광안리 해변 어디서나 관람이 가능하다. 매주 1,100대의 드론으로 펼쳐지는 상설공연부터 카운트다운·설·추석 등에는 최대 3,000대 규모까지 다양한 규모의 드론쇼가 개최되고 있다. * 기상상황 등에 따라 공연 일정 변경 가능",
+          "checked": true
+        },
+        "ja": {
+          "name": "広安里M（Marvelous）ドローンライトショー",
+          "address": "プサン広域市スヨン区クァンアンヘビョンロ219",
+          "overview": "2022年から開催されている広安里（クァンアンリ）M（Marvelous）ドローンライトショーの「M」は、「驚異的な、驚くべき」という意味の「Marvelous」を意味します。これはドローンが放つ光が釜山のランドマークである広安大橋の夜景と調和し、広安里を訪れる人々に驚異と神秘に満ちた感動を届けることを表しています。毎週土曜日の夜に2回（10月〜2月19時、21時／3月〜9月20時、22時）、約12分間実施され、広安里海岸のどこからでも観覧が可能です。毎週1,100台のドローンによる常設公演をはじめ、年越しカウントダウンやソルナル（旧正月）、チュソク（秋夕）などには最大3,000台規模にのぼるなど、さまざまなスケールのドローンショーが開催されています。 ※気象状況などにより公演日程が変更される場合があります。",
+          "checked": true
+        },
+        "zh-Hant": {
+          "name": "廣安里M無人機燈光秀",
+          "address": "釜山廣域市水營區廣安海邊路219 (廣安洞)",
+          "overview": "廣安里M無人機燈光秀是每週六晚上，以新穎與多變的內容，將廣安里夜空妝飾得美輪美奐的夜間表演。M指「Marvelous」，有驚訝的意恩，之所以這樣命名，便是為了以無人機與各色燈光加上廣安大橋的夜景，為造訪廣安里的遊客帶來充滿驚豔與神秘的表演。 廣安里M無人機燈光秀於每週六晚間固定演出 2 場(冬季10月~2月為19:00、21:00；夏季3月~9月為20:00、22:00），每場約12分鐘，在廣安里海灘一帶皆可觀賞。而除了每週以 1,000 架無人機所帶來的常態性表演外；在跨年倒數、春節、中秋等特殊節日，更會擴大規模至最多2,500架規模，呈現不同主題的無人機燈光秀。 * 表演日程視天候狀況有調整之可能",
+          "checked": true
+        },
+        "de": {
+          "name": "Gwangalli M(Marvelous) Drone Light Show",
+          "address": "219, Gwanganhaebyeon-ro, Suyeong-gu, Busan",
+          "overview": "Die Gwangalli M(Marvelous) Drone Light Show erleuchtet jeden Samstagabend den Nachthimmel am Strand Gwangalli mit verschiedenen Contents.",
+          "checked": true
+        },
+        "es": {
+          "name": "Espectáculo M (Marvelous) de Luces con Drones de Gwangalli",
+          "address": "Gwangallihaebyeon-ro 219, Suyeong-gu, Busan",
+          "overview": "El Festival de Fuegos Artificiales de Busan tiene lugar en la playa Gwangalli de Busan. Diversos programas y eventos culturales combinados con fantásticas actuaciones y múltiples y coloridas luces láser hacen de este uno de los festivales más famosos de la ciudad, atrayendo a más de 1 millón de personas cada año. La mayoría de la gente visita la playa para ver mejor los fuegos artificiales, pero también se puede apreciar perfectamente el show desde el monte Hwangnyeongsan.",
+          "checked": true
+        },
+        "ru": {
+          "name": "Световое шоу дронов M(Marvelous) на Кваналли",
+          "address": "219 Gwanganhaebyeon-ro, Suyeong-gu, Busan",
+          "overview": "С 2022 года на пляже Кваналли проходит шоу дронов «M(Marvelous) Drone Light Show», которое планируется проводить до 31 декабря 2026 года. Буква «M» в названии шоу означает «Marvelous» – «удивительный» и «восхитительный». Световые рисунки, создаваемые дронами в ночном небе, гармонично сочетаются с великолепной панорамой моста Кванан-тэгё – одного из главных символов Пусана, даря посетителям Кваналли атмосферу волшебства и восторга. Шоу проходит каждую субботу два раза за вечер и длится около 12 минут. Зимой (с октября по февраль) представления начинаются в 19:00 и 21:00, а летом (с марта по сен",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-07-08",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-4109305",
+      "city": "busan",
+      "nameKorean": "달밤에체조 부산 챌린지",
+      "addressKorean": "부산광역시 부산진구 시민공원로 73 (범전동)",
+      "tel": "070-8065-4592",
+      "latitude": 35.1655426683,
+      "longitude": 129.0558397915,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/24/4109324_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "달밤에체조 부산 챌린지",
+          "address": "부산광역시 부산진구 시민공원로 73 (범전동)",
+          "overview": "달밤에체조 부산 챌린지는 운동에 익숙하지 않거나 평소 운동에 관심이 적은 시민도 쉽고 즐겁게 생활체육 활동에 참여할 수 있도록 유도하여 시민의 생활체육 참여 확대와 건강증진, 활기찬 야간 여가문화 조성을 목적으로 하는 부산 특화형 생활체육 프로그램이다. 부산광역시가 주최·주관하여 운영하는 행사로, 부산을 대표하는 공원과 친수공간 등 야외공간을 활용하여 가을밤 달빛 아래 매주 정기적으로 생활체육을 즐길 수 있도록 구성한 시민 참여형 행사이다. 메인 프로그램은 유명 운동 인플루언서가 직접 지도하는 체조, 요가, 서킷트레이닝, 줌바, 어린이 운동 등 다양한 생활체육 프로그램으로 구성되는 행사이다. 이와 함께 태권도, 줄넘기, 복싱, 치어리딩 등 생활체육 공연과 마술, 코미디, 버스킹, 콘서트 등 문화공연을 운영하는 행사이다. 시민체력장, 체력왕선발대회, 타바타·스피닝 챌린지, 랜덤플레이 댄스 챌린지 등 시민이 직접 참여하고 즐길 수 있는 참여 이벤트도 함께 운영하는 축제형 행사이다. 행사장에는 양궁, 농구, 볼링, 골프 등 생활체육 체험과 체력측정, 운동처방, 테이핑, 통증케어 등 건강 관련 체험부스를 운영하며, 가족 단위 참가자가 함께 참여할 수 있는 다양한 체",
+          "checked": true
+        },
+        "en": {
+          "name": "Moonlit Night Exercise Busan Challenge",
+          "address": "73 Simingongwon-ro, Busanjin-gu, Busan",
+          "overview": "The Moonlit Night Exercise Busan Challenge is a Busan-specific community sports program designed to encourage even citizens who are not accustomed to exercise or have little interest in it to participate in community sports activities in an easy and enjoyable way. Its goals are to expand citizen participation in community sports, promote health, and foster a vibrant nighttime leisure culture. Hosted and organized by the Busan Metropolitan City, this citizen-participation event utilizes outdoor spaces—such as Busan’s iconic parks and waterfront areas—to allow residents to enjoy recreational spo",
+          "checked": true
+        },
+        "ja": {
+          "name": "月夜に体操 釜山チャレンジ",
+          "address": "プサン広域市プサンジン区シミンゴンウォンロ73（ポムジョン洞）",
+          "overview": "「月夜に体操（タルパメチェジョ） 釜山（プサン）チャレンジ」は、運動に慣れていない人や普段あまり運動に関心がない人向けに、気軽に楽しく生活スポーツに参加してもらうことを目的としたプログラムです。釜山広域市が主催・主管する生活スポーツイベントで、釜山を代表する公園や水辺などの屋外空間を活用し、秋の月明かりの下、毎週定期的に開催されます。 メインプログラムでは、人気のスポーツインフルエンサーが直接指導する体操、ヨガ、サーキットトレーニング、ズンバ、子ども向け運動など、さまざまな生活スポーツを体験できます。また、テコンドー、縄跳び、ボクシング、チアリーディングなどの生活スポーツパフォーマンスをはじめ、マジック、コメディ、路上パフォーマンス、コンサートなどの公演も行われます。市民体力測定、体力王選抜大会、タバタ・スピニングチャレンジ、ランダムプレイダンスチャレンジなど、誰でも参加して楽しめるイベントも用意されています。 会場では、アーチェリー、バスケットボール、ボウリング、ゴルフなどのスポーツ体験のほか、体力測定、運動処方、テーピング、痛みケアなどの健康関連体験ブースも運営されます。家族で一緒に参加できるさまざまな体験プログラムも用意されています。生活スポーツを公演、参加型イベント、家族向け体験コンテンツと組み合わせることで、運動へのハードルを下げ、日常生活の中でスポーツを楽しむ機会を広げ",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-09",
+      "startDate": "2026-09-19",
+      "endDate": "2026-11-07"
+    },
+    {
+      "id": "tour-2868776",
+      "city": "busan",
+      "nameKorean": "2026 영호남 전통시장 박람회",
+      "addressKorean": "부산광역시 부산진구 시민공원로 73 (범전동)",
+      "tel": "070-8893-2437",
+      "latitude": 35.1652367254,
+      "longitude": 129.0566779766,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/63/4142163_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 영호남 전통시장 박람회",
+          "address": "부산광역시 부산진구 시민공원로 73 (범전동)",
+          "overview": "영남과 호남의 전통시장이 한자리에 모여 지역의 가치를 나누고, 화합과 교류를 통해 상생의 미래를 함께 그려가는 「2026년 영호남 전통시장 박람회」가 개최된다. 이번 박람회는 영호남의 화합과 협력을 바탕으로 전통시장이 지닌 고유한 가치와 매력을 널리 알리고, 지역경제의 새로운 활력과 지속 가능한 발전 방향을 모색하는 뜻깊은 행사이다. 영호남 각 지역을 대표하는 전통시장의 특화상품과 우수상품을 한자리에서 선보이며, 지역별 특색과 경쟁력을 알리는 다채로운 전시·홍보 프로그램을 통해 전통시장의 새로운 가능성을 조명한다. 또한 정부와 지방자치단체의 전통시장 지원정책을 소개하고, 문화관광형시장과 온누리상품권 등 전통시장 활성화를 위한 다양한 정책과 사업을 공유하여 전통시장의 지속 가능한 성장 기반을 마련하고자 한다. 이와 함께 전통시장과 지역사회, 청년 창업이 어우러지는 상생협력의 장을 조성하여 세대와 지역을 잇는 새로운 교류의 기회를 제공하고, 전통시장이 지역경제와 문화의 중심으로 더욱 발전할 수 있는 계기를 만들어 갈 예정이다. 「‘2026년 영호남 전통시장 박람회」는 지역 간 경계를 넘어 전통시장의 가치를 재발견하고, 영호남이 함께 성장하는 상생과 협력의 미래를",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-11-02",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-3492576",
+      "city": "busan",
+      "nameKorean": "부산일러스트레이션페어V.7",
+      "addressKorean": "부산광역시 해운대구 APEC로 55 (우동)",
+      "tel": "02-2602-8602",
+      "latitude": 35.1687048508,
+      "longitude": 129.1354937071,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/80/4093280_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "부산일러스트레이션페어V.7",
+          "address": "부산광역시 해운대구 APEC로 55 (우동)",
+          "overview": "부산일러스트레이션페어는 부산·경상권을 주요 마켓으로 개최하는 일러스트레이션 분야의 대표 전시회로, 서울일러스트레이션페어를 개최하는 오씨메이커스가 주최하며 내년 가을 부산 벡스코 전시장에서 개최될 예정이다. 부산일러스트레이션페어V.7은 약 600여 부스와 함께하며 일러스트레이션, 회화, 그림책, 독립출판, 캐릭터디자인, 그래픽디자인, 게임, 애니메이션, 웹툰, 캘리그라피 등 다양한 분야에서 캐쓰, 시노에세이, 라망, 화티스트, 다올, 곰곰, 도아세 등 국내외에서 활발히 활동하는 창작자들이 대거 참여한다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Busan Illustration Fair V.6",
+          "address": "55 APEC-ro, Haeundae-gu, Busan",
+          "overview": "The Busan Illustration Fair is a representative exhibition in the field of illustration held with the Busan and Gyeongsang regions as its main market. Busan Illustration Fair features approximately 600 booths with the participations of a large number of creators actively working both domestically and internationally in various fields such as illustration, painting, picture books, independent publishing, character design, graphic design, games, animation, webtoons, and calligraphy.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-07-28",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-235076",
+      "city": "busan",
+      "nameKorean": "부산불꽃축제",
+      "addressKorean": "부산광역시 수영구 광안해변로 219 (광안동)",
+      "tel": "051-713-5000",
+      "latitude": 35.1537727886,
+      "longitude": 129.1185199367,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/92/4107992_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "부산불꽃축제",
+          "address": "부산광역시 수영구 광안해변로 219 (광안동)",
+          "overview": "'부산불꽃축제'는 광안리해수욕장과 광안대교 일대를 무대로 개최되는 대한민국 대표 해상 멀티미디어 불꽃 축제이다. 2005년 APEC 정상회의 기념 축하 불꽃쇼를 시작으로 개최되어 올해로 21주년을 맞이하는 부산의 대표적인 가을 문화행사이다. 축제는 광안대교의 특수 조명과 대형 연출 시스템을 활용하여 음악과 불꽃이 어우러지는 초대형 해상 멀티미디어 쇼를 선보인다. 광안리 밤바다의 지리적 특성을 활용한 독창적인 연출 기법과 대규모 불꽃 발사를 통해 매년 수많은 국내외 관람객이 방문하는 글로벌 축제로 자리매김하였다. 21회를 맞이한 올해 행사는 한층 정교해진 스토리텔링과 해상 불꽃 연출을 통해 부산의 밤하늘을 장식할 예정이다.",
+          "checked": true
+        },
+        "es": {
+          "name": "Festival de Fuegos Artificiales de Busan",
+          "address": "Gwanganhaebyeon-ro 219, Suyeong-gu, Busan.",
+          "overview": "Cada s&aacute;bado por la noche, cientos de drones iluminan el cielo nocturno sobre la Playa Gwangalli en una variedad de formaciones fascinantes a trav&eacute;s de un maravilloso espect&aacute;culo de luces con drones. Su nombre M viene de \"Marvelous\" (\"maravilloso\", en ingl&eacute;s), y suele contar con 600 drones formando im&aacute;genes con referencias al tema elegido cada &eacute;poca del a&ntilde;o. Hay que tener en cuenta que el espect&aacute;culo puede tener horario flexible seg&uacute;n las condiciones meteorol&oacute;gicas.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-27",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07"
+    },
+    {
+      "id": "tour-4115096",
+      "city": "busan",
+      "nameKorean": "달려라부산 러닝페스티벌",
+      "addressKorean": "부산광역시 동구 이순신대로 164 (초량동)",
+      "tel": "070-4659-0409",
+      "latitude": 35.1144041132,
+      "longitude": 129.0464193172,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/61/4139461_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "달려라부산 러닝페스티벌",
+          "address": "부산광역시 동구 이순신대로 164 (초량동)",
+          "overview": "‘달려라부산’은 부산광역시가 운영하는 부산 대표 러닝 브랜드로, 시민 누구나 일상 속에서 러닝을 쉽고 즐겁게 경험할 수 있도록 다양한 러닝 콘텐츠를 선보이고 있다. ‘달려라부산 러닝페스티벌’은 러닝을 매개로 시민들이 함께 소통하고 즐기는 참여형 스포츠 축제로, 오는 11월 14일(토) 부산의 아름다운 바다와 도심 풍경이 어우러진 북항친수공원에서 개최된다. 이번 페스티벌은 부산의 아름다운 노을을 배경으로 함께 달리는 ‘선셋런(5km)’을 비롯해 러닝크루들의 팀워크와 열정을 겨루는 ‘러닝크루 랭킹전’, 시민 누구나 자신의 체력을 확인하고 다양한 운동에 도전할 수 있는 ‘도전! 시민체력장’ 등 다채로운 참여형 프로그램으로 꾸며진다. 특히 마라톤과 기록 경쟁 중심의 획일적인 러닝 행사에서 벗어나, 러닝 입문자부터 숙련된 러너까지 누구나 자신의 속도와 방식으로 달리기의 즐거움을 경험할 수 있는 새로운 형태의 러닝 축제로 기획됐다. 단순히 달리는 것을 넘어 가족, 친구, 연인이 함께 즐길 수 있는 다양한 체험 프로그램과 러닝크루 간 교류의 장을 마련해 건강한 생활체육 문화를 확산하고, 시민들이 함께 달리는 즐거움을 나눌 수 있도록 할 예정이다. 이와 함께 러닝 토크쇼,",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-29",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14"
+    },
+    {
+      "id": "tour-3016659",
+      "city": "busan",
+      "nameKorean": "부산종합민속예술제",
+      "addressKorean": "부산광역시 부산진구 시민공원로 73 (범전동) 부산시민공원 하야리야잔디광장",
+      "tel": "051-714-1508",
+      "latitude": 35.1654110124,
+      "longitude": 129.0572087146,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/75/4113275_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "부산종합민속예술제",
+          "address": "부산광역시 부산진구 시민공원로 73 (범전동) 부산시민공원 하야리야잔디광장",
+          "overview": "제6회 부산종합민속예술제는 부산광역시가 주최하여 부산의 무형유산과 전통민속문화를 공연과 체험으로 소개하는 전통문화 축제이다. 2026년 10월 24일부터 25일까지 부산시민공원 다솜광장에서 부산시민과 관광객을 대상으로 개최되는 행사이다. 주요 프로그램은 공연 중심의 풍류마당, 체험 중심의 솜씨마당, 참여 프로그램 중심의 잔치마당으로 구성된 축제이다. 풍류마당은 개막식과 부산·타시도 무형유산 공연, 전수학교 공연, 글로벌 공연, 특별공연 및 시민참여 프로그램을 운영하는 공간이다. 솜씨마당은 기능·예능 무형유산 체험, 전통문화 만들기 체험, 전통 먹거리 체험, 문화유산돌봄 체험 등을 운영하는 공간이다. 잔치마당은 전통놀이 체험존, 부산 무형유산 아트페어, 한복문화주간 연계 전통·공예 마켓, 스탬프투어와 소원지 쓰기, 한복 대여 및 전통 장신구 체험 등을 운영하는 공간이다. 공연 관람과 참여형 체험을 통해 부산의 무형유산과 전통문화를 접할 수 있도록 구성된 축제이다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-23",
+      "startDate": "2026-11-15",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "tour-3360113",
+      "city": "busan",
+      "nameKorean": "게임문화축제",
+      "addressKorean": "부산광역시 해운대구 APEC로 30 (우동) 1층",
+      "tel": "02-546-7378",
+      "latitude": 35.1657825587,
+      "longitude": 129.1350266435,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/26/4135926_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "게임문화축제",
+          "address": "부산광역시 해운대구 APEC로 30 (우동) 1층",
+          "overview": "'2026 게임문화축제'는 게임의 문화적 가치를 확산하고, 남녀노소 누구나 즐겁게 몰입할 수 있는 다채로운 체험과 향유의 기회를 제공하는 대한민국 대표 게임 페스티벌이다. 올해 축제는 세계인의 마음을 사로잡은 K-컬쳐 대표 게임IP전시부터, 웅장한 국악 선율로 재탄생하는 감동적인 게임OST 라이브 공연까지 다채로운 볼거리와 즐길 거리를 선보인다. 또한, 온 가족이 함께 소통하며 추억쌓는 게임 체험존과 손에 땀을 쥐게하는 박진감 넘치는 e스포츠 대회, 누구나 참여할 수 있는 다양한 이벤트 프로그램이 현장을 가득 채운다. 단순한 플레이를 넘어 예술과 문화, 세대 간 소통으로 이어지는 특별한 경험! 즐거움 그 이상의 감동이 있는 '2026 게임문화축제'에서 느껴볼 수 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-26",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-3437916",
+      "city": "busan",
+      "nameKorean": "크리스마스 빌리지 부산 2026",
+      "addressKorean": "부산광역시 해운대구 수영강변대로 120 (우동)",
+      "tel": "070-4680-1718",
+      "latitude": 35.1709631305,
+      "longitude": 129.1270422473,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/49/4130849_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "크리스마스 빌리지 부산 2026",
+          "address": "부산광역시 해운대구 수영강변대로 120 (우동)",
+          "overview": "11월 26일부터 12월 25일까지 부산 영화의전당에서 '1년에 한 번, 부산에 나타나는 크리스마스 마을' ‘크리스마스 빌리지 부산 2026’이 펼쳐진다. 지난해 45만 명이 찾은 크리스마스 빌리지 부산이 올해는 걷고, 보고, 맛보고, 경험하는 머무는 크리스마스 테마파크로 돌아온다. 산타와 우편배달부, 산장 주인 등 마을 사람들이 반겨주는 살아있는 마을에서 눈 내리는 광장과 퍼레이드, 성가대 공연, 강레오 셰프와 부산 로컬 브랜드의 크리스마스 한정 메뉴, 선물 상점과 시즌 한정 팝업까지 즐길 수 있다. 올해는 유료 티켓제로 운영해 웨이팅과 혼잡을 줄이고 더 여유롭게 즐길 수 있도록 했다. 크리스마스의 설렘으로 가득한 크리스마스 빌리지 부산은 11월 26일부터 12월 25일까지 영화의전당에서 만날 수 있다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Busan Christmas Village",
+          "address": "120 Suyeonggangbyeon-daero, Haeundae-gu, Busan",
+          "overview": "Busan Christmas Village takes place at the Busan Cinema Center for one month leading up to Christmas. In this vibrant village welcoming visitors, visitors can enjoy a snowy plaza, parades, choir performances, limited-edition Christmas menus by Chef Kang Leo and local Busan brands, gift shops, and season-limited pop-ups. This year, the event operates on a paid ticket system to reduce waiting times and congestion, allowing for a more relaxed experience.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-20",
+      "startDate": "2026-11-26",
+      "endDate": "2026-12-25"
+    },
+    {
+      "id": "tour-4095478",
+      "city": "busan",
+      "nameKorean": "부산브릿지마라톤",
+      "addressKorean": "부산광역시 해운대구 APEC로 55 (우동)",
+      "tel": "070-4111-5620",
+      "latitude": 35.1690637155,
+      "longitude": 129.1360182683,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/64/4095564_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "부산브릿지마라톤",
+          "address": "부산광역시 해운대구 APEC로 55 (우동)",
+          "overview": "부산브릿지마라톤은 아름다운 해양 도시 부산의 매력을 만끽할 수 있는 러닝 축제이다. 행사 집결지는 부산의 랜드마크인 벡스코 제1전시장이며, 전국의 러너들이 모여 활기찬 열기를 나누는 화합의 장이다. 대회 종목은 자신의 체력과 목표에 맞추어 선택할 수 있도록 구성되어 있다. 자신의 한계에 도전하는 풀코스와 누구나 건강하게 즐길 수 있는 10㎞로 운영된다. 특히 풀코스의 경우, 안전하고 내실 있는 대회를 위해 타 대회 공식 기록증 기준 4시간 30분 이내의 완주 기록을 소지해야하며 10㎞ 코스는 만 18세 이상의 건강한 남녀라면 누구나 참여할 수 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-08-11",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-06"
+    },
+    {
+      "id": "tour-3370452",
+      "city": "daegu",
+      "nameKorean": "2026 수성국제비엔날레",
+      "addressKorean": "대구광역시 수성구 무학로 112 (두산동)",
+      "tel": "053-668-1541",
+      "latitude": 35.8293696738,
+      "longitude": 128.6205920321,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/75/4116875_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 수성국제비엔날레",
+          "address": "대구광역시 수성구 무학로 112 (두산동)",
+          "overview": "「2026 수성국제비엔날레」는 ‘Living Ground(리빙 그라운드)’를 주제로 건축과 조경을 통해 도시와 자연, 공간과 사람의 관계를 새롭게 바라보는 국제 비엔날레이다. 국내외 건축가와 조경가가 참여해 수성구의 공원과 호수, 유휴공간 등 실제 도시 공간에 다양한 프로젝트를 구현한다. 전시와 포럼, 체험 및 참여 프로그램을 통해 시민들이 일상 속에서 건축과 조경을 경험할 수 있다. 2026년 10월 27일부터 11월 22일까지 수성못 상화동산 일원에서 펼쳐진다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Suseong International Biennale",
+          "address": "112 Muhak-ro, Suseong-gu, Daegu",
+          "overview": "The Suseong International Biennale is an international biennale that offers a fresh perspective on the relationships between cities and nature, and between space and people, through architecture and landscape design. Domestic and international architects and landscape architects will participate to implement various projects in actual urban spaces within Suseong-gu, including parks, lakes, and vacant lots. Through exhibitions, forums, and hands-on and participatory programs, citizens can experience architecture and landscape design in their daily lives.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-15",
+      "startDate": "2026-10-27",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-2853386",
+      "city": "gangneung",
+      "nameKorean": "2026 단단단페스티벌",
+      "addressKorean": "강원특별자치도 강릉시 단오장길 1 (노암동)",
+      "tel": "033-641-1593",
+      "latitude": 37.7482018271,
+      "longitude": 128.8950411936,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/82/4124982_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 단단단페스티벌",
+          "address": "강원특별자치도 강릉시 단오장길 1 (노암동)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-10-15",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-28"
+    },
+    {
+      "id": "tour-2433596",
+      "city": "incheon",
+      "nameKorean": "왕가의 산책",
+      "addressKorean": "인천광역시 영종구 공항로 272 (운서동) (세종로)",
+      "tel": "032-743-0468",
+      "latitude": 37.458350712273,
+      "longitude": 126.427699293474,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/76/4029576_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "왕가의 산책",
+          "address": "인천광역시 영종구 공항로 272 (운서동) (세종로)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-06-30",
+      "startDate": "2026-01-05",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-3492276",
+      "city": "incheon",
+      "nameKorean": "2026 문화가 있는 날",
+      "addressKorean": "인천광역시 제물포구 송현동",
+      "tel": "032-575-2526, 070-5001-0265",
+      "latitude": 37.476334,
+      "longitude": 126.632619,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/82/4055582_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "2026 문화가 있는 날",
+          "address": "인천광역시 제물포구 송현동",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-06-30",
+      "startDate": "2026-04-01",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "tour-1129018",
+      "city": "incheon",
+      "nameKorean": "2026 인천국제디자인페어(INDEF)",
+      "addressKorean": "인천광역시 남동구 예술로 149 (구월동)",
+      "tel": "070-4895-0879",
+      "latitude": 37.4476124937,
+      "longitude": 126.700028637,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/00/4118300_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 인천국제디자인페어(INDEF)",
+          "address": "인천광역시 남동구 예술로 149 (구월동)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-10-07",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-3522322",
+      "city": "incheon",
+      "nameKorean": "오슬로우 빈티지 크리스마스 마켓",
+      "addressKorean": "인천광역시 제물포구 월미로 33 (북성동1가)",
+      "tel": "010-2258-9475",
+      "latitude": 37.476568524,
+      "longitude": 126.6144291728,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/24/4136124_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "오슬로우 빈티지 크리스마스 마켓",
+          "address": "인천광역시 제물포구 월미로 33 (북성동1가)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-10-30",
+      "startDate": "2026-12-04",
+      "endDate": "2026-12-20"
+    },
+    {
+      "id": "tour-3399432",
+      "city": "jeju",
+      "nameKorean": "2026 제5회 제주비엔날레 허끄곡 모닥치곡 이야홍 : 변용의 기술",
+      "addressKorean": "제주특별자치도 제주시 1100로 2894-78 (연동)",
+      "tel": "064-710-4300",
+      "latitude": 33.4525500193,
+      "longitude": 126.489686091,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/77/4073777_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 제5회 제주비엔날레 허끄곡 모닥치곡 이야홍 : 변용의 기술",
+          "address": "제주특별자치도 제주시 1100로 2894-78 (연동)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-06-11",
+      "startDate": "2026-08-25",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "tour-2997830",
+      "city": "jeju",
+      "nameKorean": "제주 반려동물 문화산업 한마당",
+      "addressKorean": "제주특별자치도 제주시 서광로2길 24 (오라일동) 한라체육관 일원",
+      "tel": "064-711-1002",
+      "latitude": 33.4950628705,
+      "longitude": 126.5187972389,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/13/4132213_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "제주 반려동물 문화산업 한마당",
+          "address": "제주특별자치도 제주시 서광로2길 24 (오라일동) 한라체육관 일원",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-11-02",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-4114621",
+      "city": "jeju",
+      "nameKorean": "2026 대한민국 제주정원문화박람회",
+      "addressKorean": "제주특별자치도 서귀포시 서호남로 19-30 (서호동)",
+      "tel": "043-212-7893",
+      "latitude": 33.2525461361,
+      "longitude": 126.5161895225,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/35/4114835_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "2026 대한민국 제주정원문화박람회",
+          "address": "제주특별자치도 서귀포시 서호남로 19-30 (서호동)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-09-23",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-10"
+    },
+    {
+      "id": "tour-506627",
+      "city": "jeju",
+      "nameKorean": "최남단방어축제",
+      "addressKorean": "제주특별자치도 서귀포시 대정읍 최남단해안로 66 모슬포항 일원",
+      "tel": "064-794-8032",
+      "latitude": 33.2144983016,
+      "longitude": 126.2520492078,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/12/4141112_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "최남단방어축제",
+          "address": "제주특별자치도 서귀포시 대정읍 최남단해안로 66 모슬포항 일원",
+          "overview": null,
+          "checked": false
+        },
+        "es": {
+          "name": "Festival del Bangeo del Extremo Sur",
+          "address": "Choenamdanhaean-ro 66, Daejeong-eup, Seogwipo-si, Jeju-do",
+          "overview": "Es uno de los festivales culturales y marítimos más importantes de la isla de Jeju, que se celebra en noviembre de cada año, y protagonizado por el serviola japonés, el pez representante del mar en la zona de Jeju. Tendrá la posibilidad de experimentar una gran cantidad de actividades, en el mar azul, con sus olas que bailan por el viento otoñal, y por supuesto, degustar los platos de los pescados frescos. Entre los eventos del festival se destacan capturar el pez con las manos y el campeonato de pesca, pero el más famoso entre los turistas es el de capturar los peces con las manos, ya que pod",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-11-02",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-3468240",
+      "city": "jeonju",
+      "nameKorean": "전라관찰사의 탄생",
+      "addressKorean": "전북특별자치도 전주시 완산구 전라감영로 55 (중앙동4가)",
+      "tel": "063-232-9938",
+      "latitude": 35.8157360959,
+      "longitude": 127.1455680409,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/62/4123062_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "전라관찰사의 탄생",
+          "address": "전북특별자치도 전주시 완산구 전라감영로 55 (중앙동4가)",
+          "overview": null,
+          "checked": false
+        }
+      },
+      "updatedAt": "2026-10-13",
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "tour-3481597",
+      "city": "seoul",
+      "nameKorean": "페인터즈",
+      "addressKorean": "서울특별시 중구 정동길 3 (정동) 경향신문사 1층",
+      "tel": "02-766-7848",
+      "latitude": 37.5681732680976,
+      "longitude": 126.969976113229,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/01/4060301_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "페인터즈",
+          "address": "서울특별시 중구 정동길 3 (정동) 경향신문사 1층",
+          "overview": "페인터즈는 관객과 소통하는 주요 매개가 춤과 연기, 미술이라는 점에서 독창성을 가지고 있다. 여기에 새로운 영상 기법인 프로젝션 맵핑까지 더해져 관객에게 다채로운 시각 경험을 선사한다. 무대에서 선보이는 주요 장면으로는 빛으로 조각하는 라이트 카빙, 4개의 화판에 담아내는 액션페인팅, 반전의 묘미가 돋보이는 더스트 드로잉, 놀라운 속도로 그려나가는 스피드 드로잉,물 위에 그려지는 마블링, 빛으로 담아내는 야광드로잉 등이 있다.",
+          "checked": true
+        },
+        "de": {
+          "name": "The Painters 2",
+          "address": "3, Jeongdong-gil, Jung-gu, Seoul",
+          "overview": "Die extravagante Kunstaufführung \"The Painters\" kombiniert farbenfrohe Gemälde und hochmoderne Medien und ist mit einem ganz neuen Konzept zurückgekehrt. Darsteller mit unwiderstehlichem Charisma zeigen die Schönheit weltbekannter Gemälde, indem sie beeindruckende Choreografie und Live-Malerei miteinander verbinden.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-04-27",
+      "startDate": "2022-11-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-2809535",
+      "city": "seoul",
+      "nameKorean": "남산봉수의식 등 전통문화행사",
+      "addressKorean": "서울특별시 종로구 종로 54 (관철동)",
+      "tel": "행사장 02-319-1220운영사 02-737-6444",
+      "latitude": 37.5697673859634,
+      "longitude": 126.983677617361,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/57/4001657_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "남산봉수의식 등 전통문화행사",
+          "address": "서울특별시 종로구 종로 54 (관철동)",
+          "overview": "남산봉수의식 등 전통문화행사는 조선시대 통신수단을 재현하여 시민 및 국내외 관광객에게 우리 고유의 전통문화를 알리고 문화향유의 기회를 제공하는 서울시 주최 사업이다. 남산봉수대는 조선시대에 전국의 봉화대에서 올라오는 봉화를 최종적으로 집결해 상황을 도성에 알리는 중요한 통신수단이었다. 남산봉수대에서 남산봉수의식을 관람하며 역사 해설 안내를 들어볼 수 있다. 또한 매일 정오에 타종하는 보신각 시민상설 타종행사는 시민 및 관광객들과 함께하는 참여형 행사이다. 서울 남산타워 팔각정 광장에서 사물놀이 공연 및 전통무예시범을 관람할 수 있다. 이외에도 일일 경점관체험, 일일 봉수꾼 체험과 같은 체험 프로그램도 마련되어있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-01-27",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-292961",
+      "city": "seoul",
+      "nameKorean": "서울 왕궁수문장 교대의식",
+      "addressKorean": "서울특별시 중구 세종대로 99 (정동)",
+      "tel": "02-6242-7402",
+      "latitude": 37.565054919430565,
+      "longitude": 126.97657463444833,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/79/4039379_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "서울 왕궁수문장 교대의식",
+          "address": "서울특별시 중구 세종대로 99 (정동)",
+          "overview": "‘서울 왕궁수문장 교대의식’은 서울시가 주최하는 대표적인 전통문화재현 행사로, 조선시대 궁궐 문을 지키던 수문군의 교대 장면을 실감 나게 되살린 프로그램이다. 수문장은 종6품의 관직으로, 수문장청 소속 참하와 수문군과 함께 궁문을 지키고, 출입을 단속하며 순찰을 수행했다. 교대의식은 실제 역사자료에 근거해 구성되었으며, 조선 후기 덕수궁을 중심으로 전개된다. 행사는 매주 월요일을 제외한 주 6일, 오전 11시와 오후 2시에 덕수궁 대한문 앞에서 열린다. 일반 시민과 외국인 관광객의 흥미를 더하기 위해 다양한 체험 프로그램도 함께 운영되는데, ‘개식타고 체험’은 북을 직접 두드리며 의식 시작을 알리는 체험이고, ‘나도 수문장’은 수문장 복장을 입고 역할을 체험하는 프로그램이며, ‘전통복식 체험’은 조선시대 의상을 입고 사진을 남길 수 있는 인기 체험이다.",
+          "checked": true
+        },
+        "de": {
+          "name": "Königliche Wachablösung am Palast Deoksugung",
+          "address": "99, Sejong-daero, Jung-gu, Seoul",
+          "overview": "Die Wachablösung am Palast Deoksugung findet vor dem Tor Daehanmun statt und ist eine seltene Gelegenheit, einen Einblick in die traditionelle Hofskultur zu erhalten. Neben der Vorführung selbst gibt es auch viele tolle Erlebnisprogramme.",
+          "checked": true
+        },
+        "es": {
+          "name": "Cambio de Guardia Real de Seúl",
+          "address": "Sejong-daero 99, Jung-gu, Seúl.",
+          "overview": "La ceremonia de cambio de guardia empezó en el año 1996 con la ayuda de los historiadores más famosos y renombre. Se realiza en la puerta Daehanmun del palacio Deoksugung, y es un excelente evento para apreciar la cultura real de la época de la dinastía Joseon. El evento se realiza 2 veces al día y muestra al público cómo los guardias cierran y abren la puerta siguiendo movimientos estrictos y que requieren mucha fuerza. El cambio de guardia se realiza para todo el público de forma gratuita. La ceremonia comienza con la llegada de los guardias de reemplazo, y después intercambian códigos verba",
+          "checked": true
+        },
+        "ru": {
+          "name": "Церемония смены караула в королевском дворце Токсугун",
+          "address": "99, Sejong-daero, Jung-gu, Seoul (г. Сеул, округ Чун-гу)",
+          "overview": "Церемония во всех деталях воспроизводит действо, происходившее на самом деле в древней Корее, предлагая всем зрителям уникальный шанс взглянуть на культуру, одежду, вооружение и ритуалы того времени. Церемония абсолютно бесплатна для просмотра и проводится перед главными воротами дворца Токсугун - Тэханмун - 6 раз в неделю, каждый день кроме понедельника, с 11:00 до 14:00. Яркие и красивые костюмы средневековых стражей восхитят вас и вы непременно захотите сфотографироваться на их фоне. А после завершения церемонии можно войти во дворец и полюбоваться красотой традиционного корейского дворца.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-03-12",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-3107059",
+      "city": "seoul",
+      "nameKorean": "2026 숭례문 파수의식",
+      "addressKorean": "서울특별시 중구 세종대로 40 (남대문로4가)",
+      "tel": "02-3789-7402",
+      "latitude": 37.55992837962214,
+      "longitude": 126.97536090852309,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/99/4001599_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 숭례문 파수의식",
+          "address": "서울특별시 중구 세종대로 40 (남대문로4가)",
+          "overview": "숭례문을 지키는 '숭례문 파수의식' 은 월요일은 공식 휴무일이며, 월요일 제외 매일 10:00~15:40 운영된다. 파수(把守)란 도성(都城)을 수비하는 것으로 조선시대 중요한 군례의식의 하나이다. 조선시대 도성수비는 가장 중요한 문제였으며, 특히 선조 때 임진왜란과 병자호란 등을 겪으면서 심각한 문제로 대두되었다. 파수의식은 인정과 파루에 도성문을 열고 닫는 도성문 개폐의식과 순라의식 등을 연결하는 조선시대 군례의식으로 중앙군제 중 그 위치와 역할 등을 고려해보면 궁성을 수위하는 것 못지않게 중요한 의식이다. '숭례문 파수의식' 행사 절차는 파수군들이 근무지인 숭례문 앞에 도열, 파루를 알리는 금루관이 등장하며 이후 나각과 나발의 신호가 울린다. 호군의 명령에 따라 파수군은 숭례문 개문의식을 진행한다. 이후 숭례문을 수위하는 파수의식이 시작되며 1대파수군과 2대파수군의 근무교대 후 파수의식을 진행한다. 이후 6회의 교대의식 및 파수의식을 진행하며 이후 호군의 명령에 따라 파수군은 숭례문 폐문의식을 진행한다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-01-19",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-3473295",
+      "city": "seoul",
+      "nameKorean": "DDP 건축투어",
+      "addressKorean": "서울특별시 중구 을지로 281 (을지로7가)",
+      "tel": "02-2153-0310, 0311 (12:00~13:00 점심시간)",
+      "latitude": 37.5660539726,
+      "longitude": 127.0095547691,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/09/4046009_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "DDP 건축투어",
+          "address": "서울특별시 중구 을지로 281 (을지로7가)",
+          "overview": "동대문디자인플라자(DDP)에서 꿈꾸고(Dream), 만들고(Design), 누리는(Play) 공간을 중심으로 ‘DDP 건축투어’를 진행한다. 자하 하디드가 설계한 건축물을 중심으로 DDP가 자리한 동대문 일대의 역사와 의미를 해설사와 함께 살펴보는 프로그램이다. 운영 일정은 화요일부터 일요일까지 상시 운영되며, 매주 월요일과 신정, 설, 추석 당일에는 휴무이다. 운영 시간은 1회차 10:30(한국어), 2회차 13:30(영어), 3회차 15:30(한국어)이다. 투어 장소는 DDP 뮤지엄 1층 투어데스크이며, 소요 시간은 약 60분이다. 참여 대상은 만 13세(중학생) 이상으로, 13세 미만의 경우 보호자 동행이 필수이다. 참여 방법은 온라인 예약과 현장 접수가 가능하다. 온라인 예약은 DDP 홈페이지(https://ddp.or.kr/?menuno=797)를 통해 진행하며, 현장 접수는 잔여석에 한해 투어 시작 10분 전부터 가능하다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-08-04",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-4060434",
+      "city": "seoul",
+      "nameKorean": "국악공연 진연",
+      "addressKorean": "서울특별시 종로구 인사동5길 10 (인사동)",
+      "tel": "02-953-0515",
+      "latitude": 37.5728652641047,
+      "longitude": 126.985653181823,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/35/4060435_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "국악공연 진연",
+          "address": "서울특별시 종로구 인사동5길 10 (인사동)",
+          "overview": "국악공연 진연은 대한민국 전통예술의 다채로움을 한 무대에서 경험할 수 있는 공연이다. 한옥 컨셉의 아늑한 공연장에서 연주를 감상하고 예술가와 같이 대화할 수 있다는 특징이 있다. 한국음악, K-pop, 클래식, 세계민요까지 전통악기로 연주되는 다양한 장르의 음악들을 감상하게 된다. 한국의 문화를 비롯해 연주, 소리, 악기 체험까지 결합된 올인원 전통예술 공연이다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Gugak Performance Jinyeon",
+          "address": "10 Insadong 5-gil, Jongno-gu, Seoul",
+          "overview": "The gugak performance “Jinyeon, The Music of the Royal Banquet” offers a unique opportunity to experience the diversity of traditional Korean arts on a single stage. Set in an intimate venue designed in the style of a traditional Korean house, it allows for close interaction between the audience and performers. The program features a wide range of music performed on traditional instruments, spanning Korean music, K-pop, classical pieces, and world folk songs. As an all-in-one performance, it brings together elements of Korean culture, sound, instruments, and live performance into a single imme",
+          "checked": true
+        },
+        "ja": {
+          "name": "国楽公演進宴",
+          "address": "ソウル特別市チョンノ区インサドン5ギル10",
+          "overview": "国楽公演『進宴（Jinyeon／ジニョン）』は、大韓民国の伝統芸術の多彩な魅力をひとつの舞台で体験できる公演です。韓屋（ハノク）をコンセプトにした落ち着いた雰囲気の会場で演奏を鑑賞できるほか、出演者と直接対話できるのも特徴です。韓国音楽、K-POP、クラシック、世界の民謡まで、伝統楽器で演奏されるさまざまなジャンルの音楽を楽しめます。韓国文化に加え、演奏や歌唱、楽器体験まで含めて楽しめる総合型の伝統芸術公演です。",
+          "checked": true
+        },
+        "zh": {
+          "name": "国乐表演《进宴》",
+          "address": "首尔特别市钟路区仁寺洞5街10（仁寺洞）",
+          "overview": "韩国国乐表演《进宴》是一场可在同一舞台上体验韩国传统艺术多样魅力的演出。在以韩屋概念打造的温馨演出空间中，不仅可以欣赏演奏，还能与艺术家进行交流互动。演出内容涵盖韩国传统音乐、K-pop、古典音乐以及世界民谣等多种曲风，并以传统乐器进行演奏，呈现独具特色的各种音乐体验。",
+          "checked": true
+        },
+        "zh-Hant": {
+          "name": "國樂表演《進宴》",
+          "address": "首爾特別市鐘路區仁寺洞5街10(仁寺洞)",
+          "overview": "韓國國樂表演《進宴》是一場能在同一舞台上體驗韓國傳統藝術多樣魅力的節目。於以韓屋為概念打造的溫馨演出空間中，不僅能欣賞演奏，還能與藝術家進行交流互動。 演出內容涵蓋韓國傳統音樂、K-pop、古典音樂以及世界民謠等多種曲風，並以傳統樂器進行演奏，呈現別具特色的跨界音樂體驗。 這是一場結合韓國文化、現場演奏、聲音體驗與樂器體驗的全方位傳統藝術表演。",
+          "checked": true
+        },
+        "de": {
+          "name": "Gugak-Aufführung Jinyeon",
+          "address": "10, Insadong 5-gil, Jongno-gu, Seoul",
+          "overview": "Jinyeon ist eine Aufführung, bei der man die Vielfalt der traditionellen Kunst Koreas auf einer Bühne erleben kann. Der Aufführungsort im Hanok-Stil bietet eine gemütliche Atmosphäre und sogar die Möglichkeit für Interaktionen mit den Künstlern. Es werden verschiedene Genres wie K-Pop, klassische Musik, Weltvolksmusik etc. mit traditionellen Instrumenten aufgeführt, sodass koreanische Kultur, Darbietung, Klang und Instrumente in einer All-in-One Aufführung vereint sind.",
+          "checked": true
+        },
+        "fr": {
+          "name": "Concert de Gugak (musique traditionnelle coréenne) Jinyeon",
+          "address": "10, Insadong 5-gil, Jongno-gu, Séoul",
+          "overview": "Le concert de Gugak Jinyeon offre un aperçu de la richesse des arts traditionnels coréens réunis sur une scène unique. Dans une salle aux dimensions intimes décorée dans le style hanok, vous pourrez non seulement assister aux performances mais aussi échanger avec les artistes. Au programme : musique coréenne, K-pop, classique et mélodies du monde entier, toutes interprétées avec des instruments traditionnels. Ce spectacle tout-en-un marie culture coréenne, performances musicales et découverte des instruments.",
+          "checked": true
+        },
+        "es": {
+          "name": "Espectáculo de música tradicional Jinyeon",
+          "address": "Insadong 5-gil 10, Jongno-gu, Seúl",
+          "overview": "El espectáculo Jinyeon es una propuesta escénica que permite experimentar la riqueza y diversidad de las artes tradicionales de Corea en un solo escenario. Se presenta en un acogedor teatro de hanok, donde el público no solo disfruta de la música, sino que también puede interactuar y conversar con los artistas. El programa incluye una amplia variedad de géneros interpretados con instrumentos tradicionales coreanos: desde música tradicional coreana hasta K-Pop, música clásica y canciones populares del mundo. Se trata de una experiencia completa que combina cultura coreana, interpretación musica",
+          "checked": true
+        },
+        "ru": {
+          "name": "Представление традиционной корейской музыки кугак Чинён",
+          "address": "10 Insadong 5-gil, Jongno-gu, Seoul",
+          "overview": "Спектакль корейской традиционной музыки «Чинён» – это уникальная возможность познакомиться с многообразием традиционного искусства Кореи на одной сцене. Постановка проходит в уютном зале, оформленном в концепции традиционного корейского дома ханок, где зрители могут не только насладиться живым исполнением, но и пообщаться с артистами в тёплой и непринуждённой атмосфере. В программе представлены произведения самых разных жанров: от корейской традиционной музыки, K-pop и классики до народных мелодий разных стран мира, исполненных на традиционных корейских инструментах. Это комплексное представле",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-04-27",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-3377038",
+      "city": "seoul",
+      "nameKorean": "2026 국제선명상대회",
+      "addressKorean": "서울특별시 강남구 봉은사로 531 (삼성동)",
+      "tel": "010-8441-2371",
+      "latitude": 37.5158257049833,
+      "longitude": 127.057734484281,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/90/4054090_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 국제선명상대회",
+          "address": "서울특별시 강남구 봉은사로 531 (삼성동)",
+          "overview": "대한불교조계종이 주최하는 국제선명상대회와 선명상축제는 국민 정신건강 증진을 위하여 진행하고 있으며, 지난 2024년부터 시작하여 올해로 3회를 맞이하였다. 올해는 [AI시대의 선명상]이라는 주제하에 선명상이 국민의 정신건강에 도움을 줄 수 있는 방법을 모색하며, 연계된 선명상 축제를 통해 국민들이 직접 다양한 분야의 선명상을 체험할 수 있는 기회를 제공한다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-03-30",
+      "startDate": "2026-04-03",
+      "endDate": "2026-11-12"
+    },
+    {
+      "id": "tour-3111722",
+      "city": "seoul",
+      "nameKorean": "한강역사탐방",
+      "addressKorean": "서울특별시 영등포구 여의동로 330 (여의도동)",
+      "tel": "02-6953-9239",
+      "latitude": 37.526347853294425,
+      "longitude": 126.93359519306124,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/49/4058449_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "한강역사탐방",
+          "address": "서울특별시 영등포구 여의동로 330 (여의도동)",
+          "overview": "'한강역사탐방' 프로그램은 한강 경관 및 역사·문화자원을 감상·공유하는 매력적인 관광해설과 교육을 제공하여 시민 및 관광객에게 한강변을 체험·감상한다. 또한 체험활동 등 시민들이 능동적으로 참여하고 직접 경험할 수 있는 다양한 콘텐츠를 개발하여 일상 속에서 즐기는 한강 역사문화를 활성화하고자 한다. 탐방객은 정해진 코스를 따라 한강 유역 및 인근 문화유산을 거닐며 한강해설사의 해설을 듣는다. 한강역사탐방은 총 16개 코스로 운영되며, 탐방객은 해당 코스를 거닐며 해당 코스와 관련된 한강의 역사를 탐방할 수 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-06-01",
+      "startDate": "2026-04-20",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "tour-2720203",
+      "city": "seoul",
+      "nameKorean": "2026 서울거리공연 구석구석라이브",
+      "addressKorean": "서울특별시 종로구 세종대로 지하172 (세종로)",
+      "tel": "02-2088-7218",
+      "latitude": 37.5716228232824,
+      "longitude": 126.976787992565,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/74/4060474_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "2026 서울거리공연 구석구석라이브",
+          "address": "서울특별시 종로구 세종대로 지하172 (세종로)",
+          "overview": "2026 서울거리공연 구석구석라이브는 서울 도심 주요 장소에서 진행되는 거리 공연으로 공개 모집으로 선발된 150팀의 아티스트들이 참여하여 오는 11월 말 까지 서울의 다양한 장소에서 운영 예정이다. 시민들에게는 뜻 밖의 거리에서 마주친 공연으로 문화공연 향유 기회를 확대하고, 참여 공연가에게는 문화예술활동의 공간을 제공하는 뜻 깊은 공연의 장이 될 것이다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-04-27",
+      "startDate": "2026-05-01",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-2598331",
+      "city": "seoul",
+      "nameKorean": "문화가 흐르는 서울광장",
+      "addressKorean": "서울특별시 중구 을지로 지하12 (을지로1가)",
+      "tel": "02-2133-2543",
+      "latitude": 37.56544835496842,
+      "longitude": 126.97878183534239,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/68/4059668_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "문화가 흐르는 서울광장",
+          "address": "서울특별시 중구 을지로 지하12 (을지로1가)",
+          "overview": "일상 속 문화 향유 기회를 제공하는 이 5월부터 12월까지 약 8개월 간 서울광장에서 진행된다. 2026년 5월 6일 개막공연을 시작으로 대중가요부터 힙합, 재즈, 밴드, 퍼포먼스까지 다양한 장르의 공연이 매월 진행 될 예정이다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-04-22",
+      "startDate": "2026-05-06",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-4082595",
+      "city": "seoul",
+      "nameKorean": "팔색찬란",
+      "addressKorean": "서울특별시 종로구 효자로13길 45 (효자동)",
+      "tel": "02-723-0300",
+      "latitude": 37.5825448754,
+      "longitude": 126.9730592833,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/70/4082670_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "팔색찬란",
+          "address": "서울특별시 종로구 효자로13길 45 (효자동)",
+          "overview": "문화체육관광부는 이달부터 12월까지 청와대 사랑채 1층에서 특별전 '팔색찬란 : K로 가득한 지역'을 개최한다. 이번 전시는 '우리가 이야기하는 케이(K)의 뿌리는 무엇인가?'라는 질문에서 출발한다. 한국의 역사와 문화예술, 지역 고유의 문화자산이 K-콘텐츠로 이어지고 확장되는 과정을 지역 콘텐츠 전시와 미디어아트를 통해 입체적으로 선보인다. 특히 대한민국의 다양한 지역에 축적된 문화적 자산이 오늘날 K-컬처의 기반이 됐음을 조명하는 데 초점을 맞췄다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-07-07",
+      "startDate": "2026-06-04",
+      "endDate": "2026-12-31"
+    },
+    {
+      "id": "tour-4120802",
+      "city": "seoul",
+      "nameKorean": "양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
+      "addressKorean": "서울특별시 서초구 양재천로 33 (양재동) 서초구립양재도서관 앞 양재오솔숲도서관",
+      "tel": "02-3486-4043",
+      "latitude": 37.4737013396,
+      "longitude": 127.0336060294,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/13/4120813_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
+          "address": "서울특별시 서초구 양재천로 33 (양재동) 서초구립양재도서관 앞 양재오솔숲도서관",
+          "overview": "서초구 야외도서관 「양재천을 품은 양재도서관: 물길 따라 그림책 여행」은 도심 속 자연공간인 양재천에서 책과 문화예술을 함께 경험할 수 있도록 마련한 야외 독서문화축제이다. 2026년 10월 10일부터 11월 8일까지 매주 토·일요일 총 10회에 걸쳐 양재도서관 앞 오솔숲과 양재천 일대에서 운영하는 행사이다. ‘관계·감정·꿈과 성장·힐링·자연’을 주제로 매주 다양한 그림책을 소개하며, 자연 속에서 자유롭게 책을 읽을 수 있는 야외 독서공간을 비롯해 그림책 전시, 체험 프로그램, 공연, 가족 참여 프로그램 등을 운영한다. 숲길과 잔디밭, 양재천 산책로, 계단 공간 등 장소별 특성을 활용해 독서와 문화예술 프로그램을 구성하며, 기존 실내 도서관 중심의 독서 경험을 자연공간으로 확장한 것이 특징이다. 어린이를 동반한 가족과 양재천을 이용하는 시민 등 누구나 참여할 수 있으며, 책과 자연, 문화예술을 연계한 다양한 프로그램을 통해 일상 속에서 독서를 경험할 수 있을 것이다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-27",
+      "startDate": "2026-10-10",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-2862358",
+      "city": "seoul",
+      "nameKorean": "노원달빛산책",
+      "addressKorean": "서울특별시 노원구 동일로 1322-70 (상계동) 당현천 일원",
+      "tel": "02-2289-346102-2116-7143",
+      "latitude": 37.6494434001,
+      "longitude": 127.0656870873,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/35/3547735_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "노원달빛산책",
+          "address": "서울특별시 노원구 동일로 1322-70 (상계동) 당현천 일원",
+          "overview": "친환경 생태하천인 당현천에 대중성과 예술성을 동시에 갖춘 등(燈)·빛 조각 작품을 전시하고 작품 제작 및 해설 등 구민이 직접 참여하는 콘텐츠를 기획·운영하는, 노원구만의 주제의식을 갖춘 야간 공공미술 축제이다. 2014년 ‘노원 등축제’로 시작한 이래 2019년까지 봄철에 개최하였던 이 축제는 2020년에 코로나19 팬데믹 속에서 ‘예술을 통한 치유’를 목표로 ‘노원달빛산책’이라는 새 이름과 함께 개최시기를 가을로 변경하여 현재에 이르고 있으며, 주된 콘텐츠인 예술 등(燈)·빛 조각 작품 전시 이외에도 작가와 지역 주민을 매칭하여 작품을 제작하고 전시하는 ‘주민참여 커뮤니티아트’, 주민이 도슨트가 되어 관람객을 대상으로 작품을 해설하는 ‘달빛해설사’, 그리고 지역 예술인이 참여하는 ‘주말 문화예술 공연’ 등이 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-15",
+      "startDate": "2026-10-16",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-4127713",
+      "city": "seoul",
+      "nameKorean": "《소장품, 시대의 장면들》",
+      "addressKorean": "서울특별시 종로구 동숭길 3 (동숭동)",
+      "tel": "02-760-4850",
+      "latitude": 37.5805022888,
+      "longitude": 127.0032561826,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/18/4127718_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "《소장품, 시대의 장면들》",
+          "address": "서울특별시 종로구 동숭길 3 (동숭동)",
+          "overview": "《소장품, 시대의 장면들》은 아르코미술관 소장품 가운데 70점을 선별해, 한국 현대미술의 주요한 흐름과 아르코미술관의 전시 역사 속에서 소장품이 지닌 의미와 가치를 조명한다. 1970년대부터 2000년대까지 아르코미술관 전시에 참여했던 작가 60인의 작품을 따라, 그 시기 한국 현대미술의 다양한 경향과 작가들의 예술적 성취를 다시 들여다본다. 작품 곁에는 작가들의 활동과 미술관의 전시사를 보여주는 아카이브 자료가 함께 배치 된다. 여기에 외부 연구자들이 이번 전시를 위해 진행한 소장품 연구 성과가 더해져, 한국 현대미술의 다층적인 이야기를 펼쳐진다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-16",
+      "startDate": "2026-10-16",
+      "endDate": "2026-12-06"
+    },
+    {
+      "id": "tour-4124907",
+      "city": "seoul",
+      "nameKorean": "2026 쉬엄쉬엄모닝",
+      "addressKorean": "서울특별시 강동구 선사로 83-19 (천호동)",
+      "tel": "1644-6155",
+      "latitude": 37.5452481279,
+      "longitude": 127.1179813872,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/08/4124908_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 쉬엄쉬엄모닝",
+          "address": "서울특별시 강동구 선사로 83-19 (천호동)",
+          "overview": "누구나 자신의 속도로 즐기는 주말 아침, ‘쉬엄쉬엄모닝’이 열린다. 걷기·달리기·자전거는 물론 유아차와 반려견 동반까지, 자신의 체력에 맞춰 원하는 방식으로 참여할 수 있는 서울형 아침 운동 프로그램이다. 기록과 순위에 대한 부담 없이 운동을 즐기며 서울의 아침을 만나는 시간이다. 2026년 10월 18일부터 11월 29일까지 광진교·잠실대교·서강대교 일대에서 총 6회 운영한다. 서울의 대교와 한강공원을 무대로 도심과 한강의 풍경을 따라 걷고 달리며, 익숙한 공간의 새로운 매력을 느낄 수 있다. 현장에서는 전문 강사와 함께하는 GX 프로그램과 자신의 체력 수준을 확인하는 ‘찾아가는 서울체력장’도 함께 즐길 수 있다. 혼자서도, 가족·친구와 함께해도 좋다. 운동을 처음 시작하는 시민부터 평소 운동을 즐기는 시민까지 누구나 부담 없이 참여할 수 있다. 참여는 별도 사전 신청 없이 행사 당일 현장 접수로 진행한다. 회차별 장소와 코스, 프로그램은 공식 홈페이지에서 확인할 수 있다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Sium Sium Morning",
+          "address": "83-19 Seonsa-ro, Gangdong-gu, Seoul",
+          "overview": "Sium Sium Morning, meaning a “leisurely morning,” is a weekend morning exercise event where everyone can enjoy themselves at their own pace in any way that suits their fitness level—whether walking, running, or biking, or even bringing a stroller or their dog. It’s a time to enjoy exercise and experience Seoul’s mornings without the pressure of times or rankings. Set against the backdrop of Seoul’s major bridges and Hangang Park, participants can walk or run along the cityscape and the Hangang River, discovering new charms in familiar places. On-site, participants can also enjoy GX programs le",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-19",
+      "startDate": "2026-10-18",
+      "endDate": "2026-11-29"
+    },
+    {
+      "id": "tour-4127746",
+      "city": "seoul",
+      "nameKorean": "2026 남산 야간 트래킹 「반짝반짝 남산밤길」",
+      "addressKorean": "서울특별시 중구 퇴계로34길 28 (필동2가)",
+      "tel": "02-6052-1002",
+      "latitude": 37.55954227,
+      "longitude": 126.9947387353,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/48/4127748_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 남산 야간 트래킹 「반짝반짝 남산밤길」",
+          "address": "서울특별시 중구 퇴계로34길 28 (필동2가)",
+          "overview": "서울의 대표 야간 명소인 남산의 숲과 야경을 걸으며 즐기는 비경쟁형 야간 트래킹 행사다. 참가자는 남산골한옥마을에서 출발해 남산연결보행로와 남산공원길을 지나 남산타워까지 약 3km를 이동한다. 야광 손목팔찌 및 야광 그립톡을 지닌 참가자들의 작은 빛이 남산 밤길을 따라 이어져 반딧불이 움직이는 듯한 풍경을 만든다. 회차별 약 700명이 100명 단위 7개 그룹으로 나뉘어 준비운동과 안전교육 후 순차 출발하며, 팔각정 도착 후 그룹별 기념사진을 촬영 해산한다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-16",
+      "startDate": "2026-10-21",
+      "endDate": "2026-11-21"
+    },
+    {
+      "id": "tour-4120452",
+      "city": "seoul",
+      "nameKorean": "2026 남산 나이트 페스티벌",
+      "addressKorean": "서울특별시 중구 회현동1가 100-115",
+      "tel": "070-5226-0759",
+      "latitude": 37.5548284375,
+      "longitude": 126.9792487046,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/54/4120454_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 남산 나이트 페스티벌",
+          "address": "서울특별시 중구 회현동1가 100-115",
+          "overview": "가을의 남산에서 새로운 밤의 즐거움이 시작된다. 2026 남산 나이트 페스티벌은 남산의 자연과 야경을 배경으로, 백범광장에서 여유롭게 머무는 ‘남산 캠프닉’, 가을밤 남산을 걸으며 새로운 풍경을 발견하는 ‘단풍산책’, 그리고 서울의 야경과 함께 무소음 디제잉을 즐기는 ‘팔각 클럽’을 통해 남산만의 특별한 야간 경험을 선사한다. 단풍과 야경, 공연과 영화, 먹거리와 체험, 음악이 함께하는 남산의 가을밤. 행사장에서의 경험을 넘어 주변 지역까지 발걸음을 이어가며, 남산과 지역을 함께 즐기는 새로운 야간 여가문화를 만날 수 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-12",
+      "startDate": "2026-10-23",
+      "endDate": "2026-11-14"
+    },
+    {
+      "id": "tour-4115269",
+      "city": "seoul",
+      "nameKorean": "쿼드, 연극의 질문들：〈혁명의 춤〉",
+      "addressKorean": "서울특별시 종로구 동숭길 122 (동숭동)",
+      "tel": "1577-0369",
+      "latitude": 37.5836990003,
+      "longitude": 127.0037166586,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/02/4115302_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "쿼드, 연극의 질문들：〈혁명의 춤〉",
+          "address": "서울특별시 종로구 동숭길 122 (동숭동)",
+          "overview": "〈혁명의 춤〉 은 전통적인 연극의 일반적 서사 구조를 과감히 탈피하여, 독립된 8개의 장면들로 구성되어 있다. 각 장면은 혁명의 한복판에서 마주할 수 있는 파편적인 순간들을 조명할 뿐, 인과관계로 얽혀있지 않다. 그러나 무대 위에 집요하게 반복되는 대사와 소리, 오브제와 빛, 그리고 배우들의 정교한 움직임은 작품의 내밀한 구조를 수면 위로 끌어올린다. 관객은 이러한 반복된 패턴을 통해 이야기 너머의 차원에서 장면들이 유기적으로 연결되어 있음을 감각하며, 연극의 지평이 확장되는 새로운 경험을 마주하게 된다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-28",
+      "startDate": "2026-10-28",
+      "endDate": "2026-11-08"
+    },
+    {
+      "id": "tour-2622167",
+      "city": "seoul",
+      "nameKorean": "2026 경북사과홍보행사",
+      "addressKorean": "서울특별시 중구 을지로 지하12 (을지로1가)",
+      "tel": "대경사과원예농협 053-740-3033경상북도 스마트농업혁신과 054-880-3376",
+      "latitude": 37.565448355,
+      "longitude": 126.9787818353,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/12/4132112_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 경북사과홍보행사",
+          "address": "서울특별시 중구 을지로 지하12 (을지로1가)",
+          "overview": "2026 경북사과 홍보행사는 경북사과의 우수한 품질과 가치를 알리고 소비 촉진을 도모하기 위해 마련된 행사이다. 11월 2일부터 4일까지 3일간 서울광장에서 개최되며, ‘가을 왕국이 선택한 가장 빛나는 결실, 경북사과’를 슬로건으로 동화 속 왕실정원을 주제로 한 다양한 프로그램이 운영된다. 행사장에는 경북 14개 사과주산지의 대표 사과와 다양한 품종을 소개하는 경북사과 명품관을 비롯해 지역별 홍보·판매관, 시음·시식 공간, 포토존 등이 마련된다. 또한 경북사과 왕실 경매쇼, 청춘 버스킹, 문화공연, 직장인 참여 이벤트, 어린이 그림그리기 등 다채로운 프로그램이 진행된다. 11월 3일에는 공식 개막식과 기념 퍼포먼스, 축하공연을 통해 경북사과의 가치와 가을 수확의 의미를 시민들과 함께 나누는 자리로 구성된다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-21",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-04"
+    },
+    {
+      "id": "tour-3113222",
+      "city": "seoul",
+      "nameKorean": "온 가족 책 잔치",
+      "addressKorean": "서울특별시 종로구 북촌로5길 48 (화동) 서울특별시교육청정독도서관 야외정원",
+      "tel": "02-2011-5742",
+      "latitude": 37.5796819937,
+      "longitude": 126.9823646863,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/36/4128436_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "온 가족 책 잔치",
+          "address": "서울특별시 종로구 북촌로5길 48 (화동) 서울특별시교육청정독도서관 야외정원",
+          "overview": "온 가족 책 잔치는 2013년부터 매년 가을 정독도서관에서 열려온 서울시교육청 대표 독서문화 축제이다. 책을 매개로 가족과 이웃이 함께 어울리며 소통할 수 있는 장을 마련하고, 다양한 체험과 공연, 전시를 통해 독서의 즐거움과 가치를 일상 속에서 경험하도록 기획되었다. 특히 도서관·평생학습관, 지역 서점, 학교 독서동아리 등 다양한 기관이 힘을 모아 시민과 학생들이 직접 참여하는 프로그램을 운영함으로써 협력형 축제로 발전하였다. 책 읽는 온 가족 시상식, 문화 공연, 책과 연계된 창의 체험 활동, 친환경·전통문화 체험 등 다채로운 프로그램이 마련되어 남녀노소 누구나 즐길 수 있으며, 독서가 단순한 활동을 넘어 생활의 기쁨과 공동체의 가치를 느끼는 계기를 제공하는 의미 있는 행사이다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-16",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07"
+    },
+    {
+      "id": "tour-2769990",
+      "city": "seoul",
+      "nameKorean": "2026 대한민국 우리술 대축제",
+      "addressKorean": "서울특별시 서초구 강남대로 27 (양재동)",
+      "tel": "02-6952-9498",
+      "latitude": 37.4673402849,
+      "longitude": 127.040735573,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/38/4132038_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 대한민국 우리술 대축제",
+          "address": "서울특별시 서초구 강남대로 27 (양재동)",
+          "overview": "2026 대한민국 우리술대축제는 전통주의 가치와 다양성을 널리 알리고 국내외 소비자와의 소통을 강화하기 위해 마련된 국내 최대 규모의 전통주 축제이다. 서울 양재동 aT센터 제1전시관에서 2026년 11월 13일부터 15일까지 3일간 개최되며, 전국 각지의 우수한 전통주를 한자리에서 만날 수 있다. 우리 전통술을 한 자리에서 마주하며 시음·체험·구매를 통해 전통주의 매력을 직접 경험할 수 있다. 또한 전통주를 활용한 다양한 프로그램과 이벤트가 진행되어 남녀노소 누구나 즐길 수 있는 문화 축제의 장을 제공하고자 한다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-21",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-15"
+    },
+    {
+      "id": "tour-4115275",
+      "city": "seoul",
+      "nameKorean": "쿼드, 연극의 질문들：〈화염〉",
+      "addressKorean": "서울특별시 종로구 동숭길 122 (동숭동)",
+      "tel": "1577-0369",
+      "latitude": 37.5836990003,
+      "longitude": 127.0037166586,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/01/4115301_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "쿼드, 연극의 질문들：〈화염〉",
+          "address": "서울특별시 종로구 동숭길 122 (동숭동)",
+          "overview": "쌍둥이 남매인 잔느와 시몽은 지난 5년 동안 침묵만 일관하다 돌아가신 어머니 나왈의 유언장을 확인하고 큰 혼란에 빠진다. 유언의 내용은 죽은 줄로만 알았던 아버지와 존재조차 몰랐던 형제를 찾아 자신이 남긴 편지를 전해달라는 것. 또한 자신의 장례에는 관과 비석도 없이 매장하라는 당부도 함께 담겨있었기 때문이다. 남매는 어머니의 흔적을 따라 떠나고, 베일에 싸여 있던 어머니의 과거에 점점 다가간다. 그리고 그 과거의 끝에서 남매는 어머니의 침묵에 관한 충격적인 진실을 마주한다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-28",
+      "startDate": "2026-11-14",
+      "endDate": "2026-12-06"
+    },
+    {
+      "id": "tour-2854855",
+      "city": "seoul",
+      "nameKorean": "2026 대한민국 관광기념품 박람회",
+      "addressKorean": "서울특별시 중구 을지로 281 (을지로7가)",
+      "tel": "010-3489-3637",
+      "latitude": 37.5660539726,
+      "longitude": 127.0095547691,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/49/4135249_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 대한민국 관광기념품 박람회",
+          "address": "서울특별시 중구 을지로 281 (을지로7가)",
+          "overview": "첫눈 내린 K-굿즈 마을, 2026 대한민국 관광기념품 박람회(2026 The Souvenir Fair)가 11월 20일부터 22일까지 동대문디자인플라자(DDP) 아트홀 1·2관에서 열린다. 약 140개 기업이 참여해 다양한 관광기념품을 선보이며, 2026 대한민국 관광공모전 기념품 부문 수상작 25점을 비롯해 K-굿즈 쇼핑과 체험형 이벤트, 무대 프로그램 등을 즐길 수 있다. 전통의 멋과 겨울의 설렘을 담은 K-굿즈 마을에서 취향에 맞는 기념품과 특별한 연말 선물을 찾아볼 수 있다.",
+          "checked": true
+        },
+        "ja": {
+          "name": "大韓民国観光記念品博覧会",
+          "address": "ソウル特別市チュン区ウルチロ 281",
+          "overview": "大韓民国観光記念品博覧会（The Souvenir Fair）が東大門デザインプラザ（DDP）アートホール1・2館で開催されます。約140社が参加して多様な観光記念品をお披露目します。大韓民国観光コンテスト記念品部門の受賞作25点をはじめ、K-グッズのお買い物や体験型イベント、ステージプログラムなどを楽しめます。伝統の美と冬のときめきが詰まった会場で、お気に入りの記念品や特別な年末の贈り物を見つけることができます。",
+          "checked": true
+        },
+        "zh": {
+          "name": "大韩民国旅游纪念品博览会",
+          "address": "首尔特别市中区乙支路281(乙支路7街)",
+          "overview": "韩国旅游纪念品博览会将于东大门设计广场DDP1号和2号场馆举办，届时将汇聚140多家企业和地方政府，展示涵盖传统和最新潮流的丰富多彩纪念品。展厅分为东区(1号馆)和西区(2号馆)，游客可以自由参观，还可欣赏韩国旅游征集大赛纪念品部门获奖作品在内的各类K-周边商品，参与购物、体验活动及舞台节目等。在融合传统韵味与冬日浪漫的K-周边商品村，可以找到符合个人喜好的纪念品和特别的年末礼物。",
+          "checked": true
+        },
+        "es": {
+          "name": "Feria de Suvenires de Corea",
+          "address": "Eulji-ro 281, Jung-gu, Seúl",
+          "overview": "La Feria de Suvenires de Corea se celebra en las Salas de Arte 1 y 2 del complejo Dongdaemun Design Plaza (DDP), en Seúl. Aproximadamente 130 empresas y gobiernos locales participan en esta feria, presentando una variedad de suvenires turísticos que combinan tradición con las últimas tendencias. Los visitantes pueden moverse libremente entre las salas de exposición de la Sala 1 (East Land) y la Sala 2 (West Land) y disfrutar de diversos eventos, como compras de suvenires, programas de experiencias, pequeños juegos y un desfile. También se celebra una exposición de obras premiadas en concursos ",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-26",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-4101384",
+      "city": "seoul",
+      "nameKorean": "20세기 사진 거장전 - 빛, 시간을 멈추다",
+      "addressKorean": "서울특별시 중구 세종대로21길 30 (태평로1가)",
+      "tel": "02-724-6319",
+      "latitude": 37.5678450409,
+      "longitude": 126.9758957396,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/61/4103061_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "20세기 사진 거장전 - 빛, 시간을 멈추다",
+          "address": "서울특별시 중구 세종대로21길 30 (태평로1가)",
+          "overview": "하루에도 수억 장의 이미지가 액정 화면 위에서 쉽게 태어나고 손가락 한 번에 가볍게 소멸하는 시대. 디지털 기술과 인공지능의 범람 속에서 누구나 순간을 쉽게 포착하고 복제할 수 있게 됐다. 가벼운 픽셀의 미로 속에서 아날로그 사진이 전하는 묵직한 울림과 잔상은 점차 희미해지고 있다. 손쉬운 생산과 소비가 반복되는 가운데, 우리는 대상을 오래도록 깊이 응시하는 '바라봄의 진정성'을 잃어가고 있다. 사진은 탄생의 순간부터 빛을 매개로 한 물리적 탐구이자, 흐르는 시간의 한 단면을 포착해 남기는 시간의 예술이었다. 20세기 거장의 손끝에서 탄생한 명작들은 차가운 기계를 통한 단순한 현상의 복제가 아니었다. 세상을 정면으로 응시하고 해석해 낸 작가 고유의 철학이었다. 디지털 이미지와 대비되는 개념으로, 아날로그 방식으로 인화·출력한 사진 작품을 ‘피지컬 프린트(physical print)’라고 부른다. 암실의 붉은 등불 아래 은염(은과 할로겐 원소가 결합한 감광 성분) 입자와 백금의 결이 인화지에 스며들며 완성된 사진들이다. 이 ‘은빛 연금술’의 결정체에선 거장들이 숨 죽이고 셔터를 누르던 순간의 공기와 온도, 바람의 떨림까지 고스란히 느껴진다. 디지털 화면으로는 ",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-08-31",
+      "startDate": "2026-11-20",
+      "endDate": "2027-03-28"
+    },
+    {
+      "id": "tour-2410727",
+      "city": "seoul",
+      "nameKorean": "2026 보드게임페스타(시즌2)",
+      "addressKorean": "서울특별시 강남구 남부순환로 3104 (대치동)",
+      "tel": "070-8611-9803",
+      "latitude": 37.4960376287,
+      "longitude": 127.0707521701,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/27/4118327_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "2026 보드게임페스타(시즌2)",
+          "address": "서울특별시 강남구 남부순환로 3104 (대치동)",
+          "overview": "‘보드게임페스타’는 서울시 후원, 서울산업진흥원과 (사)한국보드게임산업협회가 공동 주관하는 보드게임 체험 박람회로 2015년부터 '서울보드게임페스타'로 개최하였으며, 2022년부터는 '보드게임페스타'라는 명칭으로 (사)한국보드게임산업협회에서 행사를 주최, 주관하게 되었다. 세계적인 가족 놀이 문화이자 교육 문화인 보드게임을 널리 알리기 위해 마련한 축제형 보드게임 체험 행사로 관람객에게 보드게임 체험, 보드게임대회 및 이벤트를 제공하여 보드게임만의 즐거움을 알리고 있다. 한국콘텐츠진흥원의 지원으로 개최되는 보드게임콘과 함께 보드게임체험행사를 대표하는 콘텐츠로 대중들에게 널리 알려져 있으며, 보드게임산업의 활성화를 위하여 매년 2회 이상의 행사를 개최하는 것을 목표로 지속적인 행사를 계획하고 있다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-07",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22"
+    },
+    {
+      "id": "tour-4108260",
+      "city": "seoul",
+      "nameKorean": "2026 HUG RUN 허그런",
+      "addressKorean": "서울특별시 마포구 월드컵로 251 (성산동)",
+      "tel": "02-332-3997",
+      "latitude": 37.5659052367,
+      "longitude": 126.8964648544,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/70/4109170_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2026 HUG RUN 허그런",
+          "address": "서울특별시 마포구 월드컵로 251 (성산동)",
+          "overview": "아이들을 위해 멈추지 않고 달리는 기부 마라톤 '2026 허그런(HUG RUN)'이 오는 12월 5일 토요일 상암 월드컵공원 평화광장에서 개최된다. 허그런은 학대, 유기, 방임 등 위기 상황에 놓인 아동들을 안전하게 보호하고 지원하기 위해 시작되었으며 참가비는 전액 위기아동 지원 사업에 기부된다. 코스는 5㎞와 10㎞ 두 가지로 운영되고 공식 메신저로는 슈퍼주니어 은혁이 참여하여 따뜻한 뜻을 함께하며 참가하는 참가자 전원에게는 구경선 작가의 인기 캐릭터 '베니'가 담긴 특별 메달과 다채로운 기념 키트가 제공된다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-10",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-05"
+    },
+    {
+      "id": "tour-3035607",
+      "city": "seoul",
+      "nameKorean": "광화문 마켓",
+      "addressKorean": "서울특별시 종로구 세종대로 지하172 (세종로)",
+      "tel": "02-3788-8105",
+      "latitude": 37.5716249337,
+      "longitude": 126.9767679222,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/80/4140180_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "광화문 마켓",
+          "address": "서울특별시 종로구 세종대로 지하172 (세종로)",
+          "overview": "서울의 겨울밤을 밝히는 「광화문 마켓」이 올해도 광화문광장을 찾아온다. 5회차를 맞이한 올해는 「시간이 멈춘 산타마을」을 주제로, 바쁜 일상 속 잠시 머물러 크리스마스의 설렘을 만끽할 수 있는 특별한 겨울 풍경을 선보인다. 대형 트리와 마켓 빌리지를 중심으로 크리스마스 시즌 소품과 따뜻한 먹거리를 한자리에서 만나볼 수 있으며, 오감을 자극하는 몰입형 포토존과 다채로운 체험 프로그램도 곳곳에 마련 될 예정이다. 크리스마스의 설렘이 머무는 곳, 올 겨울 광화문 마켓에서 특별한 겨울밤을 만날 수 있다.",
+          "checked": true
+        },
+        "ja": {
+          "name": "光化門マーケット",
+          "address": "ソウル特別市チョンノ区セジョンデロチハ172",
+          "overview": "ソウルの冬の夜を照らす光化門（クァンファムン）マーケットが光化門広場で開催されます。2026年は「時間が止まったサンタ村」をテーマに、忙しい日常の中でしばしば立ち止まり、クリスマスのときめきを存分に楽しめる特別な冬の風景をお届けします。大型ツリーやマーケットビレッジを中心に、クリスマスシーズンの小物やあたたかいグルメを一堂に集めてお披露目し、五感を刺激する没入型フォトゾーンや多彩な体験プログラムも各所に用意される予定です。",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-10-29",
+      "startDate": "2026-12-11",
+      "endDate": "2027-01-10"
+    },
+    {
+      "id": "tour-4115260",
+      "city": "seoul",
+      "nameKorean": "쿼드, 연극의 질문들：〈서안화차〉",
+      "addressKorean": "서울특별시 종로구 동숭길 122 (동숭동)",
+      "tel": "1577-0369",
+      "latitude": 37.5836990003,
+      "longitude": 127.0037166586,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/61/4115261_image2_1.png",
+      "localized": {
+        "ko": {
+          "name": "쿼드, 연극의 질문들：〈서안화차〉",
+          "address": "서울특별시 종로구 동숭길 122 (동숭동)",
+          "overview": "중국 서안의 여산릉을 향해 달려가는 기차 안, 상곤은 곧 마주하게 될 진시황의 지하 궁전과 셀 수 없이 많은 병마용에 대한 기대로 가득 차 있다. 상곤이 유한한 삶 속에서 영원을 욕망했던 진시황의 모습과 자신의 삶에서 ‘한 번도 온전히 가져보지 못한 것’들에 대한 떠올릴 때, 기차는 어느덧 서안에 도착한다. 중국인 어머니를 둔 한국 사람, 한 번도 온전히 보답받지 못한 사랑을 가진 사람. 진시황의 불멸 욕망 앞에 선 상곤의 삶의 욕망은 무엇일까? 평생을 ‘주변’에서 살아 온 상곤이 가장 거대한 이야기 앞에 서서 자신을 본다. 그 거대한 욕망 앞에서 이제야 상곤 자신의 이야기를 들여다본다.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-28",
+      "startDate": "2026-12-16",
+      "endDate": "2026-12-27"
+    },
+    {
+      "id": "tour-2630385",
+      "city": "seoul",
+      "nameKorean": "2027 코리아그랜드세일",
+      "addressKorean": "서울특별시 중구 명동길 14 (명동2가)",
+      "tel": "1644-7855",
+      "latitude": 37.5634116488,
+      "longitude": 126.982887725,
+      "imageURL": "https://tong.visitkorea.or.kr/cms/resource/66/4113266_image2_1.jpg",
+      "localized": {
+        "ko": {
+          "name": "2027 코리아그랜드세일",
+          "address": "서울특별시 중구 명동길 14 (명동2가)",
+          "overview": "'코리아그랜드세일’은 쇼핑, 문화, 관광이 어우러진 외국인 대상 대한민국 대표 관광 축제로, 관광 비수기인 겨울철 방한 관광 활성화를 위해 개최된다. 항공·교통, 쇼핑, 숙박, 식·음료, 뷰티·건강, 체험, 편의서비스 등 다양한 분야에서 외국인 관광객을 위한 폭넓은 방한 혜택을 제공한다. 특히 올해는 ‘미식’을 스페셜 테마로 선정해, 한국의 음식문화를 직접 경험할 수 있는 다양한 프로모션과 체험 프로그램을 선보인다. 한국의 다채로운 맛과 식문화를 즐기는 특별한 경험을 통해 한국 여행의 새로운 매력을 만나볼 수 있다. 명동 웰컴센터에서는 외국인 관광객을 위한 관광 편의서비스를 제공하며, 코리아그랜드세일 전용 쿠폰북을 비롯한 다양한 행사 혜택 정보를 확인할 수 있다. 또한 참여형 이벤트를 운영하고 다양한 기념품 증정하는 등 방문객들에게 특별한 즐거움을 선사한다. '코리아그랜드세일'에 대한 자세한 내용은 공식 홈페이지와 한국방문의해위원회 SNS 계정을 통해 확인할 수 있다.",
+          "checked": true
+        },
+        "en": {
+          "name": "Korea Grand Sale",
+          "address": "14 Myeongdong-gil, Jung-gu, Seoul",
+          "overview": "The Korea Grand Sale is Korea’s premier tourism festival for international visitors, combining shopping, culture, and travel. Held during the winter tourism off-season, the event aims to promote travel to Korea by offering a wide range of benefits for international visitors across various sectors, including flights and transportation, shopping, accommodation, food and beverages, beauty and wellness, experiences, and travel services. The event also features special promotions and hands-on programs, along with visitor services and exclusive benefits available at the Myeongdong Welcome Center. Mo",
+          "checked": true
+        },
+        "ja": {
+          "name": "コリアグランドセール",
+          "address": "ソウル特別市チュン区ミョンドンギル14（ミョンドン2ガ）",
+          "overview": "「コリアグランドセール」はショッピング、文化、観光が融合した外国人向けの観光フェスティバルで、観光オフシーズンである冬の訪韓旅行を促進するために開催されます。航空・交通、ショッピング、宿泊、グルメ、ビューティー、体験、便利なサービスなど、さまざまな分野で外国人観光客向けのお得な特典を提供します。特に今年は「グルメ」をスペシャルテーマに掲げ、韓国の食文化を実際に体験できるさまざまなプロモーションや体験プログラムを展開します。韓国ならではの多彩な味と食文化を楽しみながら、韓国旅行の新たな魅力を発見することができます。明洞ウェルカムセンターでは、外国人観光客向けの観光サービスを提供するほか、コリアグランドセール専用クーポンブックをはじめ、さまざまなイベント特典に関する情報を案内します。また、参加型イベントやさまざまな記念品のプレゼントなど、訪問者が楽しめる多彩なプログラムも実施します。「コリアグランドセール」の詳細は公式ホームページをご覧ください。",
+          "checked": true
+        },
+        "zh-Hant": {
+          "name": "韓國購物優惠季(Korea Grand Sale)",
+          "address": "首爾特別市中區明洞街14(明洞2街)",
+          "overview": "韓國最具代表性的購物觀光慶典「韓國購物優惠季(KOREA GRAND SALE)」，是以外國遊客為對象， 融合觀光、購物、韓流的綜合慶典。在此期間，提供航空、住宿、美容、娛樂、餐飲、體驗等各領域的多種優惠活動。 特別是今年更以「美食」為主題，推出多元的優惠活動與體驗行程，讓旅客親自感受韓國豐富多彩的飲食文化。透過品味韓國多樣風味與特色飲食文化的特別體驗，探索韓國旅遊嶄新的魅力。 明洞旅客中心為外國旅客提供各項旅遊便利服務，除了可取得「韓國購物優惠季」專屬優惠券冊，也能在此查詢各項活動優惠與相關資訊。此外，現場也將舉辦互動體驗活動並贈送各式紀念品，為到訪旅客帶來更多驚喜與樂趣。 更多「韓國購物優惠季」詳細資訊，請參考活動官方網站及「韓國訪問年委員會」社群。",
+          "checked": true
+        },
+        "es": {
+          "name": "Korea Grand Sale",
+          "address": "Myeongdong-gil 14, Jung-gu, Seúl",
+          "overview": "Korea Grand Sale es un megaevento de compras organizado por el Ministerio de Cultura, Deporte y Turismo de Corea para ofrecer a los turistas extranjeros beneficios en la adquisición de vuelos, alojamiento, belleza, entretenimiento, comidas, actividades y mucho más. Este megaevento de compras y turismo se lleva adelante en diversos establecimientos por todo el país, tanto en tiendas físicas como en tiendas en línea. Consultar detalles en el sitio web oficial.",
+          "checked": true
+        }
+      },
+      "updatedAt": "2026-09-18",
+      "startDate": "2026-12-23",
+      "endDate": "2027-02-13"
+    }
+  ]
 }

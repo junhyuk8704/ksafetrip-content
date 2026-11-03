@@ -15,18 +15,24 @@
   3. 안전장치: 받은 개수가 지난번의 절반도 안 되거나 오류가 나면 그 파일은 쓰지 않아요 (이전 파일 유지).
 
 1시간마다 돌리기 때문에 호출 수를 아껴요 (공공데이터포털 개발계정은 서비스마다 하루 1,000회):
-  - 시군구 번호(법정동코드)는 한 번 실행 안에서 한 번만 물어봐요.
-  - 행사 소개글은 지난번 파일에 이미 있으면 다시 부르지 않아요 (새 행사만).
+  - 축제·행사는 매시간, 맛집·카페는 PLACES_EVERY_HOURS(6)시간마다 (한국 시각 0·6·12·18시) 받아요.
+  - 행사 소개글은 지난번 파일에 이미 받은 것은 다시 부르지 않고, 새 소개글은 한 번에 NEW_OVERVIEWS_PER_RUN 개까지만 불러요.
   - 한 번 실행에 서비스마다 최대 MAX_CALLS_PER_SERVICE 번까지만 불러요. 넘으면 멈추고 이전 파일을 그대로 둬요.
-  → 보통 한 번에 서비스마다 30회 안팎 × 24번 = 하루 700~800회.
+  → 국문 기준 하루 약 200(맛집 4번 × 49쪽) + 216(행사 24번) + 새 소개글 ≈ 450~650회.
 
-⚠️ [키 받은 뒤 확인] 아래 CAFE_CLASS_CODES, 법정동 시군구 이름, 다국어 서비스의 콘텐츠 타입 번호는
-   공식 문서·실제 응답으로 한 번 확인해야 해요. --dry-run 으로 개수와 매칭률을 보고 고쳐요.
+2026-11-03 실제 응답으로 확인한 것:
+  - 분류체계(lclsSystm): FD01 한식, FD02 외국식, FD03 간이음식, FD04 주점, FD05 카페/찻집
+    → 맛집 목록은 FD01~FD03 만 (주점 제외), 카페는 lclsSystm2=FD05 로 따로 받아요.
+  - 콘텐츠 타입: 국문 음식점 39·행사 15 / 다국어 음식점 82·행사 85
+  - 시군구 코드: 경주 47-130, 강릉 51-150, 전주 52-111(완산구)·113(덕진구) (전주시 110 으로는 결과 0개)
+    다국어 서비스의 시군구 이름은 영어("Gyeongju-si")라서 이름 대신 코드를 직접 적었어요.
+  - 다국어 이름은 "Always August Roasters (올웨이즈 어거스트 로스터스)" 처럼 한글이 괄호로 붙어 와서 떼어 내요.
 """
 from __future__ import annotations
 
 import argparse
 import datetime as dt
+import difflib
 import json
 import math
 import os
@@ -56,35 +62,39 @@ SERVICES: dict[str, str] = {
     "ru": "RusService2",
 }
 
-# 콘텐츠 타입 번호: 국문과 다국어 서비스가 달라요. [키 받은 뒤 확인]
+# 콘텐츠 타입 번호: 국문과 다국어 서비스가 달라요 (2026-11-03 확인).
 FOOD_TYPE = {"ko": "39", "foreign": "82"}
 FESTIVAL_TYPE = {"ko": "15", "foreign": "85"}
 
-# 카페로 볼 분류 코드. 새 분류체계(lclsSystm3)와 옛 분류(cat3) 둘 다 봐요. [키 받은 뒤 확인]
-CAFE_CLASS_CODES = {"FD050100", "FD0501", "A05020900"}
+# 분류체계 2단계 코드 (2026-11-03 확인). 옛 분류(cat3)도 혹시 몰라 같이 봐요.
+CAFE_CLASS = "FD05"                       # 카페/찻집
+FOOD_CLASSES = {"FD01", "FD02", "FD03"}   # 한식·외국식·간이음식 (FD04 주점은 빼요)
+LEGACY_CAFE_CAT3 = "A05020900"
 
-# 도시 → (법정동 시도 코드, 포함할 시군구 이름들). 시군구가 비어 있으면 시도 전체.
-CITIES: dict[str, tuple[str, tuple[str, ...]]] = {
-    "seoul": ("11", ()),
-    "busan": ("26", ()),
-    "daegu": ("27", ()),
-    "incheon": ("28", ()),
-    "jeju": ("50", ()),
-    "gyeongju": ("47", ("경주시",)),
-    "gangneung": ("51", ("강릉시",)),
-    "jeonju": ("52", ("전주시", "전주시 완산구", "전주시 덕진구")),
+# 도시 → API 지역 조건 목록 (법정동 시도 코드 + 시군구 코드). 시군구가 없으면 시도 전체.
+CITIES: dict[str, list[dict]] = {
+    "seoul": [{"lDongRegnCd": "11"}],
+    "busan": [{"lDongRegnCd": "26"}],
+    "daegu": [{"lDongRegnCd": "27"}],
+    "incheon": [{"lDongRegnCd": "28"}],
+    "jeju": [{"lDongRegnCd": "50"}],
+    "gyeongju": [{"lDongRegnCd": "47", "lDongSignguCd": "130"}],
+    "gangneung": [{"lDongRegnCd": "51", "lDongSignguCd": "150"}],
+    "jeonju": [{"lDongRegnCd": "52", "lDongSignguCd": "111"}, {"lDongRegnCd": "52", "lDongSignguCd": "113"}],
 }
 
 # 1시간마다 실행할 때 서비스(언어)마다 한 번에 부를 수 있는 최대 횟수.
-# 24번 × 40 = 960 < 개발계정 하루 1,000회. 활용사례를 등록해 운영계정으로 올리면 넉넉해져요.
-MAX_CALLS_PER_SERVICE = 40
-PLACE_SCAN_LIMIT = 200           # 도시·지역마다 훑어볼 음식점 수 (100개씩 2쪽)
+# 맛집·카페를 받는 시간(국문 약 49회 + 행사 9회 + 새 소개글 20회)도 이 안에 들어와요.
+MAX_CALLS_PER_SERVICE = 100
+PLACES_EVERY_HOURS = 6           # 맛집·카페는 6시간마다 (호출 수 절약). 운영계정이 되면 1로 바꿔도 돼요.
+NEW_OVERVIEWS_PER_RUN = 20       # 새 행사 소개글을 한 번에 몇 개까지 부를지 (첫날 한꺼번에 몰리지 않게)
+PLACE_SCAN_LIMIT = 3000          # 도시·지역의 음식점을 전부 훑어요 (서울 약 1,600곳 = 16쪽).
+                                 # 다국어 서비스에 있는 가게(번역이 있는 가게)를 골라내려면 전체를 봐야 해요.
 FESTIVAL_SCAN_LIMIT = 100        # 도시·지역마다 훑어볼 행사 수 (1쪽)
 MAX_FOOD_PER_CITY = 60
 MAX_CAFE_PER_CITY = 30
 MAX_EVENTS_PER_CITY = 30
 EVENT_WINDOW_DAYS = 120          # 오늘부터 이 기간 안에 시작하는 행사만
-MATCH_DISTANCE_M = 50            # 다국어 항목을 같은 곳으로 볼 거리
 SAFETY_RATIO = 0.5               # 지난번 개수의 이 비율보다 적으면 쓰지 않음
 OPEN_IMAGE_TYPES = {"Type1", "Type3"}  # 공공누리 1·3유형만 사진 사용
 
@@ -195,8 +205,32 @@ def image_url(item: dict) -> str | None:
 
 
 def is_cafe(item: dict) -> bool:
-    codes = {item.get("lclsSystm3"), item.get("lclsSystm2"), item.get("cat3")}
-    return bool(codes & CAFE_CLASS_CODES)
+    return item.get("lclsSystm2") == CAFE_CLASS or item.get("cat3") == LEGACY_CAFE_CAT3
+
+
+def is_restaurant(item: dict) -> bool:
+    """맛집 목록에 넣을 음식점인지 (카페·주점 빼고). 분류가 비어 있는 옛 자료는 넣어요."""
+    if is_cafe(item):
+        return False
+    code = item.get("lclsSystm2")
+    return not code or code in FOOD_CLASSES
+
+
+_KOREAN = re.compile(r"[가-힣]")
+
+
+def clean_foreign_title(title: str) -> str:
+    """"Always August Roasters (올웨이즈 어거스트 로스터스)" → "Always August Roasters".
+    한글이 든 괄호만 떼어 내요 (앱에서 한국어 이름은 따로 보여 주니까요)."""
+    # 한글이 든 첫 괄호부터 끝까지 떼어 내요 ("… (바바인디아 (강남역점))" 처럼 괄호가 겹쳐도).
+    cleaned = re.sub(r"\s*[\(（](?=[^)）]*[가-힣]).*$", "", title).strip()
+    # 괄호 없이 한글이 바로 뒤에 붙은 경우: "Yejeon예전", "清馆청관" → 뒤의 한글을 떼어 내요.
+    cleaned = re.sub(r"(?<=[^가-힣\s])\s*[가-힣][가-힣0-9\s]*$", "", cleaned).strip()
+    # 한글 이름 뒤 괄호에 외국어 이름이 있는 경우: "키카페 (Quay Cafe)" → "Quay Cafe"
+    inner = re.fullmatch(r"([가-힣0-9A-Za-z\s]+)[\(（]([^()（）가-힣]+)[\)）]", cleaned)
+    if inner and _KOREAN.search(inner.group(1)):
+        cleaned = inner.group(2).strip()
+    return cleaned or title
 
 
 def distance_m(a: tuple[float, float], b: tuple[float, float]) -> float:
@@ -228,32 +262,79 @@ def base_record(item: dict, city: str, today: str) -> dict | None:
     return record
 
 
+NAME_MATCH_RADIUS_M = 500        # 한글 이름이 비슷하면 이 거리 안에서 짝지어요
+EXACT_MATCH_RADIUS_M = 3         # 이름으로 확인할 수 없을 때는 이만큼 가까워야 해요
+EXACT_MATCH_GAP_M = 15           # …그리고 두 번째로 가까운 가게는 이보다 멀어야 해요 (같은 건물에 여러 가게가 있을 때 헷갈리지 않게)
+NAME_SIMILARITY = 0.6
+
+
+def hangul_of(text: str) -> str:
+    """이름에서 한글·숫자만 뽑아요. "Chanyangjip (찬양집)" → "찬양집", "부베트 본점" → "부베트본점"."""
+    return "".join(re.findall(r"[가-힣0-9]+", text))
+
+
+def names_match(foreign_hangul: str, korean_name: str) -> bool:
+    korean = hangul_of(korean_name)
+    if not foreign_hangul or not korean:
+        return False
+    if len(foreign_hangul) >= 2 and (foreign_hangul in korean or korean in foreign_hangul):
+        return True
+    return difflib.SequenceMatcher(None, foreign_hangul, korean).ratio() >= NAME_SIMILARITY
+
+
+def find_match(item: dict, records: list[dict], language: str,
+               anchors: list[tuple[tuple[float, float], str]] | None) -> dict | None:
+    """다국어 항목 하나에 맞는 국문 항목을 찾아요 (못 찾으면 None).
+
+    1. 다국어 이름 안에 한글(괄호 속 한국어 이름)이 있으면 → 500m 안에서 한글 이름이 비슷한 가게
+    2. 없으면(일본어·중국어 등) → 같은 자리(3m)의 영문 항목이 이미 짝지은 국문 가게 (anchors)
+    3. 그것도 없으면 → 3m 안에 가게가 딱 하나뿐일 때만
+    좌표만 보면 같은 건물의 다른 가게와 헷갈려서 (예: "Bicena" ↔ "바이킹스워프") 이름을 꼭 확인해요.
+    """
+    coords = coordinate(item)
+    if not coords:
+        return None
+    open_records = [r for r in records if r["latitude"] is not None and language not in r["localized"]]
+    by_id = {r["id"]: r for r in open_records}
+    foreign_hangul = hangul_of(item.get("title") or "")
+    if foreign_hangul:
+        named = [(distance_m(coords, (r["latitude"], r["longitude"])), r) for r in open_records
+                 if names_match(foreign_hangul, r["nameKorean"])]
+        named = [pair for pair in named if pair[0] <= NAME_MATCH_RADIUS_M]
+        return min(named, key=lambda pair: pair[0])[1] if named else None
+    for anchor_coords, record_id in anchors or []:
+        if record_id in by_id and distance_m(coords, anchor_coords) <= EXACT_MATCH_RADIUS_M:
+            return by_id[record_id]
+    distances = sorted((distance_m(coords, (r["latitude"], r["longitude"])), index)
+                       for index, r in enumerate(open_records))
+    if distances and distances[0][0] <= EXACT_MATCH_RADIUS_M and (len(distances) < 2 or distances[1][0] > EXACT_MATCH_GAP_M):
+        return open_records[distances[0][1]]
+    return None
+
+
 def attach_translation(records: list[dict], foreign: list[dict], language: str,
                        overviews: dict[str, str] | None = None,
-                       matched_ids: dict[str, str] | None = None) -> int:
-    """다국어 항목을 좌표로 가장 가까운 국문 항목에 붙여요. 붙인 개수를 돌려줘요.
+                       matched_ids: dict[str, str] | None = None,
+                       anchors: list[tuple[tuple[float, float], str]] | None = None) -> int:
+    """다국어 항목을 맞는 국문 항목에 붙여요 (`find_match`). 붙인 개수를 돌려줘요.
 
     matched_ids 를 넘기면 "국문 id → 다국어 콘텐츠 id" 를 채워 줘요 (소개글을 나중에 부를 때 써요).
+    anchors 를 넘기면 짝지은 자리를 (좌표, 국문 id) 로 쌓아요 → 영문 결과를 다른 언어의 기준점으로 써요.
     """
     matched = 0
     for item in foreign:
-        coords = coordinate(item)
-        name = (item.get("title") or "").strip()
-        if not coords or not name:
-            continue
-        best, best_distance = None, MATCH_DISTANCE_M
-        for record in records:
-            if record["latitude"] is None or language in record["localized"]:
-                continue
-            gap = distance_m(coords, (record["latitude"], record["longitude"]))
-            if gap <= best_distance:
-                best, best_distance = record, gap
+        name = clean_foreign_title((item.get("title") or "").strip())
+        best = find_match(item, records, language, anchors) if name else None
         if best is None:
             continue
         overview = (overviews or {}).get(str(item.get("contentid")))
         best["localized"][language] = {"name": name, "address": address(item) or None, "overview": overview}
         if matched_ids is not None:
             matched_ids[best["id"]] = str(item.get("contentid"))
+        if anchors is not None and language == "en":
+            coords = coordinate(item)
+            if coords:
+                anchors.append((coords, best["id"]))
         matched += 1
     return matched
 
@@ -269,47 +350,41 @@ def clean_overview(text: str | None) -> str | None:
 
 # MARK: - 도시별 수집
 
-_region_cache: dict[tuple[str, str], list[dict]] = {}
-
-
 def region_params(fetch: Fetcher, service: str, city: str) -> list[dict]:
-    """도시 → API 지역 조건 목록. 시군구 이름은 법정동코드조회로 번호를 찾아요 (실행마다 한 번만)."""
-    cached = _region_cache.get((service, city))
-    if cached is not None:
-        return cached
-    region, district_names = CITIES[city]
-    if not district_names:
-        return [{"lDongRegnCd": region}]
-    items, _ = items_of(fetch(f"{service}/ldongCode2", {"lDongRegnCd": region, "numOfRows": 300, "pageNo": 1}))
-    codes = []
-    for item in items:
-        name = (item.get("lDongSignguNm") or item.get("name") or "").strip()
-        code = item.get("lDongSignguCd") or item.get("code")
-        if name in district_names and code:
-            codes.append({"lDongRegnCd": region, "lDongSignguCd": str(code)})
-    if not codes:
-        raise TourAPIError(f"{city}: 시군구 코드를 찾지 못했어요 ({district_names})")
-    _region_cache[(service, city)] = codes
-    return codes
+    """도시 → API 지역 조건 목록 (코드를 직접 적어 둬서 호출하지 않아요)."""
+    return CITIES[city]
+
+
+def dedupe(records: list[dict]) -> list[dict]:
+    """같은 id 가 두 번 들어오면 (지역 조건이 겹칠 때) 처음 것만 남겨요."""
+    seen: set[str] = set()
+    unique = []
+    for record in records:
+        if record["id"] not in seen:
+            seen.add(record["id"])
+            unique.append(record)
+    return unique
 
 
 def collect_places(fetch: Fetcher, today: str, log: Callable[[str], None]) -> list[dict]:
     places: list[dict] = []
     for city in CITIES:
-        records: list[dict] = []
-        regions = region_params(fetch, SERVICES["ko"], city)
-        for region in regions:
-            items = fetch_all(fetch, f"{SERVICES['ko']}/areaBasedList2",
-                              {**region, "contentTypeId": FOOD_TYPE["ko"], "arrange": "Q"}, limit=PLACE_SCAN_LIMIT)
-            for item in items:
+        # 1) 국문 음식점 전체를 훑어요 (카페도 이 안에 있어요). 순서는 "사진 있는 것 → 최근 수정" (arrange=Q).
+        candidates: list[dict] = []
+        for region in region_params(fetch, SERVICES["ko"], city):
+            for item in fetch_all(fetch, f"{SERVICES['ko']}/areaBasedList2",
+                                  {**region, "contentTypeId": FOOD_TYPE["ko"], "arrange": "Q"}, limit=PLACE_SCAN_LIMIT):
                 record = base_record(item, city, today)
                 if record is None or record["latitude"] is None:
                     continue
-                record["kind"] = "cafe" if is_cafe(item) else "food"
-                records.append(record)
-        food = [r for r in records if r["kind"] == "food"][:MAX_FOOD_PER_CITY]
-        cafes = [r for r in records if r["kind"] == "cafe"][:MAX_CAFE_PER_CITY]
-        chosen = food + cafes
+                if is_cafe(item):
+                    candidates.append({**record, "kind": "cafe"})
+                elif is_restaurant(item):
+                    candidates.append({**record, "kind": "food"})
+        candidates = dedupe(candidates)
+
+        # 2) 다국어 서비스의 음식점을 짝지어 번역 이름·주소를 붙여요. 영문을 먼저 해서 다른 언어의 기준점으로 써요.
+        anchors: list[tuple[tuple[float, float], str]] = []
         for language, service in SERVICES.items():
             if language == "ko":
                 continue
@@ -317,8 +392,18 @@ def collect_places(fetch: Fetcher, today: str, log: Callable[[str], None]) -> li
             for region in region_params(fetch, service, city):
                 foreign += fetch_all(fetch, f"{service}/areaBasedList2",
                                      {**region, "contentTypeId": FOOD_TYPE["foreign"]}, limit=PLACE_SCAN_LIMIT)
-            matched = attach_translation(chosen, foreign, language)
+            matched = attach_translation(candidates, foreign, language, anchors=anchors)
             log(f"  {city} {language}: 음식점 {len(foreign)}개 중 {matched}개 매칭")
+
+        # 3) 번역이 많은 가게부터 고르고, 같으면 원래 순서(사진·최근 수정)대로 → 여행자가 읽을 수 있는 가게가 앞에 와요.
+        def pick(kind: str, limit: int) -> list[dict]:
+            pool = [(index, record) for index, record in enumerate(candidates) if record["kind"] == kind]
+            pool.sort(key=lambda pair: (-len(pair[1]["localized"]), pair[0]))
+            return [record for _, record in pool[:limit]]
+
+        food = pick("food", MAX_FOOD_PER_CITY)
+        cafes = pick("cafe", MAX_CAFE_PER_CITY)
+        chosen = food + cafes
         log(f"{city}: 맛집 {len(food)} · 카페 {len(cafes)}")
         places += chosen
     return places
@@ -328,12 +413,25 @@ def collect_events(fetch: Fetcher, today: str, log: Callable[[str], None],
                    previous: dict[str, dict] | None = None) -> list[dict]:
     """previous: 지난번 events.json 의 id → 항목. 이미 받은 소개글은 다시 부르지 않아요."""
     previous = previous or {}
+    # 서비스(언어)마다 이번 실행에서 새로 부를 수 있는 소개글 수
+    overview_budget = {service: NEW_OVERVIEWS_PER_RUN for service in SERVICES.values()}
 
     def cached_overview(record_id: str, language: str) -> tuple[bool, str | None]:
-        texts = previous.get(record_id, {}).get("localized", {})
-        if language in texts:
-            return True, texts[language].get("overview")
+        """지난번에 소개글을 확인했으면 (없었더라도) 그 값을 다시 써요. "checked" 표시로 구분해요."""
+        texts = previous.get(record_id, {}).get("localized", {}).get(language)
+        if texts and (texts.get("checked") or texts.get("overview")):
+            return True, texts.get("overview")
         return False, None
+
+    def overview_for(record_id: str, language: str, service: str, content_id: str) -> tuple[str | None, bool]:
+        """(소개글, 확인했는지). 이번 실행 한도를 넘으면 다음 시간에 다시 시도해요."""
+        known, overview = cached_overview(record_id, language)
+        if known:
+            return overview, True
+        if overview_budget[service] <= 0:
+            return None, False
+        overview_budget[service] -= 1
+        return fetch_overview(fetch, service, content_id), True
 
     start = dt.date.fromisoformat(today)
     last_start = (start + dt.timedelta(days=EVENT_WINDOW_DAYS)).isoformat()
@@ -352,14 +450,15 @@ def collect_events(fetch: Fetcher, today: str, log: Callable[[str], None],
                     continue
                 record["startDate"], record["endDate"] = begin, end
                 records.append(record)
+        records = dedupe(records)
         records.sort(key=lambda r: (r["startDate"], r["nameKorean"]))
         records = records[:MAX_EVENTS_PER_CITY]
         # 한국어 소개글 (행사만: 장소는 호출 수가 너무 많아져요)
         for record in records:
-            known, overview = cached_overview(record["id"], "ko")
-            if not known:
-                overview = fetch_overview(fetch, SERVICES["ko"], record["id"].removeprefix("tour-"))
-            record["localized"]["ko"] = {"name": record["nameKorean"], "address": record["addressKorean"], "overview": overview}
+            overview, checked = overview_for(record["id"], "ko", SERVICES["ko"], record["id"].removeprefix("tour-"))
+            record["localized"]["ko"] = {"name": record["nameKorean"], "address": record["addressKorean"],
+                                         "overview": overview, "checked": checked}
+        event_anchors: list[tuple[tuple[float, float], str]] = []
         for language, service in SERVICES.items():
             if language == "ko":
                 continue
@@ -369,14 +468,13 @@ def collect_events(fetch: Fetcher, today: str, log: Callable[[str], None],
                                      {**region, "eventStartDate": search_from}, limit=FESTIVAL_SCAN_LIMIT)
             # 먼저 이름·주소만 붙이고, 소개글은 지난번에 없던 것만 불러요 (호출 수 절약)
             matched_ids: dict[str, str] = {}
-            matched = attach_translation(records, foreign, language, matched_ids=matched_ids)
+            matched = attach_translation(records, foreign, language, matched_ids=matched_ids, anchors=event_anchors)
             for record in records:
                 if record["id"] not in matched_ids:
                     continue
-                known, overview = cached_overview(record["id"], language)
-                if not known:
-                    overview = fetch_overview(fetch, service, matched_ids[record["id"]])
+                overview, checked = overview_for(record["id"], language, service, matched_ids[record["id"]])
                 record["localized"][language]["overview"] = overview
+                record["localized"][language]["checked"] = checked
             log(f"  {city} {language}: 행사 {len(foreign)}개 중 {matched}개 매칭")
         log(f"{city}: 행사 {len(records)}")
         events += records
@@ -436,11 +534,18 @@ def write_content(path: Path, array: str, items: list[dict], today: str, log: Ca
     return True
 
 
+def places_due(path: Path, now: dt.datetime | None = None) -> bool:
+    """맛집·카페를 받을 시각인지: 한국 시각 0·6·12·18시, 또는 파일이 비어 있으면 바로."""
+    now = now or dt.datetime.now(KST)
+    return previous_count(path, "places") == 0 or now.hour % PLACES_EVERY_HOURS == 0
+
+
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--out", required=True, help="places.json / events.json 을 쓸 폴더")
     parser.add_argument("--dry-run", action="store_true", help="받기만 하고 파일은 쓰지 않아요")
     parser.add_argument("--only", choices=["places", "events"], help="한 종류만 받기")
+    parser.add_argument("--all", action="store_true", help="시각과 상관없이 맛집·카페도 받기 (처음 만들 때)")
     args = parser.parse_args(list(argv) if argv is not None else None)
 
     key = os.environ.get("TOURAPI_KEY", "").strip()
@@ -461,6 +566,9 @@ def main(argv: Iterable[str] | None = None) -> int:
     for kind in ("places", "events"):
         array = kind
         if args.only and args.only != kind:
+            continue
+        if kind == "places" and not (args.all or args.only == "places" or places_due(out / "places.json")):
+            log(f"places: 이번 시각은 건너뛰어요 ({PLACES_EVERY_HOURS}시간마다)")
             continue
         try:
             items = collectors[kind]()
