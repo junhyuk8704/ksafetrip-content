@@ -12,7 +12,7 @@ K-Safe Trip ("the app") is a travel guide for visitors to Korea, made by an inde
 
 - **No account.** You never sign up or log in.
 - **No ads, no analytics, no tracking.** The app contains no advertising or analytics SDKs.
-- **Your data stays on your iPhone.** The developer does not receive, store, share or sell any personal data. The only exception is a rating or review you choose to post (see "Ratings and reviews").
+- **Your data stays on your iPhone.** The developer does not receive, store, share or sell any personal data. The only exception is a star rating you choose to give a place (see "Star ratings").
 
 ## Information used on your device
 
@@ -39,17 +39,15 @@ You can turn location or camera access off at any time in **Settings › K-Safe 
 - **Korean speech** is generated on your iPhone by iOS.
 - Apple's handling of this information is described in Apple's privacy policy.
 
-## Ratings and reviews
+## Star ratings
 
-If you choose to post a rating or review of a place:
+If you choose to give a place a star rating:
 
-- It is stored in Apple's iCloud (CloudKit public database) and **anyone using the app can read it**.
+- It is stored in Apple's iCloud (CloudKit public database). The app shows only the **average and the number of ratings** for each place; no one can see who gave which rating.
 - It is saved with an anonymous iCloud user ID created for this app. Your name, email and Apple Account are not shown to anyone, including the developer.
-- What is stored: the place, your rating (1–5), your text, the app language and app version, and the date.
-- You can edit or delete your review at any time from the place page.
-- Reviews are checked for offensive words, links, phone numbers and email addresses before posting. If you report a review, a report record (which review and the reason) is stored the same way.
-- Blocking a user only hides their reviews on your iPhone; it is not sent anywhere.
-- The developer may delete reviews that break the review rules.
+- What is stored: the place, your rating (1–5), the app version, and the date.
+- You can change or remove your rating at any time from the place page.
+- There are no written reviews, so you cannot post text, photos or messages.
 
 ## Optional tip (in-app purchase)
 
@@ -92,7 +90,7 @@ K-Safe Trip(이하 "앱")은 한국을 찾는 여행자를 위한 여행 안내 
 
 - **계정 없음.** 가입이나 로그인이 없어요.
 - **광고·분석·추적 없음.** 광고나 분석 SDK를 넣지 않았어요.
-- **데이터는 iPhone 안에만 있어요.** 개발자는 개인정보를 받거나 저장하거나 공유하거나 판매하지 않아요. 단, 직접 올린 별점·리뷰는 예외예요("별점·리뷰" 참고).
+- **데이터는 iPhone 안에만 있어요.** 개발자는 개인정보를 받거나 저장하거나 공유하거나 판매하지 않아요. 단, 장소에 직접 준 별점은 예외예요("별점" 참고).
 
 ## 기기 안에서 쓰는 정보
 
@@ -119,17 +117,15 @@ K-Safe Trip(이하 "앱")은 한국을 찾는 여행자를 위한 여행 안내 
 - **한국어 음성**은 iOS가 iPhone 안에서 만들어요.
 - 이 정보를 Apple이 어떻게 다루는지는 Apple 개인정보 처리방침을 확인해 주세요.
 
-## 별점·리뷰
+## 별점
 
-장소에 별점·리뷰를 직접 올리면:
+장소에 별점을 직접 주면:
 
-- Apple iCloud(CloudKit 공개 저장소)에 저장되고, **앱을 쓰는 누구나 읽을 수 있어요**.
+- Apple iCloud(CloudKit 공개 저장소)에 저장돼요. 앱에는 장소마다 **평균과 사람 수만** 보이고, 누가 몇 점을 줬는지는 아무도 볼 수 없어요.
 - 이 앱 전용 익명 iCloud 사용자 ID와 함께 저장돼요. 이름·이메일·Apple 계정은 개발자를 포함해 누구에게도 보이지 않아요.
-- 저장하는 것: 장소, 별점(1~5), 글, 앱 언어와 앱 버전, 날짜.
-- 장소 화면에서 언제든 고치거나 지울 수 있어요.
-- 올리기 전에 욕설·링크·전화번호·이메일 주소를 검사해요. 리뷰를 신고하면 신고 기록(어떤 리뷰인지, 이유)도 같은 방식으로 저장돼요.
-- 사용자 차단은 내 iPhone 에서만 그 사람의 리뷰를 숨기며, 어디에도 전송되지 않아요.
-- 리뷰 규칙을 어긴 리뷰는 개발자가 지울 수 있어요.
+- 저장하는 것: 장소, 별점(1~5), 앱 버전, 날짜.
+- 장소 화면에서 언제든 바꾸거나 지울 수 있어요.
+- 글 리뷰는 없어서 글·사진·메시지를 올릴 수 없어요.
 
 ## 선택 팁 (앱 내 구입)
 

@@ -45,19 +45,16 @@ It comes from the Korea Tourism Organization (TourAPI) and is updated automatica
 ### How do I show a place's address to a taxi driver?
 Open the place and tap **Show address to driver**, or **Copy address** to paste it into a map app. The small map shows where it is.
 
-## Ratings and reviews
+## Star ratings
 
-### How do I write a review?
-Open a restaurant or café and tap **Write a review**. You need to be signed in to iCloud on your iPhone (Settings app). There is no separate account.
+### How do I rate a place?
+Open a restaurant or café and tap a star under **Rating**. You need to be signed in to iCloud on your iPhone (Settings app). There is no separate account.
 
-### Why can't I post my review?
-Reviews can't include swearing, hate, links, phone numbers or email addresses. Remove those words and try again. If it still fails, check your internet connection and iCloud sign-in.
+### How do I change or remove my rating?
+Tap a different star to change it, or tap **Remove my rating**.
 
-### How do I report or block someone?
-Tap **•••** on the review, then **Report** or **Block this user**. A review you report is hidden for you right away, and reviews reported by several people are hidden for everyone. We review reports and remove reviews that break the rules.
-
-### How do I edit or delete my review?
-Tap **•••** on your review (marked "Mine"), then **Edit my review** or **Delete**.
+### Can I write a review?
+No. The app shows only star ratings (the average and the number of ratings), so there is no text to read or report.
 
 ## Tip
 
@@ -68,7 +65,7 @@ The ₩1,100 tip is completely optional. It does not unlock any features. Every 
 Payments are handled by Apple, so the developer cannot refund them directly. Please request a refund at reportaproblem.apple.com.
 
 ## Privacy
-K-Safe Trip has no account, no ads and no tracking. Your data stays on your iPhone, except ratings and reviews you choose to post, which are public. See the Privacy Policy for details.
+K-Safe Trip has no account, no ads and no tracking. Your data stays on your iPhone, except star ratings you choose to give. Only the average is shown. See the Privacy Policy for details.
 
 ---
 
@@ -115,19 +112,16 @@ iPhone 모델, iOS 버전, 앱 버전(설정 › 앱 버전), 겪은 상황을 �
 ### 가게 주소를 기사님께 어떻게 보여주나요?
 장소를 열고 **기사님께 주소 보여주기**를 누르세요. **주소 복사**를 누르면 지도 앱에 붙여 넣을 수 있어요. 작은 지도에서 위치도 볼 수 있어요.
 
-## 별점·리뷰
+## 별점
 
-### 리뷰는 어떻게 쓰나요?
-맛집이나 카페를 열고 **리뷰 쓰기**를 누르세요. iPhone 이 iCloud 에 로그인돼 있어야 해요(설정 앱). 따로 가입할 필요는 없어요.
+### 별점은 어떻게 주나요?
+맛집이나 카페를 열고 **별점** 칸의 별을 누르세요. iPhone 이 iCloud 에 로그인돼 있어야 해요(설정 앱). 따로 가입할 필요는 없어요.
 
-### 리뷰가 안 올라가요
-욕설·혐오 표현·링크·전화번호·이메일 주소는 올릴 수 없어요. 그 부분을 지우고 다시 시도해 주세요. 그래도 안 되면 인터넷 연결과 iCloud 로그인을 확인해 주세요.
+### 별점을 바꾸거나 지우려면?
+다른 별을 누르면 바뀌고, **내 별점 지우기**를 누르면 지워져요.
 
-### 신고나 차단은 어떻게 하나요?
-리뷰의 **•••** 를 누르고 **신고** 또는 **이 사용자 차단**을 고르세요. 신고한 리뷰는 나에게 바로 숨겨지고, 여러 사람이 신고한 리뷰는 모두에게 숨겨져요. 신고된 리뷰는 개발자가 확인해서 규칙을 어긴 리뷰를 지워요.
-
-### 내 리뷰를 고치거나 지우려면?
-"내 리뷰" 표시가 있는 리뷰의 **•••** 를 누르고 **내 리뷰 고치기** 또는 **삭제**를 고르세요.
+### 리뷰 글도 쓸 수 있나요?
+아니요. 별점만 있어요. 앱에는 평균과 사람 수만 보여요.
 
 ## 팁
 
@@ -138,4 +132,4 @@ iPhone 모델, iOS 버전, 앱 버전(설정 › 앱 버전), 겪은 상황을 �
 결제는 Apple이 처리해서 개발자가 직접 환불해 드릴 수 없어요. reportaproblem.apple.com 에서 요청해 주세요.
 
 ## 개인정보
-K-Safe Trip에는 계정, 광고, 추적이 없고 데이터는 iPhone 안에만 저장돼요. 직접 올린 별점·리뷰만 예외로 모두에게 공개돼요. 자세한 내용은 개인정보 처리방침을 확인해 주세요.
+K-Safe Trip에는 계정, 광고, 추적이 없고 데이터는 iPhone 안에만 저장돼요. 직접 준 별점만 예외이고, 앱에는 평균만 보여요. 자세한 내용은 개인정보 처리방침을 확인해 주세요.

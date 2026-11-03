@@ -19,7 +19,7 @@ import sys
 from pathlib import Path
 
 KNOWN_FILES = ["etiquette", "transport", "phrases", "restaurants", "emergency",
-               "places", "events", "specialties", "moderation"]
+               "places", "events", "specialties"]
 KST = dt.timezone(dt.timedelta(hours=9))
 
 
