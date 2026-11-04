@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""한국관광공사 TourAPI 에서 8개 도시의 음식점·카페·축제를 받아 places.json / events.json 을 만들어요.
+"""한국관광공사 TourAPI 에서 8개 도시의 축제·행사를 받아 events.json 을 만들어요.
+
+2026-11-04: 맛집·카페(places.json)는 사용자 결정으로 앱에서 없애서 받지 않아요.
 
 파이썬 표준 라이브러리만 써요 (GitHub Actions 에서 따로 설치할 것이 없게).
 
@@ -15,18 +17,15 @@
   3. 안전장치: 받은 개수가 지난번의 절반도 안 되거나 오류가 나면 그 파일은 쓰지 않아요 (이전 파일 유지).
 
 1시간마다 돌리기 때문에 호출 수를 아껴요 (공공데이터포털 개발계정은 서비스마다 하루 1,000회):
-  - 축제·행사는 매시간, 맛집·카페는 PLACES_EVERY_HOURS(6)시간마다 (한국 시각 0·6·12·18시) 받아요.
   - 행사 소개글은 지난번 파일에 이미 받은 것은 다시 부르지 않고, 새 소개글은 한 번에 NEW_OVERVIEWS_PER_RUN 개까지만 불러요.
   - 한 번 실행에 서비스마다 최대 MAX_CALLS_PER_SERVICE 번까지만 불러요. 넘으면 멈추고 이전 파일을 그대로 둬요.
-  → 국문 기준 하루 약 200(맛집 4번 × 49쪽) + 216(행사 24번) + 새 소개글 ≈ 450~650회.
+  → 국문 기준 하루 약 216(행사 24번 × 9쪽) + 새 소개글 ≈ 250~450회.
 
 2026-11-03 실제 응답으로 확인한 것:
-  - 분류체계(lclsSystm): FD01 한식, FD02 외국식, FD03 간이음식, FD04 주점, FD05 카페/찻집
-    → 맛집 목록은 FD01~FD03 만 (주점 제외), 카페는 lclsSystm2=FD05 로 따로 받아요.
-  - 콘텐츠 타입: 국문 음식점 39·행사 15 / 다국어 음식점 82·행사 85
+  - 콘텐츠 타입: 국문 행사 15 / 다국어 행사 85
   - 시군구 코드: 경주 47-130, 강릉 51-150, 전주 52-111(완산구)·113(덕진구) (전주시 110 으로는 결과 0개)
     다국어 서비스의 시군구 이름은 영어("Gyeongju-si")라서 이름 대신 코드를 직접 적었어요.
-  - 다국어 이름은 "Always August Roasters (올웨이즈 어거스트 로스터스)" 처럼 한글이 괄호로 붙어 와서 떼어 내요.
+  - 다국어 이름은 "Seoul Lantern Festival (서울빛초롱축제)" 처럼 한글이 괄호로 붙어 와서 떼어 내요.
 """
 from __future__ import annotations
 
@@ -63,13 +62,7 @@ SERVICES: dict[str, str] = {
 }
 
 # 콘텐츠 타입 번호: 국문과 다국어 서비스가 달라요 (2026-11-03 확인).
-FOOD_TYPE = {"ko": "39", "foreign": "82"}
 FESTIVAL_TYPE = {"ko": "15", "foreign": "85"}
-
-# 분류체계 2단계 코드 (2026-11-03 확인). 옛 분류(cat3)도 혹시 몰라 같이 봐요.
-CAFE_CLASS = "FD05"                       # 카페/찻집
-FOOD_CLASSES = {"FD01", "FD02", "FD03"}   # 한식·외국식·간이음식 (FD04 주점은 빼요)
-LEGACY_CAFE_CAT3 = "A05020900"
 
 # 도시 → API 지역 조건 목록 (법정동 시도 코드 + 시군구 코드). 시군구가 없으면 시도 전체.
 CITIES: dict[str, list[dict]] = {
@@ -83,17 +76,11 @@ CITIES: dict[str, list[dict]] = {
     "jeonju": [{"lDongRegnCd": "52", "lDongSignguCd": "111"}, {"lDongRegnCd": "52", "lDongSignguCd": "113"}],
 }
 
-# 1시간마다 실행할 때 서비스(언어)마다 한 번에 부를 수 있는 최대 횟수.
-# 맛집·카페를 받는 시간(국문 약 49회 + 행사 9회 + 새 소개글 20회)도 이 안에 들어와요.
+# 1시간마다 실행할 때 서비스(언어)마다 한 번에 부를 수 있는 최대 횟수 (행사 9회 + 새 소개글 20회가 이 안에 들어와요).
 MAX_CALLS_PER_SERVICE = 100
-PLACES_EVERY_HOURS = 6           # 맛집·카페는 6시간마다 (호출 수 절약). 운영계정이 되면 1로 바꿔도 돼요.
 NEW_OVERVIEWS_PER_RUN = 20       # 새 행사 소개글을 한 번에 몇 개까지 부를지 (첫날 한꺼번에 몰리지 않게)
-PLACE_SCAN_LIMIT = 3000          # 도시·지역의 음식점을 전부 훑어요 (서울 약 1,600곳 = 16쪽).
-                                 # 다국어 서비스에 있는 가게(번역이 있는 가게)를 골라내려면 전체를 봐야 해요.
 FESTIVAL_SCAN_LIMIT = 100        # 도시·지역마다 훑어볼 행사 수 (1쪽)
-MAX_FOOD_PER_CITY = 60
-MAX_CAFE_PER_CITY = 30
-MAX_EVENTS_PER_CITY = 30
+MAX_EVENTS_PER_CITY = 50         # 맛집을 없애서 (2026-11-04) 30 → 50 으로 늘렸어요
 EVENT_WINDOW_DAYS = 120          # 오늘부터 이 기간 안에 시작하는 행사만
 SAFETY_RATIO = 0.5               # 지난번 개수의 이 비율보다 적으면 쓰지 않음
 OPEN_IMAGE_TYPES = {"Type1", "Type3"}  # 공공누리 1·3유형만 사진 사용
@@ -202,18 +189,6 @@ def image_url(item: dict) -> str | None:
     if not url or item.get("cpyrhtDivCd") not in OPEN_IMAGE_TYPES:
         return None
     return url.replace("http://", "https://", 1)
-
-
-def is_cafe(item: dict) -> bool:
-    return item.get("lclsSystm2") == CAFE_CLASS or item.get("cat3") == LEGACY_CAFE_CAT3
-
-
-def is_restaurant(item: dict) -> bool:
-    """맛집 목록에 넣을 음식점인지 (카페·주점 빼고). 분류가 비어 있는 옛 자료는 넣어요."""
-    if is_cafe(item):
-        return False
-    code = item.get("lclsSystm2")
-    return not code or code in FOOD_CLASSES
 
 
 _KOREAN = re.compile(r"[가-힣]")
@@ -366,49 +341,6 @@ def dedupe(records: list[dict]) -> list[dict]:
     return unique
 
 
-def collect_places(fetch: Fetcher, today: str, log: Callable[[str], None]) -> list[dict]:
-    places: list[dict] = []
-    for city in CITIES:
-        # 1) 국문 음식점 전체를 훑어요 (카페도 이 안에 있어요). 순서는 "사진 있는 것 → 최근 수정" (arrange=Q).
-        candidates: list[dict] = []
-        for region in region_params(fetch, SERVICES["ko"], city):
-            for item in fetch_all(fetch, f"{SERVICES['ko']}/areaBasedList2",
-                                  {**region, "contentTypeId": FOOD_TYPE["ko"], "arrange": "Q"}, limit=PLACE_SCAN_LIMIT):
-                record = base_record(item, city, today)
-                if record is None or record["latitude"] is None:
-                    continue
-                if is_cafe(item):
-                    candidates.append({**record, "kind": "cafe"})
-                elif is_restaurant(item):
-                    candidates.append({**record, "kind": "food"})
-        candidates = dedupe(candidates)
-
-        # 2) 다국어 서비스의 음식점을 짝지어 번역 이름·주소를 붙여요. 영문을 먼저 해서 다른 언어의 기준점으로 써요.
-        anchors: list[tuple[tuple[float, float], str]] = []
-        for language, service in SERVICES.items():
-            if language == "ko":
-                continue
-            foreign: list[dict] = []
-            for region in region_params(fetch, service, city):
-                foreign += fetch_all(fetch, f"{service}/areaBasedList2",
-                                     {**region, "contentTypeId": FOOD_TYPE["foreign"]}, limit=PLACE_SCAN_LIMIT)
-            matched = attach_translation(candidates, foreign, language, anchors=anchors)
-            log(f"  {city} {language}: 음식점 {len(foreign)}개 중 {matched}개 매칭")
-
-        # 3) 번역이 많은 가게부터 고르고, 같으면 원래 순서(사진·최근 수정)대로 → 여행자가 읽을 수 있는 가게가 앞에 와요.
-        def pick(kind: str, limit: int) -> list[dict]:
-            pool = [(index, record) for index, record in enumerate(candidates) if record["kind"] == kind]
-            pool.sort(key=lambda pair: (-len(pair[1]["localized"]), pair[0]))
-            return [record for _, record in pool[:limit]]
-
-        food = pick("food", MAX_FOOD_PER_CITY)
-        cafes = pick("cafe", MAX_CAFE_PER_CITY)
-        chosen = food + cafes
-        log(f"{city}: 맛집 {len(food)} · 카페 {len(cafes)}")
-        places += chosen
-    return places
-
-
 def collect_events(fetch: Fetcher, today: str, log: Callable[[str], None],
                    previous: dict[str, dict] | None = None) -> list[dict]:
     """previous: 지난번 events.json 의 id → 항목. 이미 받은 소개글은 다시 부르지 않아요."""
@@ -534,18 +466,10 @@ def write_content(path: Path, array: str, items: list[dict], today: str, log: Ca
     return True
 
 
-def places_due(path: Path, now: dt.datetime | None = None) -> bool:
-    """맛집·카페를 받을 시각인지: 한국 시각 0·6·12·18시, 또는 파일이 비어 있으면 바로."""
-    now = now or dt.datetime.now(KST)
-    return previous_count(path, "places") == 0 or now.hour % PLACES_EVERY_HOURS == 0
-
-
 def main(argv: Iterable[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--out", required=True, help="places.json / events.json 을 쓸 폴더")
+    parser.add_argument("--out", required=True, help="events.json 을 쓸 폴더")
     parser.add_argument("--dry-run", action="store_true", help="받기만 하고 파일은 쓰지 않아요")
-    parser.add_argument("--only", choices=["places", "events"], help="한 종류만 받기")
-    parser.add_argument("--all", action="store_true", help="시각과 상관없이 맛집·카페도 받기 (처음 만들 때)")
     args = parser.parse_args(list(argv) if argv is not None else None)
 
     key = os.environ.get("TOURAPI_KEY", "").strip()
@@ -556,32 +480,19 @@ def main(argv: Iterable[str] | None = None) -> int:
     today = dt.datetime.now(KST).date().isoformat()
     fetch = BudgetedFetcher(http_fetcher(key))
     log = print
-    failed = False
     previous_events = previous_items(out / "events.json", "events")
-    collectors = {
-        "places": lambda: collect_places(fetch, today, log),
-        "events": lambda: collect_events(fetch, today, log, previous_events),
-    }
-
-    for kind in ("places", "events"):
-        array = kind
-        if args.only and args.only != kind:
-            continue
-        if kind == "places" and not (args.all or args.only == "places" or places_due(out / "places.json")):
-            log(f"places: 이번 시각은 건너뛰어요 ({PLACES_EVERY_HOURS}시간마다)")
-            continue
-        try:
-            items = collectors[kind]()
-        except TourAPIError as error:
-            log(f"⚠️ {kind}: {error} → 이전 파일을 그대로 둬요")
-            failed = True
-            continue
-        localized = sum(1 for item in items if any(k != "ko" for k in item["localized"]))
-        log(f"{kind}: 총 {len(items)}개, 다국어 매칭 {localized}개")
-        if not args.dry_run:
-            write_content(out / f"{kind}.json", array, items, today, log)
+    try:
+        items = collect_events(fetch, today, log, previous_events)
+    except TourAPIError as error:
+        log(f"⚠️ events: {error} → 이전 파일을 그대로 둬요")
+        log("호출 수: " + ", ".join(f"{name} {count}" for name, count in sorted(fetch.counts.items())))
+        return 1
+    localized = sum(1 for item in items if any(k != "ko" for k in item["localized"]))
+    log(f"events: 총 {len(items)}개, 다국어 매칭 {localized}개")
+    if not args.dry_run:
+        write_content(out / "events.json", "events", items, today, log)
     log("호출 수: " + ", ".join(f"{name} {count}" for name, count in sorted(fetch.counts.items())))
-    return 1 if failed else 0
+    return 0
 
 
 if __name__ == "__main__":

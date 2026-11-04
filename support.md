@@ -37,24 +37,16 @@ We check official sources, but fares, rules and opening hours can change. When i
 ### In an emergency
 Open **SOS** at the top of any screen: police **112**, fire & ambulance **119**, travel helpline **1330**. You can also show your current location in Korean.
 
-## Restaurants, cafés, festivals and specialties
+## Festivals and events
 
-### Where does the restaurant, café and festival information come from?
-It comes from the Korea Tourism Organization (TourAPI) and is updated automatically every day. Opening hours and event dates can still change, so check before you go.
+### Where does the festival information come from?
+It comes from the Korea Tourism Organization (TourAPI) and is updated automatically every hour. Dates and programs can still change, so check the organizer's notice before you go.
 
-### How do I show a place's address to a taxi driver?
-Open the place and tap **Show address to driver**, or **Copy address** to paste it into a map app. The small map shows where it is.
+### How do I show a festival's address to a taxi driver?
+Open the festival in the **Festivals** tab and tap **Show address to driver**, or **Copy address** to paste it into a map app. The small map shows where it is.
 
-## Star ratings
-
-### How do I rate a place?
-Open a restaurant or café and tap a star under **Rating**. You need to be signed in to iCloud on your iPhone (Settings app). There is no separate account.
-
-### How do I change or remove my rating?
-Tap a different star to change it, or tap **Remove my rating**.
-
-### Can I write a review?
-No. The app shows only star ratings (the average and the number of ratings), so there is no text to read or report.
+### Are there restaurant recommendations?
+No. Since November 2026 the app focuses on festivals and events. To find places to eat, we recommend Naver Map or Kakao Map, which have menus and reviews for most restaurants in Korea.
 
 ## Tip
 
@@ -65,7 +57,7 @@ The ₩1,100 tip is completely optional. It does not unlock any features. Every 
 Payments are handled by Apple, so the developer cannot refund them directly. Please request a refund at reportaproblem.apple.com.
 
 ## Privacy
-K-Safe Trip has no account, no ads and no tracking. Your data stays on your iPhone, except star ratings you choose to give. Only the average is shown. See the Privacy Policy for details.
+K-Safe Trip has no account, no ads and no tracking. Your data stays on your iPhone. See the Privacy Policy for details.
 
 ---
 
@@ -104,24 +96,16 @@ iPhone 모델, iOS 버전, 앱 버전(설정 › 앱 버전), 겪은 상황을 �
 ### 긴급 상황일 때
 모든 화면 위쪽의 **SOS**를 누르세요. 경찰 **112**, 소방·구급 **119**, 관광 안내 **1330**에 바로 전화할 수 있고, 현재 위치를 한국어로 보여 줄 수도 있어요.
 
-## 맛집·카페·축제·특산물
+## 축제·행사
 
-### 맛집·카페·축제 정보는 어디서 오나요?
-한국관광공사(TourAPI) 자료이고, 매일 자동으로 업데이트돼요. 영업시간이나 행사 날짜는 바뀔 수 있으니 가기 전에 확인해 주세요.
+### 축제 정보는 어디서 오나요?
+한국관광공사(TourAPI) 자료이고, 1시간마다 자동으로 업데이트돼요. 날짜나 프로그램은 바뀔 수 있으니 가기 전에 주최 측 안내를 확인해 주세요.
 
-### 가게 주소를 기사님께 어떻게 보여주나요?
-장소를 열고 **기사님께 주소 보여주기**를 누르세요. **주소 복사**를 누르면 지도 앱에 붙여 넣을 수 있어요. 작은 지도에서 위치도 볼 수 있어요.
+### 축제 주소를 기사님께 어떻게 보여주나요?
+**축제** 탭에서 축제를 열고 **기사님께 주소 보여주기**를 누르세요. **주소 복사**를 누르면 지도 앱에 붙여 넣을 수 있어요. 작은 지도에서 위치도 볼 수 있어요.
 
-## 별점
-
-### 별점은 어떻게 주나요?
-맛집이나 카페를 열고 **별점** 칸의 별을 누르세요. iPhone 이 iCloud 에 로그인돼 있어야 해요(설정 앱). 따로 가입할 필요는 없어요.
-
-### 별점을 바꾸거나 지우려면?
-다른 별을 누르면 바뀌고, **내 별점 지우기**를 누르면 지워져요.
-
-### 리뷰 글도 쓸 수 있나요?
-아니요. 별점만 있어요. 앱에는 평균과 사람 수만 보여요.
+### 맛집 추천은 없나요?
+없어요. 2026년 11월부터 축제·행사에 집중하기로 했어요. 음식점은 대부분의 가게 메뉴와 후기가 있는 네이버 지도나 카카오맵에서 찾아보는 걸 추천해요.
 
 ## 팁
 
@@ -132,4 +116,4 @@ iPhone 모델, iOS 버전, 앱 버전(설정 › 앱 버전), 겪은 상황을 �
 결제는 Apple이 처리해서 개발자가 직접 환불해 드릴 수 없어요. reportaproblem.apple.com 에서 요청해 주세요.
 
 ## 개인정보
-K-Safe Trip에는 계정, 광고, 추적이 없고 데이터는 iPhone 안에만 저장돼요. 직접 준 별점만 예외이고, 앱에는 평균만 보여요. 자세한 내용은 개인정보 처리방침을 확인해 주세요.
+K-Safe Trip에는 계정, 광고, 추적이 없고 데이터는 iPhone 안에만 저장돼요. 자세한 내용은 개인정보 처리방침을 확인해 주세요.

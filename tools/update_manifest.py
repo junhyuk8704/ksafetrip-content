@@ -6,6 +6,7 @@
 
 - 폴더 안 콘텐츠 JSON(manifest 에 이미 있는 이름 + 알려진 이름) 의 sha256 을 다시 계산해요.
 - 내용이 바뀐 파일만 그 파일의 version 을 +1 하고, 하나라도 바뀌면 contentVersion 을 +1 해요.
+- 폴더에서 지운 파일은 manifest 에서도 빼요.
 - --min-version: contentVersion 이 이 값보다 커지도록 맞춰요.
   앱 번들의 contentVersion 보다 원격이 커야 앱이 "새 콘텐츠" 로 받아 가기 때문이에요 (export_content.sh 가 넘겨 줘요).
 """
@@ -18,8 +19,7 @@ import json
 import sys
 from pathlib import Path
 
-KNOWN_FILES = ["etiquette", "transport", "phrases", "restaurants", "emergency",
-               "places", "events", "specialties"]
+KNOWN_FILES = ["etiquette", "transport", "phrases", "emergency", "events"]
 KST = dt.timezone(dt.timedelta(hours=9))
 
 
@@ -40,6 +40,10 @@ def update(folder: Path, min_version: int = 0, today: str | None = None) -> bool
     for name in names:
         file_path = folder / f"{name}.json"
         if not file_path.exists():
+            # 지운 파일(예: 2026-11-04 맛집·특산물)은 목차에서도 빼요.
+            if name in files:
+                del files[name]
+                changed = True
             continue
         digest = sha256_of(file_path)
         entry = files.get(name)
