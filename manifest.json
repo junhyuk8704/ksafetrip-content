@@ -1,27 +1,27 @@
 {
-  "contentVersion": 30,
+  "contentVersion": 31,
   "minAppVersion": "1.0",
   "updatedAt": "2026-11-04",
   "files": {
     "emergency": {
-      "version": 1,
-      "sha256": "383ca9d1d7957fe72bfc56c3739ae373f8aa318faa1c7d736981342dc347f807"
+      "version": 2,
+      "sha256": "dcb99bcabef20686007e52a16097e029df447898eafb6a4f784b212a0b5b4c67"
     },
     "etiquette": {
-      "version": 1,
-      "sha256": "47f649e33fa84532490d02f119d05405f9210e5db39e152ea634a1a34d3099af"
+      "version": 2,
+      "sha256": "5529e7d2a27f9265083069a54cfd14f74b9ebd32c28bc08fa22a7bf21d30ab3a"
     },
     "events": {
       "version": 2,
       "sha256": "38966735bdacb3582817438ad379fa7d4aff8068df4c919bcc722eb5093a4338"
     },
     "phrases": {
-      "version": 1,
-      "sha256": "56f09121f40a5693b51e2762f0dbec95f8701525c6fd402afe0d1984ab54a8b7"
+      "version": 2,
+      "sha256": "2b7d63f8da1d0711de29f966946ad9f3008585c0159c88e2aeec3f44e11f282f"
     },
     "transport": {
-      "version": 1,
-      "sha256": "67f12d8c235585750cdb981255f7726973b3502342aa03a3d257017afced3354"
+      "version": 2,
+      "sha256": "a78e831fe3a293ccdece78df66b91f4e8e25c172764c163a0c86a6babb5d3726"
     }
   }
 }

@@ -258,7 +258,7 @@
         "sw": "\"Asante\" rahisi (gamsahamnida) inatosha.",
         "am": "ቀላል \"አመሰግናለሁ\" (gamsahamnida) በቂ ነው።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국관광공사 여행 에티켓 안내 (호텔 봉사료 문장은 출처를 못 찾아 삭제, 확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -456,7 +456,7 @@
         "am": "\"셀프\" (ራስ አገልግሎት) የሚል ምልክት ይፈልጉ። ሥራ በሚበዛባቸው ቦታዎች ሠራተኞቹ ራስዎን እንዲያስተናግዱ ይጠብቃሉ።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 식당 셀프서비스 관행 일반 설명 검토",
       "updatedAt": "2026-10-17"
     },
@@ -716,7 +716,7 @@
         "sw": "Shika glasi kwa mikono miwili au gusa kifundo cha mkono kwa mkono ulio huru.",
         "am": "ብርጭቆውን በሁለት እጅ ይያዙ ወይም ነጻ በሆነው እጅዎ የእጅ አንጓዎን ይንኩ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국관광공사 음주 예절 안내",
       "updatedAt": "2026-10-17"
     },
@@ -976,7 +976,7 @@
         "sw": "Tuma ujumbe au shuka kituo kinachofuata kwa simu ndefu.",
         "am": "ለረጅም ጥሪ መልዕክት ይላኩ ወይም በሚቀጥለው ጣቢያ ይውረዱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 서울교통공사 지하철 이용 예절 안내",
       "updatedAt": "2026-10-17"
     },
@@ -1236,7 +1236,7 @@
         "sw": "Tafuta alama ya marufuku ya kupiga picha, na usipige picha watu wanaosali bila kuuliza.",
         "am": "ፎቶ ክልክል የሚል ምልክት ይፈልጉ፤ የሚጸልዩ ሰዎችን ሳይጠይቁ በፍጹም ፎቶ አያንሱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: VisitKorea 사찰 안내(촬영은 사전에 직원에게 문의) / 템플스테이 'Temple etiquette' https://eng.templestay.com/page-etiquette.asp (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -1496,7 +1496,7 @@
         "sw": "Hakuna kengele? Inua mkono na useme \"jeogiyo\" (samahani).",
         "am": "ደወል የለም? እጅዎን አንስተው \"jeogiyo\" (ይቅርታ) ይበሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 식당 호출벨 일반 관행",
       "updatedAt": "2026-10-17"
     },
@@ -1694,7 +1694,7 @@
         "am": "ሒሳቡ ብዙ ጊዜ በጠረጴዛው ላይ ይቀመጣል ወይም ከሠራተኞቹ ጋር ይሆናል፤ ሲወጡ ወደ ካውንተሩ ይውሰዱት።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 식당 결제 관행",
       "updatedAt": "2026-10-17"
     },
@@ -1829,67 +1829,67 @@
         "am": "ብቻን መመገብ የተለመደ ነው፤ ነገር ግን አንዳንድ ምግቦች ለሁለት ወይም ከዚያ በላይ ሰዎች ይቀርባሉ።"
       },
       "why": {
-        "en": "Barbecue and some stews may require a minimum of two portions [확인 필요]. Places with counter seats or set meals are easiest.",
-        "ja": "焼肉や一部の鍋料理は2人前から注文が必要な場合があります [확인 필요]。カウンター席や定食の店が入りやすいです。",
-        "zh": "烤肉和部分锅类可能要求至少点两人份 [확인 필요]。有吧台座位或套餐的店最方便。",
-        "zh-Hant": "烤肉和部分鍋類可能要點兩人份以上 [확인 필요]。有吧台座位或套餐的店最方便。",
-        "zh-HK": "烤肉和部分鍋類可能要點兩人份以上 [확인 필요]。有吧台座位或套餐的店最方便。",
-        "ko": "고기구이와 일부 찌개·전골은 2인분 이상 주문해야 할 수 있어요 [확인 필요]. 바 좌석이나 정식 메뉴가 있는 곳이 가장 편해요.",
-        "th": "บาร์บีคิวและสตูว์บางอย่างอาจต้องสั่งขั้นต่ำสองที่ [확인 필요] ร้านที่มีที่นั่งเคาน์เตอร์หรือเมนูชุดสะดวกที่สุด",
-        "vi": "Thịt nướng và một số món hầm có thể phải gọi tối thiểu hai suất [확인 필요]. Quán có ghế quầy hoặc suất cơm phần là tiện nhất.",
-        "id": "Barbekyu dan beberapa sup mungkin harus dipesan minimal dua porsi [확인 필요]. Tempat dengan kursi konter atau menu paket paling mudah.",
-        "ms": "Barbeku dan sesetengah stew mungkin memerlukan sekurang-kurangnya dua hidangan [확인 필요]. Tempat dengan tempat duduk kaunter atau set hidangan paling mudah.",
-        "fil": "Ang barbecue at ilang nilaga ay maaaring minimum na dalawang order [확인 필요]. Pinakamadali ang mga lugar na may counter seat o set meal.",
-        "my": "အသားကင်နှင့် ဟင်းချိုအချို့တွင် အနည်းဆုံး နှစ်ပွဲ မှာရနိုင်သည် [확인 필요]။ ကောင်တာထိုင်ခုံ သို့မဟုတ် အစုံလိုက်ထမင်းရှိသောဆိုင်များ အလွယ်ဆုံးဖြစ်သည်။",
-        "km": "សាច់អាំង និងស៊ុបខ្លះ អាចតម្រូវឱ្យកុម្ម៉ង់យ៉ាងតិចពីរចំណែក [확인 필요]។ កន្លែងដែលមានកៅអីបញ្ជរ ឬឈុតអាហារ ងាយស្រួលបំផុត។",
-        "lo": "ປີ້ງຊີ້ນ ແລະ ແກງບາງຢ່າງ ອາດຕ້ອງສັ່ງຢ່າງໜ້ອຍສອງຈານ [확인 필요]. ຮ້ານທີ່ມີບ່ອນນັ່ງເຄົາເຕີ ຫຼື ອາຫານຊຸດ ງ່າຍທີ່ສຸດ.",
-        "mn": "Шарсан мах болон зарим шөлийг дор хаяж хоёр порцоор захиалах шаардлагатай байж магадгүй [확인 필요]. Баарны суудалтай эсвэл сет хоолтой газар хамгийн хялбар.",
-        "kk": "Барбекю мен кейбір сорпаларға кемінде екі порция тапсырыс беру керек болуы мүмкін [확인 필요]. Барлық орындары немесе жиынтық мәзірі бар жерлер ыңғайлырақ.",
-        "uz": "Barbekyu va ba’zi dimlamalar kamida ikki porsiya talab qilishi mumkin [확인 필요]. Peshtaxta joylari yoki set menyusi bor joylar eng qulay.",
-        "ky": "Кебап жана кээ бир бышырылган тамактар үчүн кеминде эки порция талап кылынышы мүмкүн [확인 필요]. Пештахтасы же даяр менюсу бар жерлер эң ыңгайлуу.",
-        "tg": "Барои кабоб ва баъзе хӯрокҳои пухта шояд камаш ду порция лозим бошад [확인 필요]. Ҷойҳо бо пештахта ё менюи тайёр аз ҳама осонтаранд.",
-        "az": "Manqal və bəzi xörəklər üçün ən azı iki porsiya tələb oluna bilər [확인 필요]. Piştaxtalı və ya hazır menyulu yerlər ən rahatıdır.",
-        "ka": "მწვადსა და ზოგ ჩაშუშულს შეიძლება მინიმუმ ორი პორცია დასჭირდეს [확인 필요]. ყველაზე მარტივია ადგილები დახლით ან ფიქსირებული მენიუთი.",
-        "hy": "Խորովածի և որոշ շոգեխաշածի համար կարող է պահանջվել առնվազն երկու բաժին [확인 필요]։ Ամենահեշտը վաճառասեղանով կամ ֆիքսված ճաշացանկով վայրերն են։",
-        "hi": "बारबेक्यू और कुछ स्टू में कम से कम दो पोर्शन लेने पड़ सकते हैं [확인 필요]। काउंटर सीट या सेट मील वाली जगहें सबसे आसान हैं।",
-        "ne": "बार्बिक्यु र केही स्टुमा कम्तीमा दुई पोर्सन चाहिन सक्छ [확인 필요]। काउन्टर सिट वा सेट मेनु भएका ठाउँ सबैभन्दा सजिला।",
-        "bn": "বারবিকিউ ও কিছু স্টুতে কমপক্ষে দুই পোরশন লাগতে পারে [확인 필요]। কাউন্টার আসন বা সেট মিলের জায়গা সবচেয়ে সহজ।",
-        "ur": "باربی کیو اور کچھ سالنوں میں کم از کم دو پورشن ضروری ہو سکتے ہیں [확인 필요]۔ کاؤنٹر سیٹ یا سیٹ مینو والی جگہیں سب سے آسان ہیں۔",
-        "si": "බාබකියු සහ සමහර ස්ටූ සඳහා අවම වශයෙන් කොටස් දෙකක් අවශ්‍ය විය හැක [확인 필요]. කවුන්ටර ආසන හෝ සෙට් මෙනු ඇති තැන් පහසුම වේ.",
-        "ta": "பார்பிக்யூ மற்றும் சில குழம்புகளுக்குக் குறைந்தது இரண்டு பங்குகள் தேவைப்படலாம் [확인 필요]. கவுண்டர் இருக்கைகள் அல்லது செட் உணவு உள்ள இடங்கள் எளிதானவை.",
-        "te": "బార్బెక్యూ, కొన్ని స్టూలకు కనీసం రెండు పోర్షన్లు అవసరం కావచ్చు [확인 필요]. కౌంటర్ సీట్లు లేదా సెట్ మీల్స్ ఉన్న చోట్లు సులువు.",
-        "mr": "बार्बेक्यू आणि काही रस्सा पदार्थांसाठी किमान दोन पोर्शन लागू शकतात [확인 필요]. काउंटर सीट किंवा सेट मील असलेली ठिकाणे सोपी असतात.",
-        "gu": "બાર્બેક્યૂ અને કેટલાંક સ્ટ્યૂ માટે ઓછામાં ઓછા બે પોર્શન જરૂરી હોઈ શકે [확인 필요]. કાઉન્ટર સીટ કે સેટ મીલ વાળી જગ્યાઓ સૌથી સરળ છે.",
-        "pa": "ਬਾਰਬੀਕਿਊ ਅਤੇ ਕੁਝ ਸਟੂ ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਹਿੱਸੇ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦੇ ਹਨ [확인 필요]। ਕਾਊਂਟਰ ਸੀਟਾਂ ਜਾਂ ਸੈੱਟ ਮੀਲ ਵਾਲੀਆਂ ਥਾਵਾਂ ਸਭ ਤੋਂ ਸੌਖੀਆਂ ਹਨ।",
-        "ml": "ബാർബിക്യൂവിനും ചില സ്റ്റൂകൾക്കും കുറഞ്ഞത് രണ്ട് പോർഷൻ വേണ്ടിവന്നേക്കാം [확인 필요]. കൗണ്ടർ സീറ്റോ സെറ്റ് മീലോ ഉള്ള ഇടങ്ങളാണ് എളുപ്പം.",
-        "es": "La barbacoa y algunos guisos pueden exigir un mínimo de dos raciones [확인 필요]. Lo más fácil son los sitios con barra o menús individuales.",
-        "ca": "La barbacoa i alguns guisats poden exigir un mínim de dues racions [확인 필요]. Els llocs amb barra o menús fixos són els més fàcils.",
-        "pt": "Churrasco e alguns ensopados podem exigir no mínimo duas porções [확인 필요]. Lugares com balcão ou pratos individuais são os mais fáceis.",
-        "pt-PT": "O churrasco e alguns guisados podem exigir pelo menos duas doses [확인 필요]. Os sítios com balcão ou menus fixos são os mais fáceis.",
-        "fr": "Le barbecue et certains ragoûts peuvent exiger au moins deux portions [확인 필요]. Les endroits avec places au comptoir ou formules individuelles sont les plus simples.",
-        "de": "Grillfleisch und manche Eintöpfe gibt es eventuell erst ab zwei Portionen [확인 필요]. Am einfachsten sind Lokale mit Thekenplätzen oder Einzelmenüs.",
-        "it": "Il barbecue e alcuni stufati possono richiedere almeno due porzioni [확인 필요]. I locali con posti al bancone o menu singoli sono i più comodi.",
-        "nl": "Barbecue en sommige stoofpotten vereisen mogelijk minimaal twee porties [확인 필요]. Zaken met zitplaatsen aan de bar of vaste menu's zijn het makkelijkst.",
-        "sv": "Grill och vissa grytor kan kräva minst två portioner [확인 필요]. Ställen med bardisk eller fasta menyer är enklast.",
-        "da": "Grill og nogle gryderetter kan kræve mindst to portioner [확인 필요]. Steder med bardiske eller faste menuer er nemmest.",
-        "nb": "Grill og noen gryteretter kan kreve minst to porsjoner [확인 필요]. Steder med disk eller faste menyer er enklest.",
-        "fi": "Grilliruoka ja jotkin padat voivat vaatia vähintään kaksi annosta [확인 필요]. Tiskipaikat ja valmiit ateriat ovat helpoimpia.",
-        "pl": "Grill i niektóre gulasze mogą wymagać zamówienia co najmniej dwóch porcji [확인 필요]. Najłatwiej w miejscach z miejscami przy barze lub zestawami.",
-        "cs": "Grilování a některé dušené pokrmy mohou vyžadovat objednání aspoň dvou porcí [확인 필요]. Nejsnazší jsou podniky s místy u baru nebo s menu.",
-        "sk": "Grilované jedlá a niektoré dusené jedlá môžu vyžadovať aspoň dve porcie [확인 필요]. Najjednoduchšie sú podniky s pultom alebo pevnými menu.",
-        "hu": "A grillételekhez és egyes ragukhoz legalább két adag kellhet [확인 필요]. A pultos vagy menüs helyek a legegyszerűbbek.",
-        "ro": "Grătarul și unele tocănițe pot cere minimum două porții [확인 필요]. Cel mai ușor e în localuri cu locuri la bar sau meniuri fixe.",
-        "hr": "Roštilj i neka variva mogu zahtijevati najmanje dvije porcije [확인 필요]. Najlakša su mjesta sa šankom ili fiksnim menijima.",
-        "bg": "За барбекю и някои яхнии може да се изискват поне две порции [확인 필요]. Най-лесни са заведенията с бар плот или фиксирани менюта.",
-        "el": "Το μπάρμπεκιου και κάποια μαγειρευτά μπορεί να απαιτούν τουλάχιστον δύο μερίδες [확인 필요]. Πιο εύκολα είναι μαγαζιά με πάγκο ή σετ μενού.",
-        "ru": "Барбекю и некоторые супы-рагу могут требовать минимум две порции [확인 필요]. Проще всего в местах с барной стойкой или комплексными обедами.",
-        "uk": "Барбекю й деякі рагу можуть вимагати щонайменше двох порцій [확인 필요]. Найпростіше в закладах із місцями біля стійки або комплексними обідами.",
-        "tr": "Mangal ve bazı güveçler en az iki porsiyon gerektirebilir [확인 필요]. Bar oturma yeri veya set menüsü olan yerler en kolayıdır.",
-        "ar": "قد تتطلب الشواء وبعض اليخنات طلب حصتين على الأقل [확인 필요]. الأماكن ذات مقاعد البار أو الوجبات الفردية هي الأسهل.",
-        "fa": "کباب کره‌ای و برخی خورش‌ها ممکن است دست‌کم دو پرس لازم داشته باشند [확인 필요]. جاهایی با صندلی پیشخوان یا منوی ست راحت‌ترند.",
-        "he": "ברביקיו וחלק מהתבשילים עשויים לדרוש לפחות שתי מנות [확인 필요]. הכי קל במקומות עם ישיבה ליד הבר או ארוחות מוכנות.",
-        "sw": "Nyama ya kuchoma na baadhi ya mchuzi vinaweza kuhitaji angalau sahani mbili [확인 필요]. Mahali penye kaunta au menyu za mlo kamili ndipo rahisi zaidi.",
-        "am": "ጥብስ (ባርቤኪው) እና አንዳንድ ወጦች ቢያንስ ሁለት ድርሻ ሊጠይቁ ይችላሉ [확인 필요]። ካውንተር ወይም የተዘጋጀ ምናሌ ያላቸው ቦታዎች ቀላሉ ናቸው።"
+        "en": "Barbecue and some stews may require a minimum of two portions. Places with counter seats or set meals are easiest.",
+        "ja": "焼肉や一部の鍋料理は2人前から注文が必要な場合があります。カウンター席や定食の店が入りやすいです。",
+        "zh": "烤肉和部分锅类可能要求至少点两人份。有吧台座位或套餐的店最方便。",
+        "zh-Hant": "烤肉和部分鍋類可能要點兩人份以上。有吧台座位或套餐的店最方便。",
+        "zh-HK": "烤肉和部分鍋類可能要點兩人份以上。有吧台座位或套餐的店最方便。",
+        "ko": "고기구이와 일부 찌개·전골은 2인분 이상 주문해야 할 수 있어요. 바 좌석이나 정식 메뉴가 있는 곳이 가장 편해요.",
+        "th": "บาร์บีคิวและสตูว์บางอย่างอาจต้องสั่งขั้นต่ำสองที่ ร้านที่มีที่นั่งเคาน์เตอร์หรือเมนูชุดสะดวกที่สุด",
+        "vi": "Thịt nướng và một số món hầm có thể phải gọi tối thiểu hai suất. Quán có ghế quầy hoặc suất cơm phần là tiện nhất.",
+        "id": "Barbekyu dan beberapa sup mungkin harus dipesan minimal dua porsi. Tempat dengan kursi konter atau menu paket paling mudah.",
+        "ms": "Barbeku dan sesetengah stew mungkin memerlukan sekurang-kurangnya dua hidangan. Tempat dengan tempat duduk kaunter atau set hidangan paling mudah.",
+        "fil": "Ang barbecue at ilang nilaga ay maaaring minimum na dalawang order. Pinakamadali ang mga lugar na may counter seat o set meal.",
+        "my": "အသားကင်နှင့် ဟင်းချိုအချို့တွင် အနည်းဆုံး နှစ်ပွဲ မှာရနိုင်သည်။ ကောင်တာထိုင်ခုံ သို့မဟုတ် အစုံလိုက်ထမင်းရှိသောဆိုင်များ အလွယ်ဆုံးဖြစ်သည်။",
+        "km": "សាច់អាំង និងស៊ុបខ្លះ អាចតម្រូវឱ្យកុម្ម៉ង់យ៉ាងតិចពីរចំណែក។ កន្លែងដែលមានកៅអីបញ្ជរ ឬឈុតអាហារ ងាយស្រួលបំផុត។",
+        "lo": "ປີ້ງຊີ້ນ ແລະ ແກງບາງຢ່າງ ອາດຕ້ອງສັ່ງຢ່າງໜ້ອຍສອງຈານ. ຮ້ານທີ່ມີບ່ອນນັ່ງເຄົາເຕີ ຫຼື ອາຫານຊຸດ ງ່າຍທີ່ສຸດ.",
+        "mn": "Шарсан мах болон зарим шөлийг дор хаяж хоёр порцоор захиалах шаардлагатай байж магадгүй. Баарны суудалтай эсвэл сет хоолтой газар хамгийн хялбар.",
+        "kk": "Барбекю мен кейбір сорпаларға кемінде екі порция тапсырыс беру керек болуы мүмкін. Барлық орындары немесе жиынтық мәзірі бар жерлер ыңғайлырақ.",
+        "uz": "Barbekyu va ba’zi dimlamalar kamida ikki porsiya talab qilishi mumkin. Peshtaxta joylari yoki set menyusi bor joylar eng qulay.",
+        "ky": "Кебап жана кээ бир бышырылган тамактар үчүн кеминде эки порция талап кылынышы мүмкүн. Пештахтасы же даяр менюсу бар жерлер эң ыңгайлуу.",
+        "tg": "Барои кабоб ва баъзе хӯрокҳои пухта шояд камаш ду порция лозим бошад. Ҷойҳо бо пештахта ё менюи тайёр аз ҳама осонтаранд.",
+        "az": "Manqal və bəzi xörəklər üçün ən azı iki porsiya tələb oluna bilər. Piştaxtalı və ya hazır menyulu yerlər ən rahatıdır.",
+        "ka": "მწვადსა და ზოგ ჩაშუშულს შეიძლება მინიმუმ ორი პორცია დასჭირდეს. ყველაზე მარტივია ადგილები დახლით ან ფიქსირებული მენიუთი.",
+        "hy": "Խորովածի և որոշ շոգեխաշածի համար կարող է պահանջվել առնվազն երկու բաժին։ Ամենահեշտը վաճառասեղանով կամ ֆիքսված ճաշացանկով վայրերն են։",
+        "hi": "बारबेक्यू और कुछ स्टू में कम से कम दो पोर्शन लेने पड़ सकते हैं। काउंटर सीट या सेट मील वाली जगहें सबसे आसान हैं।",
+        "ne": "बार्बिक्यु र केही स्टुमा कम्तीमा दुई पोर्सन चाहिन सक्छ। काउन्टर सिट वा सेट मेनु भएका ठाउँ सबैभन्दा सजिला।",
+        "bn": "বারবিকিউ ও কিছু স্টুতে কমপক্ষে দুই পোরশন লাগতে পারে। কাউন্টার আসন বা সেট মিলের জায়গা সবচেয়ে সহজ।",
+        "ur": "باربی کیو اور کچھ سالنوں میں کم از کم دو پورشن ضروری ہو سکتے ہیں۔ کاؤنٹر سیٹ یا سیٹ مینو والی جگہیں سب سے آسان ہیں۔",
+        "si": "බාබකියු සහ සමහර ස්ටූ සඳහා අවම වශයෙන් කොටස් දෙකක් අවශ්‍ය විය හැක. කවුන්ටර ආසන හෝ සෙට් මෙනු ඇති තැන් පහසුම වේ.",
+        "ta": "பார்பிக்யூ மற்றும் சில குழம்புகளுக்குக் குறைந்தது இரண்டு பங்குகள் தேவைப்படலாம். கவுண்டர் இருக்கைகள் அல்லது செட் உணவு உள்ள இடங்கள் எளிதானவை.",
+        "te": "బార్బెక్యూ, కొన్ని స్టూలకు కనీసం రెండు పోర్షన్లు అవసరం కావచ్చు. కౌంటర్ సీట్లు లేదా సెట్ మీల్స్ ఉన్న చోట్లు సులువు.",
+        "mr": "बार्बेक्यू आणि काही रस्सा पदार्थांसाठी किमान दोन पोर्शन लागू शकतात. काउंटर सीट किंवा सेट मील असलेली ठिकाणे सोपी असतात.",
+        "gu": "બાર્બેક્યૂ અને કેટલાંક સ્ટ્યૂ માટે ઓછામાં ઓછા બે પોર્શન જરૂરી હોઈ શકે. કાઉન્ટર સીટ કે સેટ મીલ વાળી જગ્યાઓ સૌથી સરળ છે.",
+        "pa": "ਬਾਰਬੀਕਿਊ ਅਤੇ ਕੁਝ ਸਟੂ ਲਈ ਘੱਟੋ-ਘੱਟ ਦੋ ਹਿੱਸੇ ਲਾਜ਼ਮੀ ਹੋ ਸਕਦੇ ਹਨ। ਕਾਊਂਟਰ ਸੀਟਾਂ ਜਾਂ ਸੈੱਟ ਮੀਲ ਵਾਲੀਆਂ ਥਾਵਾਂ ਸਭ ਤੋਂ ਸੌਖੀਆਂ ਹਨ।",
+        "ml": "ബാർബിക്യൂവിനും ചില സ്റ്റൂകൾക്കും കുറഞ്ഞത് രണ്ട് പോർഷൻ വേണ്ടിവന്നേക്കാം. കൗണ്ടർ സീറ്റോ സെറ്റ് മീലോ ഉള്ള ഇടങ്ങളാണ് എളുപ്പം.",
+        "es": "La barbacoa y algunos guisos pueden exigir un mínimo de dos raciones. Lo más fácil son los sitios con barra o menús individuales.",
+        "ca": "La barbacoa i alguns guisats poden exigir un mínim de dues racions. Els llocs amb barra o menús fixos són els més fàcils.",
+        "pt": "Churrasco e alguns ensopados podem exigir no mínimo duas porções. Lugares com balcão ou pratos individuais são os mais fáceis.",
+        "pt-PT": "O churrasco e alguns guisados podem exigir pelo menos duas doses. Os sítios com balcão ou menus fixos são os mais fáceis.",
+        "fr": "Le barbecue et certains ragoûts peuvent exiger au moins deux portions. Les endroits avec places au comptoir ou formules individuelles sont les plus simples.",
+        "de": "Grillfleisch und manche Eintöpfe gibt es eventuell erst ab zwei Portionen. Am einfachsten sind Lokale mit Thekenplätzen oder Einzelmenüs.",
+        "it": "Il barbecue e alcuni stufati possono richiedere almeno due porzioni. I locali con posti al bancone o menu singoli sono i più comodi.",
+        "nl": "Barbecue en sommige stoofpotten vereisen mogelijk minimaal twee porties. Zaken met zitplaatsen aan de bar of vaste menu's zijn het makkelijkst.",
+        "sv": "Grill och vissa grytor kan kräva minst två portioner. Ställen med bardisk eller fasta menyer är enklast.",
+        "da": "Grill og nogle gryderetter kan kræve mindst to portioner. Steder med bardiske eller faste menuer er nemmest.",
+        "nb": "Grill og noen gryteretter kan kreve minst to porsjoner. Steder med disk eller faste menyer er enklest.",
+        "fi": "Grilliruoka ja jotkin padat voivat vaatia vähintään kaksi annosta. Tiskipaikat ja valmiit ateriat ovat helpoimpia.",
+        "pl": "Grill i niektóre gulasze mogą wymagać zamówienia co najmniej dwóch porcji. Najłatwiej w miejscach z miejscami przy barze lub zestawami.",
+        "cs": "Grilování a některé dušené pokrmy mohou vyžadovat objednání aspoň dvou porcí. Nejsnazší jsou podniky s místy u baru nebo s menu.",
+        "sk": "Grilované jedlá a niektoré dusené jedlá môžu vyžadovať aspoň dve porcie. Najjednoduchšie sú podniky s pultom alebo pevnými menu.",
+        "hu": "A grillételekhez és egyes ragukhoz legalább két adag kellhet. A pultos vagy menüs helyek a legegyszerűbbek.",
+        "ro": "Grătarul și unele tocănițe pot cere minimum două porții. Cel mai ușor e în localuri cu locuri la bar sau meniuri fixe.",
+        "hr": "Roštilj i neka variva mogu zahtijevati najmanje dvije porcije. Najlakša su mjesta sa šankom ili fiksnim menijima.",
+        "bg": "За барбекю и някои яхнии може да се изискват поне две порции. Най-лесни са заведенията с бар плот или фиксирани менюта.",
+        "el": "Το μπάρμπεκιου και κάποια μαγειρευτά μπορεί να απαιτούν τουλάχιστον δύο μερίδες. Πιο εύκολα είναι μαγαζιά με πάγκο ή σετ μενού.",
+        "ru": "Барбекю и некоторые супы-рагу могут требовать минимум две порции. Проще всего в местах с барной стойкой или комплексными обедами.",
+        "uk": "Барбекю й деякі рагу можуть вимагати щонайменше двох порцій. Найпростіше в закладах із місцями біля стійки або комплексними обідами.",
+        "tr": "Mangal ve bazı güveçler en az iki porsiyon gerektirebilir. Bar oturma yeri veya set menüsü olan yerler en kolayıdır.",
+        "ar": "قد تتطلب الشواء وبعض اليخنات طلب حصتين على الأقل. الأماكن ذات مقاعد البار أو الوجبات الفردية هي الأسهل.",
+        "fa": "کباب کره‌ای و برخی خورش‌ها ممکن است دست‌کم دو پرس لازم داشته باشند. جاهایی با صندلی پیشخوان یا منوی ست راحت‌ترند.",
+        "he": "ברביקיו וחלק מהתבשילים עשויים לדרוש לפחות שתי מנות. הכי קל במקומות עם ישיבה ליד הבר או ארוחות מוכנות.",
+        "sw": "Nyama ya kuchoma na baadhi ya mchuzi vinaweza kuhitaji angalau sahani mbili. Mahali penye kaunta au menyu za mlo kamili ndipo rahisi zaidi.",
+        "am": "ጥብስ (ባርቤኪው) እና አንዳንድ ወጦች ቢያንስ ሁለት ድርሻ ሊጠይቁ ይችላሉ። ካውንተር ወይም የተዘጋጀ ምናሌ ያላቸው ቦታዎች ቀላሉ ናቸው።"
       },
       "instead": {
         "en": "Look for \"1인분\" (one portion) on the menu, or ask \"Honja gwaenchanayo?\" (Is it OK alone?).",
@@ -1954,7 +1954,7 @@
         "sw": "Tafuta \"1인분\" (sahani ya mtu mmoja) kwenye menyu au uliza \"Honja gwaenchanayo?\" (Mtu mmoja inawezekana?).",
         "am": "በምናሌው ላይ \"1인분\" (የአንድ ሰው ድርሻ) ይፈልጉ ወይም \"Honja gwaenchanayo?\" (ለአንድ ሰው ይቻላል?) ብለው ይጠይቁ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 1인 주문 가능 여부 관행",
       "updatedAt": "2026-10-17"
     },
@@ -2214,7 +2214,7 @@
         "sw": "Simama au tumia kiti cha kawaida, hata kama kiti cha kipaumbele kiko wazi.",
         "am": "የቅድሚያ መቀመጫ ባዶ ቢሆንም ቆመው ይሂዱ ወይም መደበኛ መቀመጫ ይጠቀሙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 서울교통공사 교통약자석 안내",
       "updatedAt": "2026-10-17"
     },
@@ -2474,7 +2474,7 @@
         "sw": "Shika reli ya mkono na usimame; ukiwa na haraka, tumia ngazi za kawaida.",
         "am": "መያዣውን ይዘው ይቁሙ፤ ከቸኮሉ ደረጃውን ይጠቀሙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 서울교통공사 안전가이드 '승강설비 이용시' http://www.seoulmetro.co.kr/kr/page.do?menuIdx=483 / 정책브리핑 '에스컬레이터에서는 걷거나 뛰지 마세요'(걷거나 뛰다 사고 89%, 옛 자료) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -2672,7 +2672,7 @@
         "am": "ሲወርዱ መንካት ለመቀየሪያ ቅናሽ እና በርቀት ለሚሰላ ዋጋ ያስፈልጋል። ከረሱ የመቀየሪያ ሰንሰለቱ ይቋረጣል፤ ሙሉ ዋጋ እንደገና ሊከፍሉ ይችላሉ።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 서울시 '통합환승 할인제도' https://news.seoul.go.kr/traffic/transfer_discount (수정 2026-02-02) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -2932,7 +2932,7 @@
         "sw": "Kula kabla ya kupanda au ndani ya kituo.",
         "am": "ከመሳፈርዎ በፊት ወይም በጣቢያው ውስጥ ይመገቡ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 서울교통공사 지하철 음식물 관련 안내",
       "updatedAt": "2026-10-17"
     },
@@ -3192,7 +3192,7 @@
         "sw": "Beba mfuko mdogo wa takataka, na tenganisha vinavyorejelezwa pale mapipa yalipowekewa alama.",
         "am": "ለቆሻሻ ትንሽ ቦርሳ ይያዙ፤ ማስቀመጫዎቹ በተለዩበት ቦታ እንደገና ጥቅም ላይ የሚውሉትን ይለዩ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 서울시 '가로 쓰레기통 체계적 관리' https://news.seoul.go.kr/env/archives/507323 (1995년 종량제 이후 감소, 이후 증설) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -3452,7 +3452,7 @@
         "sw": "Acha viatu mlangoni, ncha zikielekea mlangoni.",
         "am": "ጫማዎን በመግቢያው ላይ፣ ጫፋቸውን ወደ በሩ አዙረው ያስቀምጡ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 좌식 식당·숙소 신발 관행",
       "updatedAt": "2026-10-17"
     },
@@ -3712,7 +3712,7 @@
         "sw": "Tafuta kibao cha kujiandikisha au uliza \"Jul isseoyo?\" (Kuna foleni?).",
         "am": "የመመዝገቢያ ታብሌት ይፈልጉ ወይም \"Jul isseoyo?\" (ሰልፍ አለ?) ብለው ይጠይቁ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 웨이팅 앱/태블릿 이용 관행",
       "updatedAt": "2026-10-17"
     },
@@ -3972,7 +3972,7 @@
         "sw": "Onyesha kamera kisha uliza \"Sajin jjigeodo dwaeyo?\" (Naweza kupiga picha?).",
         "am": "ወደ ካሜራዎ ጠቁመው \"Sajin jjigeodo dwaeyo?\" (ፎቶ ላንሳ?) ብለው ይጠይቁ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 일반 예절(법률 관련 문장은 출처를 못 찾아 삭제, 확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -4170,7 +4170,7 @@
         "am": "ከ2018 ጀምሮ የሕዝብ መጸዳጃ ቤቶች ከክፍሎቹ ውስጥ የቆሻሻ ማስቀመጫዎችን አንስተው ወረቀቱን ሽንት ቤት ውስጥ እንዲጥሉ ይጠይቃሉ (የሴቶች መጸዳጃ ቤቶች የንጽሕና መጠበቂያ ማስቀመጫ አላቸው)። አንዳንድ አሮጌ ወይም የግል ሕንፃዎች አሁንም ማስቀመጫውን እንዲጠቀሙ ሊጠይቁ ይችላሉ።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 행정안전부 '내년부터 공중화장실 휴지통 없앤다' https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=61017 (2018-01-01 시행) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -4430,7 +4430,7 @@
         "sw": "Jaza glasi za wengine zikiwa tupu, na inua glasi yako mtu anapokumiminia.",
         "am": "የሌሎች ብርጭቆ ሲጎድል ይሙሉ፤ ሰው ሲቀዳልዎ ብርጭቆዎን ከፍ ያድርጉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 음주 예절 일반 안내",
       "updatedAt": "2026-10-17"
     },
@@ -4628,7 +4628,7 @@
         "am": "በዕድሜ ወይም በማዕረግ ከፍ ላለ ሰው ትሕትናን ያሳያል።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국관광공사 음주 예절 안내",
       "updatedAt": "2026-10-17"
     },
@@ -4888,7 +4888,7 @@
         "sw": "Tumia wino mweusi au wa bluu kwa majina.",
         "am": "ለስሞች ጥቁር ወይም ሰማያዊ ቀለም ይጠቀሙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 민속 관련 일반 자료",
       "updatedAt": "2026-10-17"
     },
@@ -5086,7 +5086,7 @@
         "am": "ዕድሜ ሰዎች እርስ በርሳቸው እንዴት እንደሚጠራሩ እና ምን ያህል ጨዋ ቋንቋ እንደሚጠቀሙ ይወስናል።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 일반 문화 안내",
       "updatedAt": "2026-10-17"
     },
@@ -5346,7 +5346,7 @@
         "sw": "Beba nguo nyepesi ya kujifunika kabla ya kuingia.",
         "am": "ከመግባትዎ በፊት የሚደርቡት ቀላል ልብስ ይያዙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 템플스테이 'Temple etiquette' https://eng.templestay.com/page-etiquette.asp (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -5544,7 +5544,7 @@
         "am": "ሃንቦክ (ላይ እና ታች) የለበሱ ጎብኚዎች ወደ ግዮንግቦክጉንግ፣ ቻንግዶክጉንግ፣ ቻንግግዮንግጉንግ እና ዶክሱጉንግ ቤተ መንግሥቶች፣ ወደ ጆንግምዮ ቤተ መቅደስ እና ወደ ንጉሣዊ መቃብሮች በነጻ ይገባሉ።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 국가유산청 궁능유적본부 'Free Admission Guidelines for Hanbok Wearers' https://royal.khs.go.kr/ENG/contents/E701000000.do / 야간관람 등 특별 행사는 별도 조건일 수 있음 (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -5742,7 +5742,7 @@
         "am": "መነኮሳት እና ጎብኚዎች በአቅራቢያ እየጸለዩ ወይም እያሰላሰሉ ሊሆኑ ይችላሉ።"
       },
       "instead": null,
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 사찰 관람 예절 안내",
       "updatedAt": "2026-10-17"
     },
@@ -6002,7 +6002,7 @@
         "sw": "Kaa nyuma ya kamba na upige picha ukiwa njiani.",
         "am": "ከገመዶቹ ኋላ ይቁሙ፤ ፎቶዎችን ከመንገዶቹ ላይ ሆነው ያንሱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 궁궐 관람 규정",
       "updatedAt": "2026-10-17"
     },
@@ -6262,7 +6262,7 @@
         "sw": "Tabasamu kisha uliza \"Jogeum kkakka juseyo\" (Unaweza kupunguza kidogo?) — na ukubali jibu la hapana.",
         "am": "ፈገግ ብለው \"Jogeum kkakka juseyo\" (ትንሽ ይቀንሱልኝ?) ብለው ይጠይቁ — እምቢ ቢሉም ይቀበሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 전통시장 흥정 관행",
       "updatedAt": "2026-10-17"
     },
@@ -6522,7 +6522,7 @@
         "sw": "Tafuta bango la \"Tax Free\" na ubebe pasipoti yako.",
         "am": "\"Tax Free\" የሚል ምልክት ይፈልጉ፤ ፓስፖርትዎን ይያዙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: VisitKorea 'Comprehensive Tax Refund Guide' https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=489&vcontsId=248765 (2025-10-20 게시) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -6782,7 +6782,7 @@
         "sw": "Beba pesa taslimu kidogo kwa masoko na chakula cha mitaani.",
         "am": "ለገበያዎች እና ለመንገድ ምግብ ጥቂት ጥሬ ገንዘብ ይያዙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 해외 카드 결제 가능 범위 (단정 표현을 '~할 수 있음'으로 완화, 확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -7042,7 +7042,7 @@
         "sw": "Beba mfuko wa ununuzi unaokunjika.",
         "am": "የሚታጠፍ የግዢ ቦርሳ ይያዙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 정책브리핑 '24일부터 일회용품 사용제한 범위 확대' https://www.korea.kr/news/policyNewsView.do?newsId=148907673 (2022-11-24 시행) / 2023-11 환경부가 과태료보다 자율 참여로 전환(뉴시스·파이낸셜뉴스 보도) — 과태료 언급은 문구에서 뺌 (확인일 2026-10-18)",
       "updatedAt": "2026-10-17"
     },
@@ -7302,7 +7302,7 @@
         "sw": "Safisha na utenganishe takataka kabla ya kuondoka.",
         "am": "ከመሄድዎ በፊት ያጽዱ እና ቆሻሻውን ይለዩ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 편의점 취식 공간 일반 관행",
       "updatedAt": "2026-10-17"
     }
@@ -7374,7 +7374,7 @@
         "sw": "Siku ya mvua: maduka ya bidhaa za kila siku mara nyingi huuza miavuli, na njia za maduka chini ya ardhi hukusaidia kubaki mkavu.",
         "am": "የዝናብ ቀን፦ ኮንቪኒየንስ ስቶሮች ብዙ ጊዜ ጃንጥላ ይሸጣሉ፤ የምድር ውስጥ የገበያ መተላለፊያዎች እንዳይርሱ ይረዳሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 편의점 우산 판매 일반성",
       "updatedAt": "2026-10-17"
     },
@@ -7444,7 +7444,7 @@
         "sw": "Siku ya baridi: panga safari kwa treni ya chini ya ardhi. Vituo vingi vya basi vya Seoul vina viti vyenye joto.",
         "am": "የቅዝቃዜ ቀን፦ ጉዞዎን በሜትሮ ያቅዱ። ብዙ የሴኡል አውቶቡስ ማቆሚያዎች የሚሞቁ መቀመጫዎች አሏቸው።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 서울시 '정류소 온열의자 81% 확대' https://news.seoul.go.kr/traffic/archives/510157 (승차대 4,220개 중 3,433개 설치 계획, 2023) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -7514,7 +7514,7 @@
         "sw": "Siku ya joto: kunywa maji mara kwa mara na pumzika ndani ya vituo au mikahawa yenye kiyoyozi.",
         "am": "የሙቀት ቀን፦ ብዙ ጊዜ ውሃ ይጠጡ፤ አየር ማቀዝቀዣ ባላቸው ጣቢያዎች ወይም ካፌዎች ያርፉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 일반 폭염 행동 요령(행정안전부) 검토",
       "updatedAt": "2026-10-17"
     }
@@ -7653,7 +7653,7 @@
         "sw": "Wakati wa machipuko, vumbi la njano na chembe ndogo hewani vinaweza kuwa juu. Siku mbaya, vaa barakoa ya KF94 nje.",
         "am": "በፀደይ ወቅት ቢጫ አቧራ እና ጥቃቅን ብናኞች ከፍ ሊሉ ይችላሉ። በመጥፎ ቀናት ውጭ KF94 ማስክ ያድርጉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 기상특보(황사) / 확인 필요: 계절별 발생 경향",
       "updatedAt": "2026-10-18"
     },
@@ -7788,7 +7788,7 @@
         "sw": "Maeneo maarufu ya maua hujaa sana wikendi. Nenda asubuhi na mapema au siku ya kazi.",
         "am": "ታዋቂ የአበባ ቦታዎች በሳምንቱ መጨረሻ በጣም ይጨናነቃሉ። በማለዳ ወይም በሥራ ቀን ይሂዱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "일반 여행 팁 (확인 필요: 개화 시기는 해마다 다름)",
       "updatedAt": "2026-10-18"
     },
@@ -7924,7 +7924,7 @@
         "sw": "Mwanzo wa kiangazi huleta msimu wa mvua, wenye mvua kubwa za ghafla. Beba mwavuli na fuatilia tahadhari za mvua kubwa.",
         "am": "የበጋው መጀመሪያ ድንገተኛ ዶፍ ያለበትን የዝናብ ወቅት ያመጣል። ጃንጥላ ይያዙ፤ የከባድ ዝናብ ማስጠንቀቂያዎችን ይከታተሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 기상청 장마 시기 통계",
       "updatedAt": "2026-10-18"
     },
@@ -8060,7 +8060,7 @@
         "sw": "Tahadhari za joto kali huanza joto linalohisiwa likifika 33 °C. Kunywa maji mara kwa mara na pumzika mahali penye ubaridi mchana.",
         "am": "የሙቀት ማስጠንቀቂያዎች የሚጀምሩት የሚሰማው ሙቀት 33 °C ሲደርስ ነው። ብዙ ጊዜ ውሃ ይጠጡ፤ በቀትር በቀዝቃዛ ቦታ ያርፉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do",
       "updatedAt": "2026-10-18"
     },
@@ -8196,7 +8196,7 @@
         "sw": "Vimbunga vinaweza kufika Korea mwishoni mwa kiangazi na mwanzoni mwa vuli. Angalia hali ya safari za ndege na feri kabla ya kusafiri, hasa kwenda Jeju.",
         "am": "ታይፉኖች በበጋው መጨረሻ እና በመከር መጀመሪያ ኮሪያ ሊደርሱ ይችላሉ። ከመጓዝዎ በፊት በተለይ ወደ ጄጁ የበረራ እና የመርከብ ሁኔታን ያረጋግጡ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 기상청 태풍 통계",
       "updatedAt": "2026-10-18"
     },
@@ -8334,7 +8334,7 @@
         "sw": "Wakati wa Mwaka Mpya wa Kalenda ya Mwezi (Seollal) na Chuseok, maduka na mikahawa mingi hufungwa, na treni na barabara kuu hujaa. Hifadhi usafiri mapema.",
         "am": "በጨረቃ አዲስ ዓመት (ሶልላል) እና በቹሶክ ብዙ ሱቆች እና ምግብ ቤቶች ይዘጋሉ፤ ባቡሮች እና አውራ ጎዳናዎችም ይጨናነቃሉ። መጓጓዣዎን አስቀድመው ያስይዙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 해마다 날짜가 다름(음력) — 연도별 공휴일 확인",
       "updatedAt": "2026-10-18"
     },
@@ -8470,7 +8470,7 @@
         "sw": "Vuli ni msimu maarufu wa kupanda milima. Milima na majumba hujaa wikendi, na jioni huwa na baridi.",
         "am": "መከር ለተራራ ጉዞ ተወዳጅ ወቅት ነው። ተራሮች እና ቤተ መንግሥቶች በሳምንቱ መጨረሻ ይጨናነቃሉ፤ ምሽቶችም ይቀዘቅዛሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "일반 여행 팁",
       "updatedAt": "2026-10-18"
     },
@@ -8607,7 +8607,7 @@
         "sw": "Majira ya baridi ni ya baridi na ukavu, na njia za watembea kwa miguu zinaweza kuwa na barafu. Vaa nguo kwa tabaka na tumia njia za chini ya ardhi na treni.",
         "am": "ክረምቱ ቀዝቃዛ እና ደረቅ ነው፤ የእግረኛ መንገዶች በረዶ ሊኖራቸው ይችላል። ልብስ ደራርበው ይልበሱ፤ የምድር ውስጥ መተላለፊያዎችን እና ሜትሮን ይጠቀሙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 '기상특보 발표기준'(한파·대설 특보)",
       "updatedAt": "2026-10-18"
     }

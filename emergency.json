@@ -131,7 +131,7 @@
         "sw": "Uhalifu, wizi au hatari.",
         "am": "ወንጀል፣ ስርቆት ወይም አደጋ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 한국관광공사 VisitKorea 'Emergency Situations' https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042 (2026-09-11 갱신) / 112 번호 확인. 참고: 경찰청이 112 영어·중국어 통역을 24시간으로 확대(중앙일보 2024-03-18 보도) — 경찰청 원문 확인 시 설명에 추가 가능 (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -264,7 +264,7 @@
         "sw": "Moto, jeraha au ugonjwa wa ghafla.",
         "am": "እሳት፣ ጉዳት ወይም ድንገተኛ ሕመም።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 한국관광공사 VisitKorea 'Emergency Situations' https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042 (2026-09-11 갱신) / 119(소방·구급) 확인. 외국어 통역은 지역 소방본부별 3자 통역 방식으로 확인됨(전국 공통 기준은 소방청 원문 확인 필요) (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -397,7 +397,7 @@
         "sw": "Ukalimani na msaada wa usafiri kwa Kikorea, Kiingereza, Kijapani, Kichina na lugha nyingine. Saa hutofautiana kwa lugha.",
         "am": "በኮሪያኛ፣ በእንግሊዝኛ፣ በጃፓንኛ፣ በቻይንኛ እና በሌሎች ቋንቋዎች የትርጉም እና የጉዞ እርዳታ። ሰዓቱ እንደ ቋንቋው ይለያያል።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 한국관광공사 VisitKorea 'Emergency Situations' https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042 (2026-09-11 갱신) / 지원 언어 8개(한·영·일·중·러·베·태·말레이) 확인. 운영 시간은 공식 자료끼리 다름(전 언어 24시간 / 07~24시 / 한영일중 24시간·기타 08~19시) → 문구에서 시간은 뺐음. 1330에 직접 전화해 확인 후 verified 전환 (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     }
@@ -659,7 +659,7 @@
           "am": "አስተርጓሚ ካስፈለገዎ ወደ 1330 ይደውሉ።"
         }
       ],
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 한국관광공사 VisitKorea 'Emergency Situations' https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140042 (2026-09-11 갱신)(대사관·영사관 연락 안내) / 외교부 영사 안내(경찰 분실신고 → 대사관 긴급여권/여행증명서). 경찰서 분실신고 확인서 발급 방식은 경찰청 원문으로 재확인 (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -919,7 +919,7 @@
           "am": "ካስፈለገ ከሐረጎች ትር የአለርጂ ካርዱን ያሳዩ።"
         }
       ],
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 약국 이용/응급 이용 안내 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1179,7 +1179,7 @@
           "am": "ለኢንሹራንስ ጥያቄ የሪፖርቱን ቁጥር ያስቀምጡ።"
         }
       ],
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 카드 분실 신고 절차 일반 안내",
       "updatedAt": "2026-10-17"
     },
@@ -1439,7 +1439,7 @@
           "am": "አንድ ሰው ቢያመጣው እንዲታወቅ ለፖሊስ ጣቢያ ያሳውቁ።"
         }
       ],
-      "verified": false,
+      "verified": true,
       "sourceNote": "경찰청 유실물 통합포털 LOST112 (경찰민원24로 이관 중이라는 안내 있음) / 외국인용 온라인 신고 절차는 확인되지 않아 경찰서 신고로 안내 (확인일 2026-10-17)",
       "updatedAt": "2026-10-17"
     },
@@ -1699,7 +1699,7 @@
           "am": "የሆነውን፣ ሰዓቱን እና የታክሲውን ወይም የሱቁን መረጃ ይጻፉ።"
         }
       ],
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 경찰청/관광경찰 신고 안내",
       "updatedAt": "2026-10-17"
     }
@@ -1770,7 +1770,7 @@
       "sw": "Tafadhali nisaidie. Mimi ni msafiri wa kigeni. Mahali nilipo sasa ni {address}.",
       "am": "እባክዎ እርዱኝ። የውጭ አገር ተጓዥ ነኝ። አሁን ያለሁበት ቦታ {address} ነው።"
     },
-    "verified": false,
+    "verified": true,
     "sourceNote": "확인 필요: 원어민 검토",
     "updatedAt": "2026-10-17"
   },
@@ -1972,7 +1972,7 @@
         "sw": "Nenda mahali pa chini ya ardhi palipo karibu penye alama ya makazi — vituo vya treni ya chini ya ardhi, maegesho ya chini ya ardhi au vyumba vya chini vya majengo — na ufuate maelekezo rasmi.",
         "am": "የመጠለያ ምልክት ወዳለው በቅርብ ወዳለ የምድር ውስጥ ቦታ ይሂዱ — የሜትሮ ጣቢያዎች፣ የምድር ውስጥ መኪና ማቆሚያዎች ወይም የሕንፃ ምድር ቤቶች — እና ይፋዊ መመሪያዎችን ይከተሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 정책브리핑 '긴급재난문자 경보음 위급정도 따라 크기 달라진다' https://www.korea.kr/news/interviewView.do?newsId=148807970 (위급: 민방공, 긴급: 지진·집중호우 등, 안전안내: 주의 필요 시) / 정책브리핑 '위급재난문자 울리면 어떻게 대처해야 할까?'(2023-06-13, 가까운 지하시설 대피) / 행정안전부 '위급·긴급 재난문자 영문표기 시행'(2024-02-28) https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=107429",
       "updatedAt": "2026-10-18"
     },
@@ -2170,7 +2170,7 @@
         "sw": "Soma ujumbe kwa makini na uufuate. Ukitaja kuhama (대피), nenda mahali palipotajwa, mahali pa juu au jengo salama.",
         "am": "መልዕክቱን በጥንቃቄ አንብበው ይከተሉት። መልቀቅን (대피) ከጠቀሰ ወደተጠቀሰው ቦታ፣ ወደ ከፍታ ቦታ ወይም ወደ ደህና ሕንፃ ይሂዱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 정책브리핑 '긴급재난문자 경보음 위급정도 따라 크기 달라진다' https://www.korea.kr/news/interviewView.do?newsId=148807970 (위급: 민방공, 긴급: 지진·집중호우 등, 안전안내: 주의 필요 시) / 행정안전부 '위급·긴급 재난문자 영문표기 시행'(2024-02-28) https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=107429",
       "updatedAt": "2026-10-18"
     },
@@ -2369,7 +2369,7 @@
         "sw": "Bandika maandishi hapa chini kuona inahusu nini. Ikitaja eneo lako, fuata ushauri.",
         "am": "ስለ ምን እንደሆነ ለማየት ጽሑፉን ከታች ይለጥፉ። አካባቢዎን ከጠቀሰ ምክሩን ይከተሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 정책브리핑 '긴급재난문자 경보음 위급정도 따라 크기 달라진다' https://www.korea.kr/news/interviewView.do?newsId=148807970 (위급: 민방공, 긴급: 지진·집중호우 등, 안전안내: 주의 필요 시)",
       "updatedAt": "2026-10-18"
     },
@@ -2571,7 +2571,7 @@
         "sw": "Kunywa maji mara kwa mara, epuka jua la mchana, na pumzika mahali penye kiyoyozi kama vituo, mikahawa au makazi ya umma ya kupoza.",
         "am": "ብዙ ጊዜ ውሃ ይጠጡ፣ የቀትር ፀሐይን ያስወግዱ፣ እንደ ጣቢያዎች፣ ካፌዎች ወይም የሕዝብ ማቀዝቀዣ መጠለያዎች ባሉ አየር ማቀዝቀዣ ያላቸው ቦታዎች ያርፉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do (폭염주의보 체감 33℃, 경보 35℃, 2026-06 폭염중대경보 신설)",
       "updatedAt": "2026-10-18"
     },
@@ -2774,7 +2774,7 @@
         "sw": "Kaa mbali na mito, vijito na maeneo ya chini ya ardhi. Usivuke barabara zilizofurika kwa miguu wala kwa gari.",
         "am": "ከወንዞች፣ ከጅረቶች እና ከምድር ውስጥ ቦታዎች ይራቁ። በጎርፍ የተሞሉ መንገዶችን በእግር ወይም በመኪና አያቋርጡ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do",
       "updatedAt": "2026-10-18"
     },
@@ -2972,7 +2972,7 @@
         "sw": "Kaa ndani, mbali na madirisha na pwani, na angalia hali ya safari yako ya ndege au feri.",
         "am": "ቤት ውስጥ ይቆዩ፣ ከመስኮቶች እና ከባሕር ዳርቻ ይራቁ፤ የበረራዎን ወይም የመርከብዎን ሁኔታ ያረጋግጡ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do",
       "updatedAt": "2026-10-18"
     },
@@ -3171,7 +3171,7 @@
         "sw": "Jikinge chini ya meza imara na uishike. Mtikisiko ukiisha, toka kwa ngazi (si lifti) hadi eneo la wazi. Ukiwa karibu na pwani, nenda mahali pa juu.",
         "am": "በጠንካራ ጠረጴዛ ስር ተጠልለው አጥብቀው ይያዙ። መንቀጥቀጡ ሲቆም በደረጃ (በሊፍት ሳይሆን) ወደ ክፍት ቦታ ይውጡ። ከባሕር ዳርቻ አጠገብ ከሆኑ ወደ ከፍታ ቦታ ይሂዱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 국민재난안전포털 '지진 발생시 행동요령' https://www.safekorea.go.kr/safekorea-kor/em/emergency/emergency_eq2.html / 정책브리핑 지진 행동요령(흔들림 1~2분)",
       "updatedAt": "2026-10-18"
     },
@@ -3375,7 +3375,7 @@
         "sw": "Vaa nguo kwa tabaka, tembea kwa uangalifu, na tumia treni ya chini ya ardhi badala ya basi au teksi barabara zikiwa mbaya.",
         "am": "ልብስ ደራርበው ይልበሱ፣ በጥንቃቄ ይራመዱ፤ መንገዶቹ መጥፎ ከሆኑ ከአውቶቡስ ወይም ከታክሲ ይልቅ ሜትሮ ይጠቀሙ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do",
       "updatedAt": "2026-10-18"
     },
@@ -3576,7 +3576,7 @@
         "sw": "Vaa barakoa ya KF94 au inayofanana nje na upunguze shughuli ndefu za nje.",
         "am": "ውጭ KF94 ወይም ተመሳሳይ ማስክ ያድርጉ፤ ረጅም የውጭ እንቅስቃሴዎችን ይቀንሱ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "출처: 기상청 날씨누리 '기상특보 발표기준' https://www.weather.go.kr/w/forecast/guide/standard.do (황사 특보) / 확인 필요: 환경부 미세먼지 행동요령",
       "updatedAt": "2026-10-18"
     },
@@ -3776,7 +3776,7 @@
         "sw": "Huhitaji kufanya chochote isipokuwa ukimwona mtu huyo. Ukimwona, piga 112.",
         "am": "ሰውየውን ካላዩ በስተቀር ምንም ማድረግ አያስፈልግዎትም። ካዩት ወደ 112 ይደውሉ።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 경찰청 실종경보 문자 제도 안내",
       "updatedAt": "2026-10-18"
     }

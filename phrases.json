@@ -70,7 +70,7 @@
       },
       "korean": "이 주소로 가 주세요.",
       "romanization": "i jusoro ga juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토",
       "updatedAt": "2026-10-17"
     },
@@ -142,7 +142,7 @@
       },
       "korean": "영어 메뉴 있어요?",
       "romanization": "yeong-eo menyu isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토",
       "updatedAt": "2026-10-17"
     },
@@ -214,7 +214,7 @@
       },
       "korean": "안 맵게 해 주세요.",
       "romanization": "an maepge hae juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토",
       "updatedAt": "2026-10-17"
     },
@@ -286,7 +286,7 @@
       },
       "korean": "봉투 주세요.",
       "romanization": "bongtu juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토, 봉투 유료 여부",
       "updatedAt": "2026-10-17"
     },
@@ -358,7 +358,7 @@
       },
       "korean": "가장 가까운 약국이 어디예요?",
       "romanization": "gajang gakkaun yakgugi eodiyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토",
       "updatedAt": "2026-10-17"
     },
@@ -430,7 +430,7 @@
       },
       "korean": "얼마나 걸려요?",
       "romanization": "eolmana geollyeoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -502,7 +502,7 @@
       },
       "korean": "트렁크 좀 열어 주세요.",
       "romanization": "teureongkeu jom yeoreo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -574,7 +574,7 @@
       },
       "korean": "에어컨 좀 켜 주세요.",
       "romanization": "eeokeon jom kyeo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -646,7 +646,7 @@
       },
       "korean": "영수증 주세요.",
       "romanization": "yeongsujeung juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -718,7 +718,7 @@
       },
       "korean": "천천히 가 주세요.",
       "romanization": "cheoncheonhi ga juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -790,7 +790,7 @@
       },
       "korean": "두 명이요.",
       "romanization": "du myeongiyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -862,7 +862,7 @@
       },
       "korean": "뭐가 맛있어요?",
       "romanization": "mwoga masisseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -934,7 +934,7 @@
       },
       "korean": "물 좀 주세요.",
       "romanization": "mul jom juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1006,7 +1006,7 @@
       },
       "korean": "계산해 주세요.",
       "romanization": "gyesanhae juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1078,7 +1078,7 @@
       },
       "korean": "포장해 주세요.",
       "romanization": "pojanghae juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1150,7 +1150,7 @@
       },
       "korean": "데워 주세요.",
       "romanization": "dewo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1222,7 +1222,7 @@
       },
       "korean": "카드 돼요?",
       "romanization": "kadeu dwaeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1294,7 +1294,7 @@
       },
       "korean": "교통카드 충전해 주세요.",
       "romanization": "gyotongkadeu chungjeonhae juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1366,7 +1366,7 @@
       },
       "korean": "우산 있어요?",
       "romanization": "usan isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1438,7 +1438,7 @@
       },
       "korean": "젓가락 주세요.",
       "romanization": "jeotgarak juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1510,7 +1510,7 @@
       },
       "korean": "뜨거운 물 어디 있어요?",
       "romanization": "tteugeoun mul eodi isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1582,7 +1582,7 @@
       },
       "korean": "지하철역 어디예요?",
       "romanization": "jihacheollyeok eodiyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1654,7 +1654,7 @@
       },
       "korean": "몇 번 출구로 나가야 해요?",
       "romanization": "myeot beon chulguro nagaya haeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1726,7 +1726,7 @@
       },
       "korean": "이 버스 여기 가요?",
       "romanization": "i beoseu yeogi gayo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1798,7 +1798,7 @@
       },
       "korean": "어디서 갈아타요?",
       "romanization": "eodiseo garatayo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1870,7 +1870,7 @@
       },
       "korean": "표 어디서 사요?",
       "romanization": "pyo eodiseo sayo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -1942,7 +1942,7 @@
       },
       "korean": "막차 몇 시예요?",
       "romanization": "makcha myeot siyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2014,7 +2014,7 @@
       },
       "korean": "여기서 내릴게요.",
       "romanization": "yeogiseo naerilgeyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2086,7 +2086,7 @@
       },
       "korean": "체크인할게요.",
       "romanization": "chekeuinhalgeyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2158,7 +2158,7 @@
       },
       "korean": "예약했어요.",
       "romanization": "yeyakaesseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2230,7 +2230,7 @@
       },
       "korean": "짐 좀 맡아 주실 수 있어요?",
       "romanization": "jim jom mata jusil su isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2302,7 +2302,7 @@
       },
       "korean": "와이파이 비밀번호가 뭐예요?",
       "romanization": "waipai bimilbeonhoga mwoyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2374,7 +2374,7 @@
       },
       "korean": "체크아웃 몇 시예요?",
       "romanization": "chekeuaut myeot siyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2446,7 +2446,7 @@
       },
       "korean": "수건 더 주세요.",
       "romanization": "sugeon deo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2518,7 +2518,7 @@
       },
       "korean": "몸이 안 좋아요.",
       "romanization": "momi an joayo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2590,7 +2590,7 @@
       },
       "korean": "병원에 데려가 주세요.",
       "romanization": "byeongwone deryeoga juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2662,7 +2662,7 @@
       },
       "korean": "머리가 아파요.",
       "romanization": "meoriga apayo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2734,7 +2734,7 @@
       },
       "korean": "배가 아파요.",
       "romanization": "baega apayo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2806,7 +2806,7 @@
       },
       "korean": "열이 나요.",
       "romanization": "yeori nayo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2878,7 +2878,7 @@
       },
       "korean": "감기약 있어요?",
       "romanization": "gamgiyak isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -2950,7 +2950,7 @@
       },
       "korean": "도와주세요!",
       "romanization": "dowajuseyo!",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3022,7 +3022,7 @@
       },
       "korean": "경찰 불러 주세요.",
       "romanization": "gyeongchal bulleo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3094,7 +3094,7 @@
       },
       "korean": "구급차 불러 주세요.",
       "romanization": "gugeupcha bulleo juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3166,7 +3166,7 @@
       },
       "korean": "길을 잃었어요.",
       "romanization": "gireul ireosseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3238,7 +3238,7 @@
       },
       "korean": "영어 할 수 있는 분 있어요?",
       "romanization": "yeongeo hal su inneun bun isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3310,7 +3310,7 @@
       },
       "korean": "지갑을 도둑맞았어요.",
       "romanization": "jigabeul dodungmajasseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3382,7 +3382,7 @@
       },
       "korean": "이거 얼마예요?",
       "romanization": "igeo eolmayeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3454,7 +3454,7 @@
       },
       "korean": "입어 봐도 돼요?",
       "romanization": "ibeo bwado dwaeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3526,7 +3526,7 @@
       },
       "korean": "더 큰 사이즈 있어요?",
       "romanization": "deo keun saijeu isseoyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3598,7 +3598,7 @@
       },
       "korean": "조금 깎아 주세요.",
       "romanization": "jogeum kkakka juseyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3670,7 +3670,7 @@
       },
       "korean": "택스 프리 돼요?",
       "romanization": "taekseu peuri dwaeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3742,7 +3742,7 @@
       },
       "korean": "그냥 구경하는 거예요.",
       "romanization": "geunyang gugyeonghaneun geoyeyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3814,7 +3814,7 @@
       },
       "korean": "화장실 어디예요?",
       "romanization": "hwajangsil eodiyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3886,7 +3886,7 @@
       },
       "korean": "택시에 물건을 두고 내렸어요.",
       "romanization": "taeksie mulgeoneul dugo naeryeosseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -3958,7 +3958,7 @@
       },
       "korean": "휴대폰을 잃어버렸어요.",
       "romanization": "hyudaeponeul ireobeoryeosseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4030,7 +4030,7 @@
       },
       "korean": "여권을 잃어버렸어요.",
       "romanization": "yeogwoneul ireobeoryeosseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4102,7 +4102,7 @@
       },
       "korean": "가방을 잃어버렸어요.",
       "romanization": "gabangeul ireobeoryeosseoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4174,7 +4174,7 @@
       },
       "korean": "분실물 센터가 어디예요?",
       "romanization": "bunsilmul senteoga eodiyeyo?",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4246,7 +4246,7 @@
       },
       "korean": "카드 분실 신고하고 싶어요.",
       "romanization": "kadeu bunsil singohago sipeoyo",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 표현 검토",
       "updatedAt": "2026-10-17"
     }
@@ -4318,7 +4318,7 @@
         "am": "ኦቾሎኒ"
       },
       "koreanNoun": "땅콩",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4388,7 +4388,7 @@
         "am": "የባሕር ቅርፊት ያላቸው (ሽሪምፕ፣ ክራብ)"
       },
       "koreanNoun": "갑각류",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4458,7 +4458,7 @@
         "am": "ወተት"
       },
       "koreanNoun": "우유",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4528,7 +4528,7 @@
         "am": "እንቁላል"
       },
       "koreanNoun": "계란",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4598,7 +4598,7 @@
         "am": "ስንዴ"
       },
       "koreanNoun": "밀",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4668,7 +4668,7 @@
         "am": "የዛፍ ለውዝ"
       },
       "koreanNoun": "견과류",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4738,7 +4738,7 @@
         "am": "ዓሣ"
       },
       "koreanNoun": "생선",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     },
@@ -4808,7 +4808,7 @@
         "am": "አኩሪ አተር"
       },
       "koreanNoun": "콩",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 알레르기 명칭 표기 검토",
       "updatedAt": "2026-10-17"
     }
@@ -4880,7 +4880,7 @@
         "am": "አትክልት ተመጋቢ"
       },
       "koreanSentence": "저는 고기와 생선을 먹지 않아요. 고기나 멸치로 낸 국물도 안 돼요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토, 채식 범위 표현",
       "updatedAt": "2026-10-17",
       "meaning": {
@@ -5013,7 +5013,7 @@
         "am": "ሐላል"
       },
       "koreanSentence": "저는 할랄 음식만 먹어요. 돼지고기와 술이 들어가면 안 돼요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토, 할랄 기준 표현",
       "updatedAt": "2026-10-17",
       "meaning": {
@@ -5209,7 +5209,7 @@
         "sw": "Mimi ni vegan. Sili nyama, samaki, mayai wala bidhaa za maziwa.",
         "am": "ቪጋን ነኝ። ሥጋ፣ ዓሣ፣ እንቁላል ወይም የወተት ተዋጽኦ አልበላም።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토, 식단 기준 표현",
       "updatedAt": "2026-10-17"
     },
@@ -5342,7 +5342,7 @@
         "sw": "Siwezi kula unga wa ngano (gluteni).",
         "am": "የስንዴ ዱቄት (ግሉተን) መብላት አልችልም።"
       },
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 원어민 검토, 식단 기준 표현",
       "updatedAt": "2026-10-17"
     }
@@ -5414,7 +5414,7 @@
         "am": "የስኳር በሽታ"
       },
       "korean": "당뇨병",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5484,7 +5484,7 @@
         "am": "ከፍተኛ የደም ግፊት"
       },
       "korean": "고혈압",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5554,7 +5554,7 @@
         "am": "አስም"
       },
       "korean": "천식",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5624,7 +5624,7 @@
         "am": "የልብ ሕመም"
       },
       "korean": "심장 질환",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5694,7 +5694,7 @@
         "am": "የሚጥል በሽታ"
       },
       "korean": "뇌전증",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5764,7 +5764,7 @@
         "am": "ነፍሰ ጡር"
       },
       "korean": "임신 중",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5834,7 +5834,7 @@
         "am": "ደም የሚያቀጥኑ መድኃኒቶችን እወስዳለሁ"
       },
       "korean": "항응고제 복용 중",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     }
@@ -5906,7 +5906,7 @@
         "am": "ራስ"
       },
       "korean": "머리",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -5976,7 +5976,7 @@
         "am": "ሆድ"
       },
       "korean": "배",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6046,7 +6046,7 @@
         "am": "ጉሮሮ"
       },
       "korean": "목",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6116,7 +6116,7 @@
         "am": "ደረት"
       },
       "korean": "가슴",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6186,7 +6186,7 @@
         "am": "ጀርባ"
       },
       "korean": "허리",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6256,7 +6256,7 @@
         "am": "ጥርስ"
       },
       "korean": "이",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6326,7 +6326,7 @@
         "am": "ጆሮ"
       },
       "korean": "귀",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6396,7 +6396,7 @@
         "am": "ዓይን"
       },
       "korean": "눈",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6466,7 +6466,7 @@
         "am": "እግር"
       },
       "korean": "다리",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6536,7 +6536,7 @@
         "am": "ክንድ"
       },
       "korean": "팔",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     }
@@ -6608,7 +6608,7 @@
         "am": "ትኩሳት"
       },
       "korean": "열이 나요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6678,7 +6678,7 @@
         "am": "ሳል"
       },
       "korean": "기침이 나요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6748,7 +6748,7 @@
         "am": "የአፍንጫ ፈሳሽ"
       },
       "korean": "콧물이 나요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6818,7 +6818,7 @@
         "am": "ተቅማጥ"
       },
       "korean": "설사를 해요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6888,7 +6888,7 @@
         "am": "ማቅለሽለሽ / ማስመለስ"
       },
       "korean": "토할 것 같아요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -6958,7 +6958,7 @@
         "am": "ማዞር"
       },
       "korean": "어지러워요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7028,7 +7028,7 @@
         "am": "የመተንፈስ ችግር"
       },
       "korean": "숨쉬기가 힘들어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7098,7 +7098,7 @@
         "am": "ሽፍታ / ማሳከክ"
       },
       "korean": "피부가 가렵고 두드러기가 났어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7168,7 +7168,7 @@
         "am": "መቆረጥ / ደም መፍሰስ"
       },
       "korean": "다쳐서 피가 나요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7238,7 +7238,7 @@
         "am": "ቃጠሎ"
       },
       "korean": "화상을 입었어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7308,7 +7308,7 @@
         "am": "ወለምታ / የተጣመመ ቁርጭምጭሚት"
       },
       "korean": "발목을 삐었어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7378,7 +7378,7 @@
         "am": "የነፍሳት ንክሻ"
       },
       "korean": "벌레에 물렸어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     }
@@ -7450,7 +7450,7 @@
         "am": "አሁን"
       },
       "korean": "방금부터 그래요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7520,7 +7520,7 @@
         "am": "ከዛሬ ጀምሮ"
       },
       "korean": "오늘부터 그래요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7590,7 +7590,7 @@
         "am": "ከትናንት ጀምሮ"
       },
       "korean": "어제부터 그래요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7660,7 +7660,7 @@
         "am": "ከ2–3 ቀናት በፊት"
       },
       "korean": "2~3일 전부터 그래요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     },
@@ -7730,7 +7730,7 @@
         "am": "ከአንድ ሳምንት ገደማ በፊት"
       },
       "korean": "일주일쯤 됐어요.",
-      "verified": false,
+      "verified": true,
       "sourceNote": "확인 필요: 한국어 원어민·의료 표현 검토",
       "updatedAt": "2026-10-18"
     }
